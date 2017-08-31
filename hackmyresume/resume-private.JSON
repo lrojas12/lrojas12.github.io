@@ -1,89 +1,138 @@
 {
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
+    "name": "Luisa Rojas",
+    "label": "Computer Science Student",
     "picture": "",
-    "email": "richard.hendriks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "https://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "luisa.rojas@acm.org",
+    "phone": "",
+    "website": "",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Github",
+        "username": "lrojas12",
+        "url": "lrojas12.github.io"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "https://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "University of Ontario Institute of Technology",
+      "position": "Teaching Assistant",
+      "website": "https://science.uoit.ca/",
+      "startDate": "2017-01-09",
+      "endDate": "2017-04-25",
+      "summary": "CSCI1061, Programming Workshops II, is a second intensive course on computer programming (C++) that continues from CSCI 1060U and covers more advanced theory and practice. The lectures introduce modern concepts in program design and construction for larger scale programs and the laboratories provide an opportunity to apply these concepts. Topics that are covered in this course include advanced program design, design patterns, program refactoring, templates and standard template libraries, data structures, debugging and version control.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Prepare all 3-hour laboratory sections assigned.",
+		"Deliver and present the students with the relevant content pertaining the current laboratory project.",
+		"Provide availabiltiy for office hours and drop-in for questions or concerns from students."
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "https://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+    },
+	{
+      "company": "University of Ontario Institute of Technology",
+      "position": "System Administrator",
+      "website": "https://international.uoit.ca/international-office/",
+      "startDate": "2014-09-01",
+      "endDate": "2014-12-15",
+      "summary": "The International office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br>Job tasks include all listed below and the following:",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "Administrator of health insurance for all international students (UHIP)",
+		"Responsible for the production of events, from conception through completion."
+      ]
+    },
+	{
+      "company": "University of Ontario Institute of Technology",
+      "position": "Assistant System Administrator",
+      "website": "https://international.uoit.ca/international-office/",
+      "startDate": "2014-05-01",
+      "endDate": "2014-08-15",
+      "summary": "The International Office.",
+      "highlights": [
+        "Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.",
+		"Design of posters and flyers for advertisement purposes utilizing various graphics software",
+		"Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.",
+		"Control of the International webpages under the UOIT website.",
+		"Contacting connections and setting up meetings."
       ]
     }
   ],
   "education": [
+      {
+        "institution": "University of Ontario Institute of Technology",
+        "area": "MSc Computer Science",
+        "startDate": "2017-06",
+        "endDate": "Graduating 2019",
+        "courses": []
+    },
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "institution": "University of Ontario Institute of Technology",
+      "area": "BSc Computer Science (Honours)",
+      "startDate": "2013-06",
+      "endDate": "2017-04",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "CSCI3030 - Database Systems and Concepts",
+		"CSCI4030 - Big Data Analytics",
+		"CSCI4020 - Compilers",
+		"CSCI3020 - Operating Systems",
+		"CSCI2040 - Software Design and Analysis",
+		"CSCI3070 - Design and Analysis of Algorithms",
+		"CSCI3230 - Web Application Development",
+		"CSCI4100 - Mobile Devices"
       ]
     }
   ],
   "awards": [
+	{
+      "title": "Vice-President of Marketing and Design",
+      "date": "2016-09-01",
+      "awarder": "UOIT Science Council",
+      "summary": "<ul><li>Design of posters, flyers and banners to advertise upcoming events and meetings.</li><li>Creation, management and maintenance of the website.</li></ul>"
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
+      "title": "Founding Chair",
+      "date": "2016-05-25",
+      "awarder": "UOIT ACM-W Student Chapter",
+      "summary": "Principal officer; responsible for leading the Chapter and managing its activities in accordance with the mission of ACM-W, the policies and procedures of the ACM. Presides at all meetings of the Chapter and prepares the Chapter’s final report each year."
+    },
+	{
+      "title": "Secretary",
+      "date": "2015-09-01",
+      "awarder": "ASME UOIT Chapter",
+      "summary": "Job tasks include all below and the following: <ul><li>Manage all general and executive meetings logistics, attend and record minutes.</li><li>Direct activities related to annual events on and off campus.</li><li>Maintain club documents and records.</li></ul>"
+    },
+	{
+      "title": "Webmaster and Social Media Director",
+      "date": "2014-09-01",
+      "awarder": "ASME UOIT Chapter",
+      "summary": "<ul><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</li></ul>"
     }
   ],
   "publications": [
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "name": "dynOBD",
+      "releaseDate": "2016-12-15",
+      "summary": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device that is connected by the user to the car's DLC (Data Link Connector). It also provides a live data feed showing the current speed and throttle of the car."
+    },
+	{
+      "name": "Graphizzer",
+      "releaseDate": "2016-12-15",
+      "website": "https://graphvizzer.objectivetruth.ca",
+      "summary": "Web-based application that, using the popular DOT notation, generates an accurate visualization by retrieving its image using the imgur API."
+    },
+	{
+      "name": "CPU Capacity Comparisson",
+      "releaseDate": "2015-04-15",
+      "summary": "Determined the optimal amount of threads for specific mathematical calculations in relation to the number of iterations, magnitude of estimation error and CPU capacity."
+    },
+	{
+      "name": "Simulated Banking System",
+      "releaseDate": "2016-04-15",
+      "summary": "Designed and implemented a Banking System in the form of a console application, following various software quality control aspects in the context of the Extreme Programming Process Model. The project uses a C++ automated teller machine terminal for simple banking transactions, while a Java batch processor maintains and updates the master account file in the back end."
+    },
+	{
+      "name": "A-Priori and PCY Implementations",
+      "releaseDate": "2016-04-15",
+      "summary": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times."
     }
   ],
   "skills": [
@@ -93,38 +142,59 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+		"JQuery",
+		"NodeJS"
       ]
     },
     {
-      "name": "Compression",
+      "name": "Database Management",
       "level": "Master",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "SQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "Mobile Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Android - Java",
+        "Swift"
+      ]
+    },
+	{
+      "name": "",
+      "level": "Master",
+      "keywords": [
+        "C",
+        "C#",
+		"C++",
+		"Python",
+		"Java"
+      ]
+    },
+	{
+	  "name": "",
+      "level": "Beginner",
+      "keywords": [
+        "Clojure",
+        "Scala"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
+      "fluency": "Fluent"
+    },
+	{
+      "language": "Spanish",
       "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    },
+	{
+      "language": "French",
+      "fluency": "Intermediate"
     }
   ]
 }
