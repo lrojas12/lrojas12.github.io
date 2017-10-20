@@ -30,6 +30,10 @@ list:
 pdf-private:
 	wkhtmltopdf $(out-private)/resume.html $(out-private)/resume.pdf
 	open $(out-private)/resume.pdf
+	
+pdf-public:
+	wkhtmltopdf $(out)/resume-short.html $(out)/resume.pdf
+	open $(out)/resume.pdf
 
 clean:
 	rm out/*
