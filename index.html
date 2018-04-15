@@ -745,7 +745,7 @@
                         <li>CSCI5010G - Computer Science Research Topics and Methods</li>
                         <li>MCSC6230G - Machine Learning</li>
                         <li>CSCI5020G - Collaborative Design and Research</li>
-                        <li>CSCI6720G - Advanced Databases: Systems and Applications</li>
+                        <li>CSCI6720G - Modern Database Systems</li>
                     </ul>
                     <div class="item display" style="opacity:1"></div>
                     <header class="clear">	<span class="space-left">
@@ -893,70 +893,18 @@
                 </header>
                 <section id="skills">
                     <div class="item">
-                        	<h3 class="name">
-								Web Development
-							</h3>
 
-                        <div class="level master">	<em>Master</em>
-
-                            <div class="bar"></div>
+                        <div class="level master">
+                            <em>Master</em>
+                        <div class="bar"></div>
                         </div>
                         <ul class="keywords">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>Javascript</li>
                             <li>JQuery</li>
-                            <li>NodeJS</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        	<h3 class="name">
-								Database Management
-							</h3>
-
-                        <div class="level master">	<em>Master</em>
-
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>postgres</li>
+                            <li>Postgres</li>
                             <li>MongoDB</li>
-                            <li>Neo4J</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                            <h3 class="name">Machine Learning</h3>
-
-                        <div class="level intermediate">
-                            <em>Intermediate</em>
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>tensorflow</li>
-                            <li>keras</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-                        	<h3 class="name">Mobile Development</h3>
-
-                        <div class="level intermediate">
-                            <em>Intermediate</em>
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
-                            <li>Android - Java</li>
-                            <li>Swift</li>
-                        </ul>
-                    </div>
-                    <div class="item">
-
-                        	<h3 class="name"></h3>
-
-                        <div class="level master">	<em>Master</em>
-
-                            <div class="bar"></div>
-                        </div>
-                        <ul class="keywords">
                             <li>C</li>
                             <li>C#</li>
                             <li>C++</li>
@@ -965,17 +913,27 @@
                         </ul>
                     </div>
                     <div class="item">
-                        	<h3 class="name">
 
-							</h3>
-
-                        <div class="level beginner">	<em>Beginner</em>
-
+                        <div class="level intermediate">
+                            <em>Intermediate</em>
                             <div class="bar"></div>
                         </div>
                         <ul class="keywords">
-                            <li>docker</li>
-                            <li>txl</li>
+                            <li>NodeJS</li>
+                            <li>Neo4J</li>
+                            <li>Tensorflow</li>
+                            <li>Keras</li>
+                            <li>TXL</li>
+                        </ul>
+                    </div>
+                    <div class="item">
+
+                        <div class="level beginner">	<em>Beginner</em>
+                            <div class="bar"></div>
+                        </div>
+                        <ul class="keywords">
+                            <li>Docker</li>
+                            <li>Swift</li>
                             <li>Clojure</li>
                             <li>Scala</li>
                         </ul>
@@ -1177,14 +1135,59 @@
             <!-- PROJECTS -->
             <section class="section">
                 <header>
-                    	<h2 class='section-title'>Projects (9)</h2>
+                    	<h2 class='section-title'>Projects (11)</h2>
 
                 </header>
                 <section id="publications">
 
-                    <!-- Distracted Driver Detection -->
+                    <!-- Automatic Concurrent Program Noising -->
                     <header class="clear">	<span class="space-left">
                                                    <span class="fa fa-caret-down"></span>
+                                            </span>
+                        <div class="header-left">	<span class="name">Automatic Concurrent Program Noising
+                                                    </span>
+
+                        </div>	<span class="date">
+                                        April 2018 - Present
+                                </span>
+
+                    </header>
+                    <div class="item display" style="opacity:1">
+                        <div class="summary">
+                            <p>
+                                This project aims to better localize buggy code in concurrent programs through noising, which consists on applying random delays to the threads in place in order to induce several different schedules.
+                                <br>Source code transformations are done using TXL.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Mentor-Mentee Matching System -->
+                    <header class="clear">	<span class="space-left">
+                                                   <span class="fa fa-caret-right"></span>
+                                            </span>
+                        <div class="header-left">	<span class="name">Mentor-Mentee Matching System
+                                                    </span>
+
+                        </div>	<span class="date">
+                                        February 2018 - Present
+                                </span>
+                    </header>
+                    <div class="item display none" style="opacity:1">
+                        <div class="summary">
+                            <p>
+                                UOIT strives to provide a rich and pleasant learning environment for all students throughout their university career. One existing remedy available to these students is the mentor-mentee program, which provides support for these students from like-minded mentors throughout the academic year. The program is primarily comprised of new students, mentees, whom are matched with a mentor tasked with providing continual support and guidance to all mentees in their group.
+                                <br><br>
+                                Previously, the student matching was done manually by faculty staff, which was effective given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.
+                            </p>
+                        </div>
+                        <center>
+                            <img src="./media/mentor-mentee-1.png" alt="Mentor-Mentee Matching System, Step 1" height="220px">
+                            <img src="./media/mentor-mentee-2.png" alt="Mentor-Mentee Matching System, Step 2" height="220px">
+                        </center>
+                    </div>
+                    <!-- Distracted Driver Detection -->
+                    <header class="clear">	<span class="space-left">
+                                                   <span class="fa fa-caret-right"></span>
                                             </span>
                         <div class="header-left">	<span class="name">
                                                     <a href="https://github.com/lrojas12/distracted-driver-detection" target="_blank">Distracted Driver Detection</a>
@@ -1195,7 +1198,7 @@
                                 </span>
 
                     </header>
-                    <div class="item display" style="opacity:1">
+                    <div class="item display none" style="opacity:1">
                         <div class="summary">
                             <p>
                                 <p> Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures.
@@ -1469,7 +1472,7 @@
             <!-- EXTRACURRICULAR ACTIVITIES -->
             <section class="section">
                 <header>
-                    	<h2 class='section-title'>Extracurricular Activities (9)</h2>
+                    	<h2 class='section-title'>Extracurricular Activities (7)</h2>
 
                 </header>
                 <section id="awards">
@@ -1477,7 +1480,7 @@
                     <header class="clear">	<span class="space-left">
                                     <span class="fa fa-caret-down"></span></span>
                         <div class="header-left">
-                            <div class="title">UOIT Ambassador</div>
+                            <div class="title">Ambassador</div>
                             <div class="awarder"><a href="https://www.uoit.ca/" target="_blank">University of Ontario Institute of Technology</a></div>
                         </div>
                         <div class="date">May 2018 - Present</div>
@@ -1685,7 +1688,10 @@
                     </header>
                     <div class="item display" style="opacity:1">
                         <div class="summary">
-                            <p></p>
+                            <p>
+                                The Mother Language Festival is a joint event run annually by UOIT Student Life and Durham College International. The Festival is a celebration of linguistic and cultural diversity on our shared campus and features student-led exhibitions and presentations of language and culture.<br><br>
+                                I helped with different areas of the event, set up for the booths, scanning and signing in guests, overseeing the music, among other miscelaneous tasks.
+                            </p>
                         </div>
                     </div>
 
