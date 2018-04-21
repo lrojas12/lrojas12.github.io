@@ -281,7 +281,7 @@ function generateProjects(elements) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description) { html += "<img>"; }
+        if (element.description || element.images.length > 0) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -296,8 +296,32 @@ function generateProjects(elements) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body\">"+ "<p>" + element.description + "</p>" + "</div>"; }
-        else if (element.description) { html += "<div class=\"subsection-body\" hidden>" + "<p>" + element.description + "</p>" + "</div>"; }
+        if ((i === 0) && ((element.description) || (element.images.length > 0))) {
+
+            html += "<div class=\"subsection-body\">";
+            if (element.description) {
+                html += "<p>" + element.description + "</p>"
+            }
+            if (element.images.length > 0) {
+                console.log("There are images in project " + element.name)
+            }
+            html += "</div>";
+
+        } else if (element.description || element.images.length > 0) {
+            html += "<div class=\"subsection-body\" hidden>";
+            if (element.description) {
+                html += "<p>" + element.description + "</p>"
+            }
+            if (element.images.length > 0) {
+                html += "<center>"
+                for (imagepath of element.images) {
+                    html += "<img src=\"static/img/" + imagepath + "\"></img>";
+                }
+                html += "</center>"
+                // console.log("There are images in project " + element.name)
+            }
+            html += "</div>";
+        }
 
         html += "</div></div>";
         finalHtml += html;

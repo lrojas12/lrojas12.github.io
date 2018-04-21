@@ -114,3 +114,10 @@ div.subsection {
     display: inline-block;
     width: 95%;
 }
+
+div.subsection img {
+    max-width: 45%;
+    /* min-width: 350px; */
+    max-height: 300px;
+    margin: 10px 5px 0 5px;
+}

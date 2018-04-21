@@ -150,7 +150,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "September 2014",
             "enddate": "December 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
             "images": []
         },
         {
@@ -160,10 +160,9 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "May 2014",
             "enddate": "August 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
             "images": []
         }
-
     ],
     "projects": [
         {
@@ -180,7 +179,7 @@
             "startdate": "February 2018",
             "enddate": "Present",
             "description": "UOIT strives to provide a rich and pleasant learning environment for all students throughout their university career. One existing remedy available to these students is the mentor-mentee program, which provides support for these students from like-minded mentors throughout the academic year. The program is primarily comprised of new students, mentees, whom are matched with a mentor tasked with providing continual support and guidance to all mentees in their group.<br><br>Previously, the student matching was done manually by faculty staff, which was effective given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
-            "images": []
+            "images": ["mentor-mentee-1.png", "mentor-mentee-2.png"]
         },
         {
             "name": "Distracted Driver Detection",
@@ -188,7 +187,7 @@
             "startdate": "December 2017",
             "enddate": "",
             "description": "Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures. The dataset, provided by State Farm through Kaggle, consisted of a set of images, each taken in a car where the driver is doing some action (e.g. texting, talking on the phone, drinking from a cup). To achieve this, we used various data augmentation approaches, and a Convolutional Neural Network with transfer learning from the popular (pre-trained) VGG16 model.",
-            "images": []
+            "images": ["driver-predict-jupyter.gif", "driver-predict-cl.gif"]
         },
         {
             "name": "Generating English Sentences",
@@ -196,7 +195,7 @@
             "startdate": "December 2017",
             "enddate": "",
             "description": "Using Long Short-Term Memory Networks, and a literature novel to train it, I created a network that is able to the grammatical structure of the English language. As a result, and after enough training, this model, could produce a sequence of words resembling a coherent English sentence.",
-            "images": []
+            "images": ["predict-lstm.gif"]
         },
         {
             "name": "Threaded Paws",
@@ -204,7 +203,7 @@
             "startdate": "October 2016",
             "enddate": "October 2017",
             "description": "Designed and developed a serious game that can assist students in learning and understanding different concurrency concepts that can be problematic and hard to grasp by using a different approach.<br><br>Threaded Paws is the first serious game targeting concurrency that we are aware of. There are very few game-based tools that focus on advanced programming concepts available. That being the case, Threaded Paws could set path and serve as guide for more games focused on complex topics in Computer Science to be developed in the future.",
-            "images": []
+            "images": ["threadedpaws.png"]
         },
         {
             "name": "Parallel Genetic Algorithms",
@@ -212,7 +211,7 @@
             "startdate": "April 2017",
             "enddate": "",
             "description": "Our proposal consists on implementing and parallelizing a genetic algorithm. We generate a final solution, which the program reaches based on different generated parameters and transformations. Some of these include a fitness criterion, as well as a mutation, a migration and a cross-over process.<br><br>The parent selection and crossover processes are modified to enable parallelization and optimize execution.<br><br>Since there are multiple unknowns in the scope of the project, it is approached by implementing a serial genetic algorithm program in Python first, and then mapping it over to a serial implementation in C or Java, and finally paralleling it using pthreads/java-concurrency.<br><br>After, run times between the sequential and parallelized program(s) are compared and analyzed. The comparison also involves times between varying number of threads for the parallel version of the program.",
-            "images": []
+            "images": ["ga-1.png", "ga-2.png", "ga-3.png"]
         },
         {
             "name": "dynOBD",
@@ -220,7 +219,7 @@
             "startdate": "October 2016",
             "enddate": "December 2016",
             "description": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device that is connected by the user to the car's DLC (Data Link Connector). It also provides a live data feed showing the current speed and throttle of the car.",
-            "images": []
+            "images": ["dynobd.gif"]
         },
         {
             "name": "Graphizzer",
@@ -228,7 +227,7 @@
             "startdate": "December 2016",
             "enddate": "",
             "description": "Web-based application that, using the popular DOT notation, generates an accurate visualization by retrieving its image using the imgur API.",
-            "images": []
+            "images": ["graphizzer.png"]
         },
         {
             "name": "Simulated Banking System",
@@ -236,7 +235,7 @@
             "startdate": "January 2016",
             "enddate": "April 2016",
             "description": "Designed and implemented a Banking System in the form of a console application, following various software quality control aspects in the context of the Extreme Programming Process Model. The project uses a C++ automated teller machine terminal for simple banking transactions, while a Java batch processor maintains and updates the master account file in the back end.",
-            "images": []
+            "images": ["extreme-programming1.png", "extreme-programming2.png"]
         },
         {
             "name": "A-Priori and PCY Implementations",
@@ -244,7 +243,7 @@
             "startdate": "April 2016",
             "enddate": "",
             "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
-            "images": []
+            "images": ["apriori.png", "pcy.png"]
         },
         {
             "name": "CPU Capacity Comparisson",
@@ -252,7 +251,7 @@
             "startdate": "April 2015",
             "enddate": "",
             "description": "Determined the optimal amount of threads for specific mathematical calculations in relation to the number of iterations, magnitude of estimation error and CPU capacity.",
-            "images": []
+            "images": ["estimated-val-pi.png"]
         }
     ],
     "postersexhibits": [
