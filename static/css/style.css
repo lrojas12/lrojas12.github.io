@@ -36,7 +36,10 @@ div#header div#info div {
     margin: 0 10px 0 10px;
 }
 
-img.info-icon { height: 20px; }
+img.info-icon {
+    max-height: 16px;
+    vertical-align: top;
+}
 
 div.section p.title {
     text-transform: uppercase;
