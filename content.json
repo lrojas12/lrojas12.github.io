@@ -61,7 +61,7 @@
             "issuer": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
             "startdate": "July 2017",
-            "description": "Awarded to high-achieving full-time students entering a research-based master's or doctoral program with an average of A-minus (3.70/4.30) or greater."
+            "description": "Awarded to high-achieving full-time students entering a research-based master's or doctoral program with an average of A- (3.70/4.30) or greater."
         },
         {
             "title": "Dean's Honours List",
@@ -268,13 +268,13 @@
     ],
     "extracurricularactivities": [
         {
-            "role": "<a target=\"_blank\" href=\"https://sites.uoit.ca/ambassadors/index.php\">Ambassador</a>",
+            "role": "Ambassador",
             "organization": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
             "event": {"name": "", "url": ""},
             "startdate": "May 2018",
             "enddate": "Present",
-            "description": "<p>UOIT Ambassadors are students who represent the UOIT community, while sharing their own university experience with new, or prospective UOIT students. As such, some of my responsibilities include:</p><ul><li>Attend and assist at UOIT events to fulfill specific Ambassador duties and responsibilities</li><li>Acquaint students with campus services, events, and facilities</li><li>Participate in various workshops or additional training sessions to further enhance learning experience</li><li>Act as a student role model of a balanced lifestyle, respect for self, respect for others and respect for the community</li><li>Attend important University events and act as a role model of positive student engagement on campus</li></ul><br><br><p>Additional to my position as an Ambassador, my specialty role is International Student Orientation Leader. We are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs. My tasks included the following:</p><ul><li>Participate in Fall and Winter International Student Orientations</li><li>Participate in the New Arrival Support Program</li><li>Work Collaboratively with other ISOLs on different activities during training and on the day of ISO</li><li>Promote diversity and intercultural sensitivity on campus</li><li>Perform other duties as assigned</li></ul>",
+            "description": "<p><a target=\"_blank\" href=\"https://sites.uoit.ca/ambassadors/index.php\">UOIT Ambassadors</a> are students who represent the UOIT community, while sharing their own university experience with new, or prospective UOIT students. As such, some of my responsibilities include:</p><ul><li>Attend and assist at UOIT events to fulfill specific Ambassador duties and responsibilities</li><li>Acquaint students with campus services, events, and facilities</li><li>Participate in various workshops or additional training sessions to further enhance learning experience</li><li>Act as a student role model of a balanced lifestyle, respect for self, respect for others and respect for the community</li><li>Attend important University events and act as a role model of positive student engagement on campus</li></ul><br><br><p>Additional to my position as an Ambassador, my specialty role is International Student Orientation Leader. We are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs. My tasks included the following:</p><ul><li>Participate in Fall and Winter International Student Orientations</li><li>Participate in the New Arrival Support Program</li><li>Work Collaboratively with other ISOLs on different activities during training and on the day of ISO</li><li>Promote diversity and intercultural sensitivity on campus</li><li>Perform other duties as assigned</li></ul>",
             "images": []
         },
         {
