@@ -256,7 +256,7 @@
     ],
     "postersexhibits": [
         {
-            "title": "Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming",
+            "title": "<a href=\"./static/img/threaded-paws-poster.pdf\" target=\"_blank\">Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming</a>",
             "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
             "event": "<a target=\"_blank\" href=\"https://www-01.ibm.com/ibm/cas/cascon\">CASCON</a> Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering",
             "url": "",
@@ -273,7 +273,7 @@
             "url": "https://uoit.ca",
             "event": {"name": "", "url": ""},
             "startdate": "May 2018",
-            "enddate": "",
+            "enddate": "Present",
             "description": "<p>UOIT Ambassadors are students who represent the UOIT community, while sharing their own university experience with new, or prospective UOIT students. As such, some of my responsibilities include:</p><ul><li>Attend and assist at UOIT events to fulfill specific Ambassador duties and responsibilities</li><li>Acquaint students with campus services, events, and facilities</li><li>Participate in various workshops or additional training sessions to further enhance learning experience</li><li>Act as a student role model of a balanced lifestyle, respect for self, respect for others and respect for the community</li><li>Attend important University events and act as a role model of positive student engagement on campus</li></ul><br><br><p>Additional to my position as an Ambassador, my specialty role is International Student Orientation Leader. We are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs. My tasks included the following:</p><ul><li>Participate in Fall and Winter International Student Orientations</li><li>Participate in the New Arrival Support Program</li><li>Work Collaboratively with other ISOLs on different activities during training and on the day of ISO</li><li>Promote diversity and intercultural sensitivity on campus</li><li>Perform other duties as assigned</li></ul>",
             "images": []
         },
@@ -285,7 +285,7 @@
             "startdate": "December 2017",
             "enddate": "December 2017",
             "description": "MLH Local Hack Day is a 12 hour hack day on your school's campus that brings together the local hacker community to celebrate building awesome technology.<br><br>As a mentor, I had the opportunity to offer support to the hackers in terms of ideas, development workflow, programming languages, and useful APIs.<br><br>Then, I joined the judge pannel to choose the top 3 hacks, taking different aspects into account, such as creativity, applicability, and learning outcomes.",
-            "images": []
+            "images": ["local-hack-day.jpg", "local-hack-day-workshops.jpeg"]
         },
         {
             "role": "Program Representative - Computer Science",
@@ -293,9 +293,9 @@
             "url": "https://uoitgsc.ca/",
             "event": {"name": "", "url": ""},
             "startdate": "September 2017",
-            "enddate": "",
+            "enddate": "Present",
             "description": "The Graduate Student Council (GSC) is a platform where graduate students' concerns are heard by faculty representatives. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. The GSC is a division of the Student Association at UOIT and is represented by the president on the Board of Directors for the Student Association at UOIT.<br><br>Program Representatives attend mandatory meetings with the GSC, are responsible for delivering GSC-related news and material to their program colleagues, and communicate needs and concerns of graduate students within their programs to the GSC.",
-            "images": []
+            "images": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
         },
         {
             "role": "Vice-President of Marketing and Design",
@@ -305,7 +305,7 @@
             "startdate": "September 2016",
             "enddate": "April 2017",
             "description": "<ul><li>Design of posters, flyers and banners to advertise upcoming events and meetings.</li><li>Creation, management and maintenance of the website.</li></ul>",
-            "images": []
+            "images": ["postgrad-opportunities.png", "alumni-night.jpg", "lab-tour.jpg", "science-gala.jpg"]
         },
         {
             "role": "Founding Chair",
@@ -315,7 +315,7 @@
             "startdate": "September 2016",
             "enddate": "December 2016",
             "description": "Principal officer; responsible for leading the Chapter and managing its activities in accordance with the mission of ACM-W, the policies and procedures of the ACM. Presides at all meetings of the Chapter and prepares the Chapter’s final report each year.",
-            "images": []
+            "images": ["science-fair.png", "intro-to-kaggle.png", "tech-talks.png", "programming-workshop.png"]
         },
         {
             "role": "Secretary",
@@ -325,7 +325,7 @@
             "startdate": "September 2015",
             "enddate": "April 2016",
             "description": "<ul><li>Manage all general and executive meetings logistics, attend and record minutes.</li><li>Direct activities related to annual events on and off campus.</li><li>Maintain club documents and records.</li><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
-            "images": []
+            "images": ["matlab-workshop.jpg"]
         },
         {
             "role": "Webmaster and Social Media Director",
@@ -335,7 +335,7 @@
             "startdate": "September 2014",
             "enddate": "August 2015",
             "description": "<ul><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
-            "images": []
+            "images": ["rhino-workshop.jpg", "nx-workshop.jpg", "ace-tour.jpg", "toyota-tour.jpg"]
         }
     ],
     "volunteerwork": [
