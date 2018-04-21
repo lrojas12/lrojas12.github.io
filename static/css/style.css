@@ -7,6 +7,7 @@ a:hover {
 }
 
 hr { border-top-color: lightgrey; }
+* { font-size: 1em; }
 
 p, ul {
     font-family: 'Helvetica Nue', sans-serif;
@@ -28,7 +29,8 @@ div#header p.name {
     color: #000000;
     font-size: 3em;
     font-weight: 100;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    /* color: #FF006B; */
 }
 
 div#header div#info div {
@@ -43,9 +45,11 @@ img.info-icon {
 
 div.section p.title {
     text-transform: uppercase;
-    color: #F18F01;
-    font-size: 0.9em;
-    font-weight: 500;
+    /* color: #F18F01; */
+    /* color: #FF006B; */
+    color: #EF476F;
+    font-size: 0.85em;
+    font-weight: 600;
     padding-right: 10px;
     background-color: #FFFFFF;
 }
