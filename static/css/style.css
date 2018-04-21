@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Monday Bay";
+    src: url("../fonts/MondayBay.ttf");
+}
+
 /* --------------- NATIVE TAGS --------------- */
 
 a { color: #3C91E6; }
@@ -10,7 +15,7 @@ hr { border-top-color: lightgrey; }
 * { font-size: 1em; }
 
 p, ul {
-    font-family: 'Helvetica Nue', sans-serif;
+    font-family: "Helvetica Nue", sans-serif;
     margin: 0;
     display: inline-block;
     font-weight: 100;
@@ -18,7 +23,7 @@ p, ul {
 
 body {
     max-width: 75%;
-    margin: 70px auto 100px auto;
+    margin: 20px auto 80px auto;
 }
 
 /* --------------- CUSTOM IDS AND CLASSES --------------- */
@@ -26,11 +31,12 @@ body {
 div#header { text-align: center; }
 
 div#header p.name {
-    color: #000000;
-    font-size: 3em;
+    /* color: #000000; */
+    font-size: 8em;
     font-weight: 100;
-    margin-bottom: 5px;
-    /* color: #FF006B; */
+    margin-bottom: -40px;
+    color: #EF476F;
+    font-family: "Monday Bay";
 }
 
 div#header div#info div {
