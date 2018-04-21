@@ -1,0 +1,116 @@
+/* --------------- NATIVE TAGS --------------- */
+
+a { color: #3C91E6; }
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+hr { border-top-color: lightgrey; }
+
+p, ul {
+    font-family: 'Helvetica Nue', sans-serif;
+    margin: 0;
+    display: inline-block;
+    font-weight: 100;
+}
+
+body {
+    max-width: 75%;
+    margin: 5% auto 5% auto;
+}
+
+/* --------------- CUSTOM IDS AND CLASSES --------------- */
+
+div#header { text-align: center; }
+
+div#header p.name {
+    color: #000000;
+    font-size: 3em;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+div#header div#info div {
+    display: inline;
+    margin: 0 10px 0 10px;
+}
+
+img.info-icon { height: 20px; }
+
+div.section p.title {
+    text-transform: uppercase;
+    color: #F18F01;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+}
+
+div.level-bar {
+    height:10px; width:90%;
+    max-width: 150px;
+    border: 1px solid lightgrey;
+}
+
+div.level-bar div.bar-fill { height: 100%; }
+div.level-bar div.bar-fill.b { width: 15%; background-color: #FF3B3F; }
+div.level-bar div.bar-fill.i { width: 50%; background-color: #FFCE00; }
+div.level-bar div.bar-fill.a { width: 90%; background-color: #3CC47C; }
+
+div#skills-section div.subsection, div#languages-section div.subsection {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    padding: 0 5px 0 5px;
+}
+
+div.section hr {
+    margin-top: -8px;
+    margin-left: 20px;
+}
+
+div.section { margin: 0 0 10px 0; }
+
+div.chevron {
+    height: 10px;
+    float:left;
+    margin: 0 10px 10px 0;
+    width: 10px;
+}
+
+div.chevron img:hover { cursor: pointer; }
+
+div.chevron.right > img {
+    content: url("../img/chevron-right.png");
+    height: inherit;
+}
+
+div.chevron.down > img {
+    content: url("../img/chevron-down.png");
+    height: inherit;
+}
+
+div.subsection-header p.date { float: right; }
+div.subsection-body { margin-top: 10px; }
+
+p.course {
+    background-color: #E3E7E8;
+    margin: 3px 3px;
+    padding: 3px 7px;
+    font-size: 0.9em;
+    color: grey;
+}
+
+div.courses { margin-top: 10px; }
+
+div.subsection-header p.subtitle {
+    font-weight:400 !important;
+    float:left;
+}
+
+div.subsection {
+    margin: 0 0 15px 0;
+    display: inline-block;
+    width: 95%;
+}

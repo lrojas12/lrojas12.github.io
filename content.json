@@ -1,0 +1,399 @@
+{
+    "name": "Luisa Rojas",
+    "logoimg": "",
+    "email": "luisa.rojas@acm.org",
+    "github": "lrojas12",
+    "linkedin": "luisarojasg",
+    "summary": "",
+    "education": [
+        {
+            "school": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "degree": "Masters (MSc.)",
+            "field": "Computer Science",
+            "startdate": "September 2017",
+            "enddate": "August 2019",
+            "description": "",
+            "courses": [
+                { "name": "Advanced Topics in Software Design", "code": "CSCI 6100G" },
+                { "name": "Machine Learning", "code": "MSCS 6230G" },
+                { "name": "Modern Database Systems", "code": "CSCI 6720G" },
+                { "name": "Survey of Computer Science Research Topics and Methods", "code": "CSCI 5010G" },
+                { "name": "Collaborative Design and Research", "code": "CSCI 5020G" }
+            ]
+        },
+        {
+            "school": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "degree": "Bachelor (BSc.)",
+            "field": "Computer Science",
+            "startdate": "September 2013",
+            "enddate": "April 2017",
+            "description": "",
+            "courses": [
+                { "name": "Big Data Analytics", "code": "CSCI 4030U" },
+                { "name": "Compilers", "code": "CSCI 4020U" },
+                { "name": "Database Systems and Concepts", "code": "CSCI 3030U" },
+                { "name": "Design and Analysis of Algorithms", "code": "CSCI 3070U" },
+                { "name": "Mobile Devices", "code": "CSCI 4100U" },
+                { "name": "Multicore and Manycore Programming", "code": "CSCI 4060U" },
+                { "name": "Operating Systems", "code": "CSCI 3020U" },
+                { "name": "Software Quality Assurance", "code": "CSCI 3060U" },
+                { "name": "Web Application Development", "code": "CSCI 3230U" },
+                { "name": "Programming Languages", "code": "CSCI 3055U" },
+                { "name": "Software Systems Development and Integration", "code": "CSCI 2020U" }
+            ]
+        },
+        {
+            "school": "Colegio Santa Francisca Romana",
+            "url": "http://csfr.edu.co",
+            "degree": "Elementary School, Middle School, High School",
+            "field": "",
+            "startdate": "August 1994",
+            "enddate": "June 2013",
+            "description": "",
+            "courses": []
+        }
+    ],
+    "honoursawards": [
+        {
+            "title": "Dean's Graduate Scholarship",
+            "issuer": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "startdate": "July 2017",
+            "description": "Awarded to high-achieving full-time students entering a research-based master's or doctoral program with an average of A-minus (3.70/4.30) or greater."
+        },
+        {
+            "title": "Dean's Honours List",
+            "issuer": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "startdate": "May 2017",
+            "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts."
+        },
+        {
+            "title": "President's Honours List",
+            "issuer": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "startdate": "August 2016",
+            "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts."
+        },
+        {
+            "title": "President's Honours List",
+            "issuer": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "startdate": "May 2016",
+            "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts."
+        },
+        {
+            "title": "Deans's Honours List",
+            "issuer": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "startdate": "December 2015",
+            "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts."
+        }
+    ],
+    "skills": [
+        { "skill": "HTML", "level": "3" },
+        { "skill": "CSS", "level": "3" },
+        { "skill": "JavaScript", "level": "3" },
+        { "skill": "Postgres", "level": "3" },
+        { "skill": "MongoDB", "level": "3" },
+        { "skill": "C++", "level": "3" },
+        { "skill": "Java", "level": "3" },
+        { "skill": "Python", "level": "3" },
+        { "skill": "TXL", "level": "3" },
+        { "skill": "C", "level": "2" },
+        { "skill": "NodeJS", "level": "2" },
+        { "skill": "Node4J", "level": "2" },
+        { "skill": "TensorFlow", "level": "2" },
+        { "skill": "Keras", "level": "2" },
+        { "skill": "Docker", "level": "1" },
+        { "skill": "Swift", "level": "1" },
+        { "skill": "Clojure", "level": "1" },
+        { "skill": "Scala", "level": "1" }
+    ],
+    "workexperience": [
+        {
+            "position": "Graduate Teaching Assisstant",
+            "company": "University of Ontario Institute of Technology, Faculty of Science",
+            "url": "https://science.uoit.ca",
+            "location": "Oshawa, ON, Canada",
+            "startdate": "January 2018",
+            "enddate": "April 20178",
+            "description": "Building on previous software design courses, CSCI 3060U concentrates on the rigorous development of high quality software systems. Topics covered in this course include software process, software verification and validation (testing, inspection), software metrics, and software maintenance. A major team project is an important feature of this course.<br><br><ul><li>Prepare all 1.5-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark all project phases, midterms and final exams handed in.</li></ul>",
+            "images": []
+        },
+        {
+            "position": "Graduate Teaching Assisstant",
+            "company": "University of Ontario Institute of Technology, Faculty of Science",
+            "url": "https://science.uoit.ca",
+            "location": "Oshawa, ON, Canada",
+            "startdate": "September 2017",
+            "enddate": "December 2017",
+            "description": "Programming Workshops I This is a first intensive course on computer programming that covers both theory and practice. The lectures introduce modern concepts in program design and construction along with features of modern object-oriented programming languages. The laboratories provide an opportunity to apply these concepts to practical programming problems. Topics that are covered in this course include program design, problem solving strategies, program documentation, memory management` and object-oriented program design.<br><br>My responsibilities include:<br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for questions or concerns from students.</li><li>Mark laboratories and final exams.</li></ul>",
+            "images": []
+        },
+        {
+            "position": "Undergraduate Teaching Assisstant",
+            "company": "University of Ontario Institute of Technology, Faculty of Science",
+            "url": "https://science.uoit.ca",
+            "location": "Oshawa, ON, Canada",
+            "startdate": "January 2017",
+            "enddate": "April 2017",
+            "description": "A second intensive course on computer programming (C++) that continues from CSCI 1060U and covers more advanced theory and practice. The lectures introduce modern concepts in program design and construction for larger scale programs and the laboratories provide an opportunity to apply these concepts. Topics that are covered in this course include advanced program design, design patterns, program refactoring, templates and standard template libraries, data structures, debugging and version control.<br><br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark laboratories, midterms and final exams handed in.</li></ul>",
+            "images": []
+        },
+        {
+            "position": "System Administrator",
+            "company": "University of Ontario Institute of Technology, International Office",
+            "url": "https://international.uoit.ca",
+            "location": "Oshawa, ON, Canada",
+            "startdate": "September 2014",
+            "enddate": "December 2014",
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
+            "images": []
+        },
+        {
+            "position": "Assisstant System Administrator",
+            "company": "University of Ontario Institute of Technology, International Office",
+            "url": "https://international.uoit.ca",
+            "location": "Oshawa, ON, Canada",
+            "startdate": "May 2014",
+            "enddate": "August 2014",
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
+            "images": []
+        }
+
+    ],
+    "projects": [
+        {
+            "name": "Automatic Concurrent Program Noising",
+            "url": "",
+            "startdate": "April 2018",
+            "enddate": "Present",
+            "description": "This project aims to better localize buggy code in concurrent programs through noising, which consists on applying random delays to the threads in place in order to induce several different schedules.<br><br>Source code transformations are done using TXL.",
+            "images": []
+        },
+        {
+            "name": "Mentor-Mentee Matching System",
+            "url": "",
+            "startdate": "February 2018",
+            "enddate": "Present",
+            "description": "UOIT strives to provide a rich and pleasant learning environment for all students throughout their university career. One existing remedy available to these students is the mentor-mentee program, which provides support for these students from like-minded mentors throughout the academic year. The program is primarily comprised of new students, mentees, whom are matched with a mentor tasked with providing continual support and guidance to all mentees in their group.<br><br>Previously, the student matching was done manually by faculty staff, which was effective given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
+            "images": []
+        },
+        {
+            "name": "Distracted Driver Detection",
+            "url": "https://github.com/lrojas12/distracted-driver-detection",
+            "startdate": "December 2017",
+            "enddate": "",
+            "description": "Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures. The dataset, provided by State Farm through Kaggle, consisted of a set of images, each taken in a car where the driver is doing some action (e.g. texting, talking on the phone, drinking from a cup). To achieve this, we used various data augmentation approaches, and a Convolutional Neural Network with transfer learning from the popular (pre-trained) VGG16 model.",
+            "images": []
+        },
+        {
+            "name": "Generating English Sentences",
+            "url": "https://github.com/lrojas12/lstm-sentence-generator",
+            "startdate": "December 2017",
+            "enddate": "",
+            "description": "Using Long Short-Term Memory Networks, and a literature novel to train it, I created a network that is able to the grammatical structure of the English language. As a result, and after enough training, this model, could produce a sequence of words resembling a coherent English sentence.",
+            "images": []
+        },
+        {
+            "name": "Threaded Paws",
+            "url": "https://github.com/lrojas12/threadedpaws",
+            "startdate": "October 2016",
+            "enddate": "October 2017",
+            "description": "Designed and developed a serious game that can assist students in learning and understanding different concurrency concepts that can be problematic and hard to grasp by using a different approach.<br><br>Threaded Paws is the first serious game targeting concurrency that we are aware of. There are very few game-based tools that focus on advanced programming concepts available. That being the case, Threaded Paws could set path and serve as guide for more games focused on complex topics in Computer Science to be developed in the future.",
+            "images": []
+        },
+        {
+            "name": "Parallel Genetic Algorithms",
+            "url": "https://github.com/lrojas12/genetic-alg",
+            "startdate": "April 2017",
+            "enddate": "",
+            "description": "Our proposal consists on implementing and parallelizing a genetic algorithm. We generate a final solution, which the program reaches based on different generated parameters and transformations. Some of these include a fitness criterion, as well as a mutation, a migration and a cross-over process.<br><br>The parent selection and crossover processes are modified to enable parallelization and optimize execution.<br><br>Since there are multiple unknowns in the scope of the project, it is approached by implementing a serial genetic algorithm program in Python first, and then mapping it over to a serial implementation in C or Java, and finally paralleling it using pthreads/java-concurrency.<br><br>After, run times between the sequential and parallelized program(s) are compared and analyzed. The comparison also involves times between varying number of threads for the parallel version of the program.",
+            "images": []
+        },
+        {
+            "name": "dynOBD",
+            "url": "",
+            "startdate": "October 2016",
+            "enddate": "December 2016",
+            "description": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device that is connected by the user to the car's DLC (Data Link Connector). It also provides a live data feed showing the current speed and throttle of the car.",
+            "images": []
+        },
+        {
+            "name": "Graphizzer",
+            "url": "https://graphvizzer.objectivetruth.ca/",
+            "startdate": "December 2016",
+            "enddate": "",
+            "description": "Web-based application that, using the popular DOT notation, generates an accurate visualization by retrieving its image using the imgur API.",
+            "images": []
+        },
+        {
+            "name": "Simulated Banking System",
+            "url": "https://github.com/lrojas12/extreme-programming",
+            "startdate": "January 2016",
+            "enddate": "April 2016",
+            "description": "Designed and implemented a Banking System in the form of a console application, following various software quality control aspects in the context of the Extreme Programming Process Model. The project uses a C++ automated teller machine terminal for simple banking transactions, while a Java batch processor maintains and updates the master account file in the back end.",
+            "images": []
+        },
+        {
+            "name": "A-Priori and PCY Implementations",
+            "url": "https://github.com/lrojas12/apriori-pcy",
+            "startdate": "April 2016",
+            "enddate": "",
+            "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
+            "images": []
+        },
+        {
+            "name": "CPU Capacity Comparisson",
+            "url": "https://github.com/lrojas12/estimated-value-of-pi",
+            "startdate": "April 2015",
+            "enddate": "",
+            "description": "Determined the optimal amount of threads for specific mathematical calculations in relation to the number of iterations, magnitude of estimation error and CPU capacity.",
+            "images": []
+        }
+    ],
+    "postersexhibits": [
+        {
+            "title": "Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming",
+            "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
+            "event": "<a target=\"_blank\" href=\"https://www-01.ibm.com/ibm/cas/cascon\">CASCON</a> Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering",
+            "url": "",
+            "location": "Markham, ON, Canada",
+            "startdate": "November 2017",
+            "description": "",
+            "images": []
+        }
+    ],
+    "extracurricularactivities": [
+        {
+            "role": "<a target=\"_blank\" href=\"https://sites.uoit.ca/ambassadors/index.php\">Ambassador</a>",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "", "url": ""},
+            "startdate": "May 2018",
+            "enddate": "",
+            "description": "<p>UOIT Ambassadors are students who represent the UOIT community, while sharing their own university experience with new, or prospective UOIT students. As such, some of my responsibilities include:</p><ul><li>Attend and assist at UOIT events to fulfill specific Ambassador duties and responsibilities</li><li>Acquaint students with campus services, events, and facilities</li><li>Participate in various workshops or additional training sessions to further enhance learning experience</li><li>Act as a student role model of a balanced lifestyle, respect for self, respect for others and respect for the community</li><li>Attend important University events and act as a role model of positive student engagement on campus</li></ul><br><br><p>Additional to my position as an Ambassador, my specialty role is International Student Orientation Leader. We are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs. My tasks included the following:</p><ul><li>Participate in Fall and Winter International Student Orientations</li><li>Participate in the New Arrival Support Program</li><li>Work Collaboratively with other ISOLs on different activities during training and on the day of ISO</li><li>Promote diversity and intercultural sensitivity on campus</li><li>Perform other duties as assigned</li></ul>",
+            "images": []
+        },
+        {
+            "role": "Mentor and Judge",
+            "organization": "<a target=\"_blank\" href=\"https://mlh.io/\">Major Leage Hacking</a> & <a target=\"_blank\" href=\"https://uoit.ca\">University of Ontario Institute of Technology</a>",
+            "url": "",
+            "event": {"name": "Local Hack Day", "url": "https://localhackday.mlh.io"},
+            "startdate": "December 2017",
+            "enddate": "December 2017",
+            "description": "MLH Local Hack Day is a 12 hour hack day on your school's campus that brings together the local hacker community to celebrate building awesome technology.<br><br>As a mentor, I had the opportunity to offer support to the hackers in terms of ideas, development workflow, programming languages, and useful APIs.<br><br>Then, I joined the judge pannel to choose the top 3 hacks, taking different aspects into account, such as creativity, applicability, and learning outcomes.",
+            "images": []
+        },
+        {
+            "role": "Program Representative - Computer Science",
+            "organization": "UOIT Graduate Student Council",
+            "url": "https://uoitgsc.ca/",
+            "event": {"name": "", "url": ""},
+            "startdate": "September 2017",
+            "enddate": "",
+            "description": "The Graduate Student Council (GSC) is a platform where graduate students' concerns are heard by faculty representatives. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. The GSC is a division of the Student Association at UOIT and is represented by the president on the Board of Directors for the Student Association at UOIT.<br><br>Program Representatives attend mandatory meetings with the GSC, are responsible for delivering GSC-related news and material to their program colleagues, and communicate needs and concerns of graduate students within their programs to the GSC.",
+            "images": []
+        },
+        {
+            "role": "Vice-President of Marketing and Design",
+            "organization": "UOIT Science Council",
+            "url": "",
+            "event": {"name": "", "url": ""},
+            "startdate": "September 2016",
+            "enddate": "April 2017",
+            "description": "<ul><li>Design of posters, flyers and banners to advertise upcoming events and meetings.</li><li>Creation, management and maintenance of the website.</li></ul>",
+            "images": []
+        },
+        {
+            "role": "Founding Chair",
+            "organization": "UOIT ACM-W Student Chapter",
+            "url": "https://uoit.acm.org/",
+            "event": {"name": "", "url": ""},
+            "startdate": "September 2016",
+            "enddate": "December 2016",
+            "description": "Principal officer; responsible for leading the Chapter and managing its activities in accordance with the mission of ACM-W, the policies and procedures of the ACM. Presides at all meetings of the Chapter and prepares the Chapter’s final report each year.",
+            "images": []
+        },
+        {
+            "role": "Secretary",
+            "organization": "UOIT ASME Student Chapter",
+            "url": "",
+            "event": {"name": "", "url": ""},
+            "startdate": "September 2015",
+            "enddate": "April 2016",
+            "description": "<ul><li>Manage all general and executive meetings logistics, attend and record minutes.</li><li>Direct activities related to annual events on and off campus.</li><li>Maintain club documents and records.</li><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
+            "images": []
+        },
+        {
+            "role": "Webmaster and Social Media Director",
+            "organization": "UOIT ASME Student Chapter",
+            "url": "",
+            "event": {"name": "", "url": ""},
+            "startdate": "September 2014",
+            "enddate": "August 2015",
+            "description": "<ul><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
+            "images": []
+        }
+    ],
+    "volunteerwork": [
+        {
+            "role": "Logistics Voluteer",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "Mother Language Festival", "url": "https://news.uoit.ca/archives/2014/03/uoit-to-celebrate-international-mother-language-day-festival-on-march-19.php"},
+            "startdate": "March 2018",
+            "enddate": "March 2018",
+            "description": "The Mother Language Festival is a joint event run annually by UOIT Student Life and Durham College International. The Festival is a celebration of linguistic and cultural diversity on our shared campus and features student-led exhibitions and presentations of language and culture.<br><br>I helped with different areas of the event, set up for the booths, scanning and signing in guests, overseeing the music, among other miscelaneous tasks.",
+            "images": []
+        },
+        {
+            "role": "Demo Presenter",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "Open House", "url": "https://sites.uoit.ca/openhouse"},
+            "startdate": "March 2018",
+            "enddate": "March 2018",
+            "description": "Potential UOIT applicants, as well as their families, visit our campus to meet current students, faculty and staff; but also attend faculty information sessinos, visit labs, and experience why more students are making this university their first choice.<br><br>Throughout the day, I had the opportunity to show and demo some of the projects I developed during my undergraduate studies at UOIT.",
+            "images": []
+        },
+        {
+            "role": "Orientation Leader",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
+            "startdate": "September 2014",
+            "enddate": "September 2014",
+            "description": "In addition to being required to attend International Student Orientation (ISO) which is a full day event, International Student Orientation Leaders (ISOLs) also undergo two days of extensive training in preparation. <br><br>Training includes sessions on culture shock, mental health, intercultural communication, academic success, and navigation in the UOIT and Canadian landscape. Training also involves developing an understanding of the UOIT system and campus services for students. ISOLs learn how to facilitate small group activities to reinforce what participants learn during orientation sessions. In addition, they lead icebreakers and bonding exercises to help participants get to know one another.",
+            "images": []
+        },
+        {
+            "role": "Logistics Voluteer",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "Science Rendezvous", "url": "https://dc-uoit.ca/rendezvous/index.php"},
+            "startdate": "May 2014",
+            "enddate": "May 2014",
+            "description": "<ul><li>Assisted in setting up the equipment based on the floor plans provided.</li><li>In charge of signing in all participants and providing them with the corresponding welcome package.</li><li>Interacted with children and parents throughout the event.</li></ul>",
+            "images": []
+        },
+        {
+            "role": "Logistics Voluteer",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
+            "startdate": "May 2014",
+            "enddate": "May 2014",
+            "description": "Helped plan and carry out various activities for the orientation event, which aims to support all new students at the institution.",
+            "images": []
+        }
+    ],
+    "languages": [
+        { "language": "English", "level": "3" },
+        { "language": "French", "level": "2" },
+        { "language": "Spanish", "level": "3" }
+    ]
+}
