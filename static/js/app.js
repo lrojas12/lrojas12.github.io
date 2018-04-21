@@ -1,5 +1,3 @@
-let levelBar = $("<div class=\"level-bar\"><div class=\"bar-fill\"></div></div>")
-
 $(document).ready(function() {
     let resumeContent = "content.json";
     $.getJSON(resumeContent, function(data) {
@@ -36,7 +34,7 @@ $(document).ready(function() {
         // ---------- populate honours and awards section ----------
         let awardsList = [];
         data.honoursawards.forEach(function(elem, i) {
-            let awardElem = new Award(elem.title, elem.issuer, elem.url, elem.startdate, elem.description);
+            let awardElem = new Award(elem.title, elem.issuer, elem.url, elem.date, elem.description);
             awardsList.push(awardElem);
         });
         let awardsHtml = generateAwards(awardsList);
@@ -72,7 +70,7 @@ $(document).ready(function() {
         // ---------- populate posters and exhibits section ----------
         let exhibitsList = [];
         data.postersexhibits.forEach(function(elem, i) {
-            let exhibitElem = new Exhibit(elem.title, elem.authors, elem.event, elem.url, elem.location, elem.startdate, elem.description, elem.images);
+            let exhibitElem = new Exhibit(elem.title, elem.authors, elem.event, elem.url, elem.location, elem.date, elem.description, elem.images);
             exhibitsList.push(exhibitElem);
         });
         let exhibitsHtml = generateExhibits(exhibitsList);
@@ -104,6 +102,8 @@ $(document).ready(function() {
         });
         let languagesHtml = generateLanguages(languagesList);
         $("div#languages-section").find("div.section-content").html(languagesHtml);
+
+        addCursorsToSubtitles();
     });
 });
 
@@ -119,7 +119,7 @@ function generateEducation(elements, i) {
 
         let html = "<div>";
 
-        if (i === 0 ) { html += "<div class=\"chevron down\">"; }
+        if (i === 0) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
         if ((element.courses.length > 0) || (element.description)) { html += "<img>"; }
@@ -348,25 +348,39 @@ function generateExhibits(elements) {
                 "<div class=\"subsection\">" +
                 "<div class=\"subsection-header\">" +
                 "<p class=\"subtitle\">" + element.title + "</p>" +
-                "<p class=\"date\">" + element.startdate + "</p><br>";
+                "<p class=\"date\">" + element.startdate + "</p>";
 
-        html += "<p>"
-        element.authors.forEach(function(author, i) {
-            html += author;
-            if (i !== element.authors.length-1) { html += ", "; }
-        });
-        html += "</p><p>"
+        if (element.authors.length > 0) {
+            html += "<p>"
+            element.authors.forEach(function(author, i) {
+                html += author;
+                if (i !== element.authors.length - 1) { html += ", "; }
+            });
+            html += "</p></div>";
+        }
 
-        if (element.url) { html += "<i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i>"; }
-        else { html += "<i>" + element.event + "</i>"}
+        // add body
+        if ((i === 0) && (element.description || element.event || element.location)) {
+            html += "<div class=\"subsection-body\">";
+            if (element.event) {
+                if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
+                else { html += "<p><i>" + element.event + "</i></p>"}
+            }
+            if (element.location) { html += "<br><p>" + element.location + "</p>"; }
+            if (element.description) { html += "<br><br><p>" + element.description + "</p>"; }
+            html += "</div>";
+        }
+        else if (element.description || element.event || element.location) {
+            html += "<div class=\"subsection-body\" hidden>";
+            if (element.event) {
+                if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
+                else { html += "<p><i>" + element.event + "</i></p>"}
+            }
+            if (element.location) { html += "<br><p>" + element.location + "</p>"; }
+            if (element.description) { html += "<br><br><p>" + element.description + "</p>"; }
+            html += "</div>";
+        }
 
-        html += "</p><br><p>" + element.location + "</p>" + "</p>";
-
-        // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body\">"+ "<p>" + element.description + "</p>" + "</div>"; }
-        else if (element.description) { html += "<div class=\"subsection-body\" hidden>" + "<p>" + element.description + "</p>" + "</div>"; }
-
-        html += "</div></div>";
         finalHtml += html;
     });
     return finalHtml;
@@ -421,7 +435,7 @@ function generateExtracurricularVolunteer(elements) {
             html += "</div>"
 
         } else if (element.description) {
-            
+
             html += "<div class=\"subsection-body\" hidden>"
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
@@ -468,7 +482,7 @@ function generateLanguages(elements) {
     return finalHtml;
 }
 
-// CHEVRON ARROWS LISTENER
+// CHEVRON ARROWS LISTENER - EXPAND DETAILS
 $("div.section-content").on("click", "div.chevron", function() {
     $(this).parent().find("div.subsection-body").toggle();
     if ($(this).hasClass("right")) {
@@ -478,6 +492,13 @@ $("div.section-content").on("click", "div.chevron", function() {
     }
 });
 
+// SUBTITLES LISTENER - EXPAND DETAILS
+$("div.section-content").on("click", "div.subsection-header p.subtitle", function() {
+    let targetChevron = $(this).parent().parent().parent().find(".chevron img");
+    if (targetChevron.length) { targetChevron.click(); }
+});
+
+
 // sort elements by start date, in descending order
 function sortByDate(list) {
     list.sort(function(a, b) {
@@ -486,4 +507,12 @@ function sortByDate(list) {
         else if (moment(a.startdate, "MMMM YYYY").isAfter(moment(b.startdate, "MMMM YYYY"))) { return -1; }
     });
     return list;
+}
+
+// iterate through all subtitles. if the overall object contains a chevron, then change its subtitle cursor to a pointer.
+function addCursorsToSubtitles() {
+    $("p.subtitle").each(function(i, subtitle) {
+        let targetChevron = $(subtitle).parent().parent().parent().find(".chevron img");
+        if (targetChevron.length) { $(subtitle).css("cursor", "pointer"); }
+    });
 }

@@ -99,7 +99,7 @@ div.chevron.down > img {
 }
 
 div.subsection-header p.date { float: right; }
-div.subsection-body { margin-top: 10px; }
+div.subsection-body { margin-top: 18px; }
 
 p.course {
     background-color: #E3E7E8;
@@ -114,7 +114,10 @@ div.courses { margin-top: 10px; }
 div.subsection-header p.subtitle {
     font-weight:400 !important;
     float:left;
+    /* cursor: pointer; */
 }
+
+/* div.subsection-header p.subtitle:hover { color:darkgrey; } */
 
 div.subsection {
     margin: 0 0 15px 0;

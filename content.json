@@ -60,35 +60,35 @@
             "title": "Dean's Graduate Scholarship",
             "issuer": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
-            "startdate": "July 2017",
+            "date": "July 2017",
             "description": "Awarded to high-achieving full-time students entering a research-based master's or doctoral program with an average of A- (3.70/4.30) or greater."
         },
         {
             "title": "Dean's Honours List",
             "issuer": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
-            "startdate": "May 2017",
+            "date": "May 2017",
             "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts."
         },
         {
             "title": "President's Honours List",
             "issuer": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
-            "startdate": "August 2016",
+            "date": "August 2016",
             "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts."
         },
         {
             "title": "President's Honours List",
             "issuer": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
-            "startdate": "May 2016",
+            "date": "May 2016",
             "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts."
         },
         {
             "title": "Deans's Honours List",
             "issuer": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
-            "startdate": "December 2015",
+            "date": "December 2015",
             "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts."
         }
     ],
@@ -256,13 +256,13 @@
     ],
     "postersexhibits": [
         {
-            "title": "<a href=\"./static/img/threaded-paws-poster.pdf\" target=\"_blank\">Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming</a>",
+            "title": "Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming",
+            "date": "November 2017",
             "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
             "event": "<a target=\"_blank\" href=\"https://www-01.ibm.com/ibm/cas/cascon\">CASCON</a> Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering",
             "url": "",
             "location": "Markham, ON, Canada",
-            "startdate": "November 2017",
-            "description": "",
+            "description": "<a href=\"./static/img/threaded-paws-poster.pdf\" target=\"_blank\">See poster</a>",
             "images": []
         }
     ],
@@ -345,7 +345,7 @@
             "url": "https://uoit.ca",
             "event": {"name": "Mother Language Festival", "url": "https://news.uoit.ca/archives/2014/03/uoit-to-celebrate-international-mother-language-day-festival-on-march-19.php"},
             "startdate": "March 2018",
-            "enddate": "March 2018",
+            "enddate": "",
             "description": "The Mother Language Festival is a joint event run annually by UOIT Student Life and Durham College International. The Festival is a celebration of linguistic and cultural diversity on our shared campus and features student-led exhibitions and presentations of language and culture.<br><br>I helped with different areas of the event, set up for the booths, scanning and signing in guests, overseeing the music, among other miscelaneous tasks.",
             "images": []
         },
@@ -355,7 +355,7 @@
             "url": "https://uoit.ca",
             "event": {"name": "Open House", "url": "https://sites.uoit.ca/openhouse"},
             "startdate": "March 2018",
-            "enddate": "March 2018",
+            "enddate": "",
             "description": "Potential UOIT applicants, as well as their families, visit our campus to meet current students, faculty and staff; but also attend faculty information sessinos, visit labs, and experience why more students are making this university their first choice.<br><br>Throughout the day, I had the opportunity to show and demo some of the projects I developed during my undergraduate studies at UOIT.",
             "images": []
         },
@@ -365,7 +365,7 @@
             "url": "https://uoit.ca",
             "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
             "startdate": "September 2014",
-            "enddate": "September 2014",
+            "enddate": "",
             "description": "In addition to being required to attend International Student Orientation (ISO) which is a full day event, International Student Orientation Leaders (ISOLs) also undergo two days of extensive training in preparation. <br><br>Training includes sessions on culture shock, mental health, intercultural communication, academic success, and navigation in the UOIT and Canadian landscape. Training also involves developing an understanding of the UOIT system and campus services for students. ISOLs learn how to facilitate small group activities to reinforce what participants learn during orientation sessions. In addition, they lead icebreakers and bonding exercises to help participants get to know one another.",
             "images": []
         },
@@ -375,7 +375,7 @@
             "url": "https://uoit.ca",
             "event": {"name": "Science Rendezvous", "url": "https://dc-uoit.ca/rendezvous/index.php"},
             "startdate": "May 2014",
-            "enddate": "May 2014",
+            "enddate": "",
             "description": "<ul><li>Assisted in setting up the equipment based on the floor plans provided.</li><li>In charge of signing in all participants and providing them with the corresponding welcome package.</li><li>Interacted with children and parents throughout the event.</li></ul>",
             "images": []
         },
@@ -385,7 +385,7 @@
             "url": "https://uoit.ca",
             "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
             "startdate": "May 2014",
-            "enddate": "May 2014",
+            "enddate": "",
             "description": "Helped plan and carry out various activities for the orientation event, which aims to support all new students at the institution.",
             "images": []
         }
