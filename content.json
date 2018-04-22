@@ -1,6 +1,7 @@
 {
     "name": "Luisa Rojas",
     "logoimg": "",
+    "phone": "",
     "email": "luisa.rojas@acm.org",
     "github": "lrojas12",
     "linkedin": "luisarojasg",
@@ -120,8 +121,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "January 2018",
             "enddate": "April 2018",
-            "description": "Building on previous software design courses, CSCI 3060U concentrates on the rigorous development of high quality software systems. Topics covered in this course include software process, software verification and validation (testing, inspection), software metrics, and software maintenance. A major team project is an important feature of this course.<br><br><ul><li>Prepare all 1.5-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the course final project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark all project phases, midterms and final exams handed in.</li></ul>",
-            "images": []
+            "description": "Building on previous software design courses, CSCI 3060U concentrates on the rigorous development of high quality software systems. Topics covered in this course include software process, software verification and validation (testing, inspection), software metrics, and software maintenance. A major team project is an important feature of this course.<br><br><ul><li>Prepare all 1.5-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the course final project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark all project phases, midterms and final exams handed in.</li></ul>"
         },
         {
             "position": "Graduate Teaching Assisstant",
@@ -130,8 +130,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "September 2017",
             "enddate": "December 2017",
-            "description": "Programming Workshops I This is a first intensive course on computer programming that covers both theory and practice. The lectures introduce modern concepts in program design and construction along with features of modern object-oriented programming languages. The laboratories provide an opportunity to apply these concepts to practical programming problems. Topics that are covered in this course include program design, problem solving strategies, program documentation, memory management` and object-oriented program design.<br><br>My responsibilities include:<br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for questions or concerns from students.</li><li>Mark laboratories and final exams.</li></ul>",
-            "images": []
+            "description": "Programming Workshops I This is a first intensive course on computer programming that covers both theory and practice. The lectures introduce modern concepts in program design and construction along with features of modern object-oriented programming languages. The laboratories provide an opportunity to apply these concepts to practical programming problems. Topics that are covered in this course include program design, problem solving strategies, program documentation, memory management` and object-oriented program design.<br><br>My responsibilities include:<br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for questions or concerns from students.</li><li>Mark laboratories and final exams.</li></ul>"
         },
         {
             "position": "Undergraduate Teaching Assisstant",
@@ -140,8 +139,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "January 2017",
             "enddate": "April 2017",
-            "description": "A second intensive course on computer programming (C++) that continues from CSCI 1060U and covers more advanced theory and practice. The lectures introduce modern concepts in program design and construction for larger scale programs and the laboratories provide an opportunity to apply these concepts. Topics that are covered in this course include advanced program design, design patterns, program refactoring, templates and standard template libraries, data structures, debugging and version control.<br><br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark laboratories, midterms and final exams handed in.</li></ul>",
-            "images": []
+            "description": "A second intensive course on computer programming (C++) that continues from CSCI 1060U and covers more advanced theory and practice. The lectures introduce modern concepts in program design and construction for larger scale programs and the laboratories provide an opportunity to apply these concepts. Topics that are covered in this course include advanced program design, design patterns, program refactoring, templates and standard template libraries, data structures, debugging and version control.<br><br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark laboratories, midterms and final exams handed in.</li></ul>"
         },
         {
             "position": "System Administrator",
@@ -150,8 +148,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "September 2014",
             "enddate": "December 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
-            "images": []
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>"
         },
         {
             "position": "Assisstant System Administrator",
@@ -160,8 +157,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "May 2014",
             "enddate": "August 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>",
-            "images": []
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>"
         }
     ],
     "projects": [

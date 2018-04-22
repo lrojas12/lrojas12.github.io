@@ -30,7 +30,7 @@ body {
 
 div#header { text-align: center; }
 
-div#header p.name {
+div#header p#name {
     /* color: #000000; */
     font-size: 8em;
     font-weight: 100;
@@ -39,14 +39,22 @@ div#header p.name {
     font-family: "Monday Bay";
 }
 
-div#header div#info div {
+div#header div#contact div {
     display: inline;
     margin: 0 10px 0 10px;
 }
 
-img.info-icon {
-    max-height: 16px;
+div#header div#contact p { display: inline; }
+
+div#header div#summary {
+    margin-top: 25px;
+    text-align: left !important;
+}
+
+img.contact-icon {
+    max-width: 16px;
     vertical-align: top;
+    margin-right: 5px;
 }
 
 div.section p.title {

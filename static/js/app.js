@@ -5,22 +5,35 @@ $(document).ready(function() {
         // page/tag title
         $("title").html(data.name);
 
-        // name and personal information in the header
-        $("#header p.name").append(data.name);
-        $("#header p#github").append("<a target=\"_blank\" href=\"https://github.com/" + data.github + "\"</a>" + data.github);
-        $("#header p#email").append("<a target=\"_top\" href=\"mailto:" + data.email + "\"</a>" + data.email);
-        $("#header p#linkedin").append("<a target=\"_blank\" href=\"https://www.linkedin.com/in/" + data.linkedin + "\"</a>" + data.linkedin);
+        // page header: full name
+        $("#header p#name").append(data.name);
+
+        if (data.phone) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/phone-icon.png\"><p>" + data.phone + "</p></div>"); }
+        if (data.email) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/email-icon.png\"><p><a target=\"_top\" href=\"mailto:\"" + data.email + ">" + data.email + "</a></p></div>"); }
+        if (data.github) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/github-icon.png\"><p><a target=\"_blank\" href=\"https://github.com/\"" + data.github + ">" + data.github + "</a></p></div>"); }
+        if (data.linkedin) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/linkedin-icon.png\"><p><a target=\"_blank\" href=\"https://linkedin.com/in/\"" + data.linkedin + ">" + data.linkedin + "</a></p></div>"); }
+
+        if (data.summary) { $("div#summary").html("<p>" + data.summary + "</p>"); }
 
         // plug-in counts for each section
-        $("#sections #education-section count").html(data.education.length);
-        $("#sections #honours-awards-section count").html(data.honoursawards.length);
-        $("#sections #skills-section count").html(data.skills.length);
-        $("#sections #work-experience-section count").html(data.workexperience.length);
-        $("#sections #projects-section count").html(data.projects.length);
-        $("#sections #posters-exhibits-section count").html(data.postersexhibits.length);
-        $("#sections #extracurricular-activities-section count").html(data.extracurricularactivities.length);
-        $("#sections #volunteer-work-section count").html(data.volunteerwork.length);
-        $("#sections #languages-section count").html(data.languages.length);
+        if (data.education.length) { $("#sections #education-section count").html(data.education.length); }
+        else { $("#sections #education-section").remove(); }
+        if (data.honoursawards.length) { $("#sections #honours-awards-section count").html(data.honoursawards.length); }
+        else { $("#sections #honours-awards-section").remove(); }
+        if (data.skills.length) { $("#sections #skills-section count").html(data.skills.length); }
+        else { $("#sections #skills-section").remove(); }
+        if (data.workexperience.length) { $("#sections #work-experience-section count").html(data.workexperience.length); }
+        else { $("#sections #work-experience-section").remove(); }
+        if (data.projects.length) { $("#sections #projects-section count").html(data.projects.length); }
+        else { $("#sections #projects-section").remove(); }
+        if (data.postersexhibits.length) { $("#sections #posters-exhibits-section count").html(data.postersexhibits.length); }
+        else { $("#sections #posters-exhibits-section").remove(); }
+        if (data.extracurricularactivities.length) { $("#sections #extracurricular-activities-section count").html(data.extracurricularactivities.length); }
+        else { $("#sections #extracurricular-activities-section").remove(); }
+        if (data.volunteerwork.length) { $("#sections #volunteer-work-section count").html(data.volunteerwork.length);  }
+        else { $("#sections #volunteer-work-section").remove(); }
+        if (data.languages.length) { $("#sections #languages-section count").html(data.languages.length); }
+        else { $("#sections #languages-section").remove(); }
 
         // ---------- populate education section ----------
         let educationList = [];
@@ -362,20 +375,16 @@ function generateExhibits(elements) {
         // add body
         if ((i === 0) && (element.description || element.event || element.location)) {
             html += "<div class=\"subsection-body\">";
-            if (element.event) {
-                if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
-                else { html += "<p><i>" + element.event + "</i></p>"}
-            }
+            if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
+            else { html += "<p><i>" + element.event + "</i></p>"}
             if (element.location) { html += "<br><p>" + element.location + "</p>"; }
             if (element.description) { html += "<br><br><p>" + element.description + "</p>"; }
             html += "</div>";
         }
         else if (element.description || element.event || element.location) {
             html += "<div class=\"subsection-body\" hidden>";
-            if (element.event) {
-                if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
-                else { html += "<p><i>" + element.event + "</i></p>"}
-            }
+            if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
+            else { html += "<p><i>" + element.event + "</i></p>"}
             if (element.location) { html += "<br><p>" + element.location + "</p>"; }
             if (element.description) { html += "<br><br><p>" + element.description + "</p>"; }
             html += "</div>";
