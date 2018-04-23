@@ -5,82 +5,125 @@
   <meta charset="utf-8">
   <title></title>
   <link rel=icon href=static/img/favicon.png>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
 
-    <!-- RESUME HEADER (name, personal info) -->
-    <div id="header">
-        <p id="name"></p>
-        <div id="contact"></div>
-        <div id=summary></div>
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#my-navbar" aria-controls="my-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-sm-center" id="my-navbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#education-section">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#honours-awards-section">Awards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills-section">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work-experience-section">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects-section">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#posters-exhibits-section">Exhibits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#extracurricular-activities-section">Extracurriculars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#volunteer-work-section">Volunteering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#languages-section">Languages</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+
+    <div id="content">
+        <!-- RESUME HEADER (name, personal info) -->
+        <div id="header">
+            <p id="name"></p>
+            <div id="contact"></div>
+            <div id=summary></div>
+        </div>
+
+        <!-- ALL RESUME SECTIONS -->
+        <div id="sections" style="margin-top:50px;">
+
+            <!-- EDUCATION -->
+            <div class="section" id="education-section">
+                <p class="title">Education (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- HONOURS AND AWARDS -->
+            <div class="section" id="honours-awards-section">
+                <p class="title">Honours and Awards (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- SKILLS -->
+            <div class="section" id="skills-section">
+                <p class="title">Skills (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- WORK EXPERIENCE -->
+            <div class="section" id="work-experience-section">
+                <p class="title">Work Experience (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- PROJECTS -->
+            <div class="section" id="projects-section">
+                <p class="title">Projects (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- POSTERS AND EXHIBITS -->
+            <div class="section" id="posters-exhibits-section">
+                <p class="title">Posters and Exhibits (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- EXTRACURRICULAR ACITIVITIES -->
+            <div class="section" id="extracurricular-activities-section">
+                <p class="title">Extracurricular Activities (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- VOLUNTEER WORK -->
+            <div class="section" id="volunteer-work-section">
+                <p class="title">Volunteer Work (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+
+            <!-- LANGUAGES -->
+            <div class="section" id="languages-section">
+                <p class="title">Languages (<count></count>)</p><hr>
+                <div class="section-content"></div>
+            </div>
+        </div>
+
+        <p style="float:right; margin-top: 15px; font-size: 0.8em;"><i>Last updated: April 20th, 2018</i></p>
     </div>
-
-    <!-- ALL RESUME SECTIONS -->
-    <div id="sections" style="margin-top:25px;">
-
-        <!-- EDUCATION -->
-        <div class="section" id="education-section">
-            <p class="title">Education (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- HONOURS AND AWARDS -->
-        <div class="section" id="honours-awards-section">
-            <p class="title">Honours and Awards (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- SKILLS -->
-        <div class="section" id="skills-section">
-            <p class="title">Skills (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- WORK EXPERIENCE -->
-        <div class="section" id="work-experience-section">
-            <p class="title">Work Experience (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- PROJECTS -->
-        <div class="section" id="projects-section">
-            <p class="title">Projects (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- POSTERS AND EXHIBITS -->
-        <div class="section" id="posters-exhibits-section">
-            <p class="title">Posters and Exhibits (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- EXTRACURRICULAR ACITIVITIES -->
-        <div class="section" id="extracurricular-activities-section">
-            <p class="title">Extracurricular Activities (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- VOLUNTEER WORK -->
-        <div class="section" id="volunteer-work-section">
-            <p class="title">Volunteer Work (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-
-        <!-- LANGUAGES -->
-        <div class="section" id="languages-section">
-            <p class="title">Languages (<count></count>)</p><hr>
-            <div class="section-content"></div>
-        </div>
-    </div>
-
-    <p style="float:right; margin-top: 15px; font-size: 0.8em;"><i>Last updated: April 20th, 2018</i></p>
 
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.js" integrity="sha256-Z1d5nX6+IwGjjkkYg+fWe/jzvJae4NYejTz7PcIumxE=" crossorigin="anonymous"></script>
     <script src="static/js/app.js"></script>
     <script src="static/js/models.js"></script>

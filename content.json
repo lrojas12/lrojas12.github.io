@@ -260,6 +260,16 @@
             "location": "Markham, ON, Canada",
             "description": "<a href=\"./static/img/threaded-paws-poster.pdf\" target=\"_blank\">See poster</a>",
             "images": []
+        },
+        {
+            "title": "Threaded Paws: A Serious Game for Learning Concurrency",
+            "date": "November 2017",
+            "authors": ["Luisa Rojas Garcia"],
+            "event": "eCampus Ontario Technology Enabled Seminar + Showcase (TESS)",
+            "url": "https://www.ecampusontario.ca/technology-enabled-seminar-showcase/",
+            "location": "Toronto, ON, Canada",
+            "description": "",
+            "images": []
         }
     ],
     "extracurricularactivities": [

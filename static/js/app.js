@@ -153,7 +153,7 @@ function generateEducation(elements, i) {
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && ((element.courses.length > 0) || (element.description))) { html += "<div class=\"subsection-body\">"; }
-        else if ((element.courses.length > 0) || (element.description)) { html += "<div class=\"subsection-body\" hidden>"; }
+        else if ((element.courses.length > 0) || (element.description)) { html += "<div class=\"subsection-body\" style=\"display:none;\">"; }
         else { html += "<div>" }
 
         if (element.description) { html += "<p>" + element.description + "</p>"; }
@@ -201,7 +201,7 @@ function generateAwards(elements, i) {
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body\">"+ "<p>" + element.description + "</p>" + "</div>"; }
-        else if (element.description) { html += "<div class=\"subsection-body\" hidden>" + "<p>" + element.description + "</p>" + "</div>"; }
+        else if (element.description) { html += "<div class=\"subsection-body\" style=\"display:none;\">" + "<p>" + element.description + "</p>" + "</div>"; }
 
         html += "</div></div>";
         finalHtml += html;
@@ -276,7 +276,7 @@ function generateWork(elements) {
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body\">"+ "<p>" + element.description + "</p>" + "</div>"; }
-        else if (element.description) { html += "<div class=\"subsection-body\" hidden>" + "<p>" + element.description + "</p>" + "</div>"; }
+        else if (element.description) { html += "<div class=\"subsection-body\" style=\"display:none;\">" + "<p>" + element.description + "</p>" + "</div>"; }
 
         html += "</div></div>";
         finalHtml += html;
@@ -325,7 +325,7 @@ function generateProjects(elements) {
             html += "</div>";
 
         } else if (element.description || element.images.length > 0) {
-            html += "<div class=\"subsection-body\" hidden>";
+            html += "<div class=\"subsection-body\" style=\"display:none;\">";
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
@@ -355,7 +355,7 @@ function generateExhibits(elements) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description) { html += "<img>"; }
+        if (element.description || element.event || element.location) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -363,8 +363,8 @@ function generateExhibits(elements) {
                 "<p class=\"subtitle\">" + element.title + "</p>" +
                 "<p class=\"date\">" + element.startdate + "</p>";
 
-        if (element.authors.length > 0) {
-            html += "<p>"
+        if (element.authors.length) {
+            html += "<br><p>"
             element.authors.forEach(function(author, i) {
                 html += author;
                 if (i !== element.authors.length - 1) { html += ", "; }
@@ -382,14 +382,14 @@ function generateExhibits(elements) {
             html += "</div>";
         }
         else if (element.description || element.event || element.location) {
-            html += "<div class=\"subsection-body\" hidden>";
+            html += "<div class=\"subsection-body\" style=\"display:none;\">";
             if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
             else { html += "<p><i>" + element.event + "</i></p>"}
             if (element.location) { html += "<br><p>" + element.location + "</p>"; }
             if (element.description) { html += "<br><br><p>" + element.description + "</p>"; }
             html += "</div>";
         }
-
+        html += "</div></div>";
         finalHtml += html;
     });
     return finalHtml;
@@ -445,7 +445,7 @@ function generateExtracurricularVolunteer(elements) {
 
         } else if (element.description) {
 
-            html += "<div class=\"subsection-body\" hidden>"
+            html += "<div class=\"subsection-body\" style=\"display:none;\">"
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
