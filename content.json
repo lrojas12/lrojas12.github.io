@@ -162,7 +162,7 @@
     ],
     "projects": [
         {
-            "name": "Automatic Concurrent Program Noising",
+            "name": "Automatic Bug Localization in Java Concurrent Programs",
             "url": "",
             "startdate": "April 2018",
             "enddate": "Present",
