@@ -9,9 +9,11 @@ $(document).ready(function() {
         $("#header p#name").append(data.name);
 
         if (data.phone) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/phone-icon.png\"><p>" + data.phone + "</p></div>"); }
-        if (data.email) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/email-icon.png\"><p><a target=\"_top\" href=\"mailto:\"" + data.email + ">" + data.email + "</a></p></div>"); }
-        if (data.github) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/github-icon.png\"><p><a target=\"_blank\" href=\"https://github.com/\"" + data.github + ">" + data.github + "</a></p></div>"); }
-        if (data.linkedin) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/linkedin-icon.png\"><p><a target=\"_blank\" href=\"https://linkedin.com/in/\"" + data.linkedin + ">" + data.linkedin + "</a></p></div>"); }
+        if (data.email) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/email-icon.png\"><p><a target=\"_top\" href=\"mailto:" + data.email + "\"" + ">" + data.email + "</a></p></div>"); }
+        if (data.github) {
+            $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/github-icon.png\"><p><a target=\"_blank\" href=\"https://github.com/" + data.github + "\"" + ">" + data.github + "</a></p></div>");
+        }
+        if (data.linkedin) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/linkedin-icon.png\"><p><a target=\"_blank\" href=\"https://linkedin.com/in/" + data.linkedin + "\"" + ">" + data.linkedin + "</a></p></div>"); }
 
         if (data.summary) { $("div#summary").html("<p>" + data.summary + "</p>"); }
 
