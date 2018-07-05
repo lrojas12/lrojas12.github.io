@@ -3,6 +3,10 @@
     src: url("../fonts/MondayBay.ttf");
 }
 
+img {
+    vertical-align: unset;
+}
+
 /* --------------- NATIVE TAGS --------------- */
 
 a { color: #3C91E6; }
@@ -41,11 +45,20 @@ div#header p#name {
 }
 
 div#header div#contact div {
-    display: inline;
-    margin: 0 10px 0 10px;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin: 0 10px 0 10px; */
 }
 
-div#header div#contact p { display: inline; }
+div#header div#contact div img {
+    margin-right: 5px;
+}
+
+div#header div#contact div p {
+    margin: 0 10px 0 0;
+}
+
+/* div#header div#contact p { display: inline; } */
 
 div#header div#summary {
     margin-top: 25px;
@@ -54,7 +67,7 @@ div#header div#summary {
 
 img.contact-icon {
     max-width: 16px;
-    vertical-align: top;
+    /* vertical-align: top; */
     margin-right: 5px;
 }
 
