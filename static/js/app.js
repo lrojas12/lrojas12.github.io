@@ -187,7 +187,7 @@ function generateAwards(elements, i) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description) { html += "<img>"; }
+        // if (element.description) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -262,7 +262,7 @@ function generateWork(elements) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description) { html += "<img>"; }
+        // if (element.description) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -296,7 +296,7 @@ function generateProjects(elements) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description || element.images.length > 0) { html += "<img>"; }
+        // if (element.description || element.images.length > 0) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -357,7 +357,7 @@ function generateExhibits(elements) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description || element.event || element.location) { html += "<img>"; }
+        // if (element.description || element.event || element.location) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -407,7 +407,7 @@ function generateExtracurricularVolunteer(elements) {
         if (i === 0 ) { html += "<div class=\"chevron down\">"; }
         else { html += "<div class=\"chevron right\">"; }
 
-        if (element.description || element.images.length > 0) { html += "<img>"; }
+        // if (element.description || element.images.length > 0) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -505,7 +505,7 @@ $("div.section-content").on("click", "div.chevron", function() {
 
 // SUBTITLES LISTENER - EXPAND DETAILS
 $("div.section-content").on("click", "div.subsection-header p.subtitle", function() {
-    let targetChevron = $(this).parent().parent().parent().find(".chevron img");
+    let targetChevron = $(this).parent().parent().parent().find(".chevron");
     if (targetChevron.length) { targetChevron.click(); }
 });
 
@@ -523,7 +523,7 @@ function sortByDate(list) {
 // iterate through all subtitles. if the overall object contains a chevron, then change its subtitle cursor to a pointer.
 function addCursorsToSubtitles() {
     $("p.subtitle").each(function(i, subtitle) {
-        let targetChevron = $(subtitle).parent().parent().parent().find(".chevron img");
+        let targetChevron = $(subtitle).parent().parent().parent().find(".chevron");
         if (targetChevron.length) { $(subtitle).css("cursor", "pointer"); }
     });
 }

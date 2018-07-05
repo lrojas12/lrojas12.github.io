@@ -97,13 +97,17 @@ div.section { margin: 0 0 10px 0; }
 div.chevron {
     height: 10px;
     float:left;
-    margin: 0 10px 10px 0;
+    margin: 5px 10px 10px 0;
     width: 10px;
 }
 
-div.chevron img:hover { cursor: pointer; }
+/* doesn't work on firefox */
+/* div.chevron img:hover { cursor: pointer; } */
 
-div.chevron.right > img {
+div.chevron:hover { cursor: pointer; }
+
+/* doesn't work on firefox */
+/* div.chevron.right > img {
     content: url("../img/chevron-right.png");
     height: inherit;
 }
@@ -111,6 +115,20 @@ div.chevron.right > img {
 div.chevron.down > img {
     content: url("../img/chevron-down.png");
     height: inherit;
+} */
+
+div.chevron.right {
+    background-image: url("../img/chevron-right.png");
+    background-size: cover;
+    /* height: 10px;
+    width: 10px; */
+}
+
+div.chevron.down {
+    background-image: url("../img/chevron-down.png");
+    background-size: cover;
+    /* height: 10px;
+    width: 10px; */
 }
 
 div.subsection-header p.date { float: right; }
