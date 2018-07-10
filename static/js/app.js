@@ -510,14 +510,44 @@ $("div.section-content").on("click", "div.subsection-header p.subtitle", functio
 });
 
 
-// sort elements by start date, in descending order
+// sort elements by start and/or end date
 function sortByDate(list) {
-    list.sort(function(a, b) {
+
+    // make sure elements with "present" as end date are at the top.
+    presentList = []
+
+    // elements with a set end date go after
+    olderList = []
+
+    list.forEach(function(elem, i) {
+        (elem.enddate === "Present") ? presentList.push(elem) : olderList.push(elem)
+    })
+
+    // sort the "present" elements using the start date. descending order.
+    presentList.sort(function(a, b) {
         if (moment(a.startdate, "MMMM YYYY").isSame(moment(b.startdate, "MMMM YYYY"))) { return 0; }
         else if (moment(a.startdate, "MMMM YYYY").isBefore(moment(b.startdate, "MMMM YYYY"))) { return 1; }
         else if (moment(a.startdate, "MMMM YYYY").isAfter(moment(b.startdate, "MMMM YYYY"))) { return -1; }
+    })
+
+    // sort elements with a set end date
+    olderList.sort(function(a, b) {
+
+        // if the end date is available for both elements, use that to sort. descending order.
+        if (a.enddate && b.enddate) {
+            if (moment(a.enddate, "MMMM YYYY").isSame(moment(b.enddate, "MMMM YYYY"))) { return 0; }
+            else if (moment(a.enddate, "MMMM YYYY").isBefore(moment(b.enddate, "MMMM YYYY"))) { return 1; }
+            else if (moment(a.enddate, "MMMM YYYY").isAfter(moment(b.enddate, "MMMM YYYY"))) { return -1; }
+        // otherwise, use the start date. descending order.
+        } else {
+            if (moment(a.startdate, "MMMM YYYY").isSame(moment(b.startdate, "MMMM YYYY"))) { return 0; }
+            else if (moment(a.startdate, "MMMM YYYY").isBefore(moment(b.startdate, "MMMM YYYY"))) { return 1; }
+            else if (moment(a.startdate, "MMMM YYYY").isAfter(moment(b.startdate, "MMMM YYYY"))) { return -1; }
+        }
+
     });
-    return list;
+
+    return presentList.concat(olderList);
 }
 
 // iterate through all subtitles. if the overall object contains a chevron, then change its subtitle cursor to a pointer.
