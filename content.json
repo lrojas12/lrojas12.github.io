@@ -1,4 +1,4 @@
-{
+miscellaneous{
     "name": "Luisa Rojas",
     "logoimg": "",
     "phone": "",
@@ -115,7 +115,7 @@
     ],
     "workexperience": [
         {
-            "position": "Graduate Teaching Assisstant",
+            "position": "Graduate Teaching Assistant",
             "company": "University of Ontario Institute of Technology, Faculty of Science",
             "url": "https://science.uoit.ca",
             "location": "Oshawa, ON, Canada",
@@ -124,7 +124,7 @@
             "description": "Building on previous software design courses, CSCI 3060U concentrates on the rigorous development of high quality software systems. Topics covered in this course include software process, software verification and validation (testing, inspection), software metrics, and software maintenance. A major team project is an important feature of this course.<br><br><ul><li>Prepare all 1.5-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the course final project.</li><li>Provide availability for office hours and drop-in for questions or concerns from students.</li><li>Mark all project phases, midterms and final exams handed in.</li></ul>"
         },
         {
-            "position": "Graduate Teaching Assisstant",
+            "position": "Graduate Teaching Assistant",
             "company": "University of Ontario Institute of Technology, Faculty of Science",
             "url": "https://science.uoit.ca",
             "location": "Oshawa, ON, Canada",
@@ -133,7 +133,7 @@
             "description": "Programming Workshops I This is a first intensive course on computer programming that covers both theory and practice. The lectures introduce modern concepts in program design and construction along with features of modern object-oriented programming languages. The laboratories provide an opportunity to apply these concepts to practical programming problems. Topics that are covered in this course include program design, problem solving strategies, program documentation, memory management` and object-oriented program design.<br><br>My responsibilities include:<br><ul><li>Prepare all 3-hour laboratory sections assigned.</li><li>Deliver and present the students with the relevant content pertaining the current laboratory project.</li><li>Provide availability for questions or concerns from students.</li><li>Mark laboratories and final exams.</li></ul>"
         },
         {
-            "position": "Undergraduate Teaching Assisstant",
+            "position": "Undergraduate Teaching Assistant",
             "company": "University of Ontario Institute of Technology, Faculty of Science",
             "url": "https://science.uoit.ca",
             "location": "Oshawa, ON, Canada",
@@ -148,16 +148,16 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "September 2014",
             "enddate": "December 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>"
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Administrator of health insurance for all international students (UHIP)</li><li>Responsible for the production of events, from conception through completion.</li><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International web pages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>"
         },
         {
-            "position": "Assisstant System Administrator",
+            "position": "Assistant System Administrator",
             "company": "University of Ontario Institute of Technology, International Office",
             "url": "https://international.uoit.ca",
             "location": "Oshawa, ON, Canada",
             "startdate": "May 2014",
             "enddate": "August 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International webpages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>"
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Elaboration of invitation letters for international visiting scholars interested in conducting research at the university.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software</li><li>Creation and administration of forms for international visitors (scholars, delegations, partners), international, exchange, Science Without Borders students, among others.</li><li>Control of the International web pages under the UOIT website.</li><li>Contacting connections and setting up meetings.</li></ul>"
         }
     ],
     "projects": [
@@ -174,7 +174,7 @@
             "url": "",
             "startdate": "February 2018",
             "enddate": "Present",
-            "description": "UOIT has implemeted a Peer Mentorshop Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year.<br><br>Previously, the student matching was done manually by faculty staff, which was reasonable given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
+            "description": "UOIT has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year.<br><br>Previously, the student matching was done manually by faculty staff, which was reasonable given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
             "images": ["mentor-mentee-1.png", "mentor-mentee-2.png"]
         },
         {
@@ -242,7 +242,7 @@
             "images": ["apriori.png", "pcy.png"]
         },
         {
-            "name": "CPU Capacity Comparisson",
+            "name": "CPU Capacity Comparison",
             "url": "https://github.com/lrojas12/estimated-value-of-pi",
             "startdate": "April 2015",
             "enddate": "",
@@ -340,7 +340,7 @@
             "event": {"name": "", "url": ""},
             "startdate": "September 2015",
             "enddate": "April 2016",
-            "description": "<ul><li>Manage all general and executive meetings logistics, attend and record minutes.</li><li>Direct activities related to annual events on and off campus.</li><li>Maintain club documents and records.</li><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
+            "description": "<ul><li>Manage all general and executive meetings logistics, attend and record minutes.</li><li>Direct activities related to annual events on and off campus.</li><li>Maintain club documents and records.</li><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement for the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
             "images": ["matlab-workshop.jpg"]
         },
         {
@@ -350,19 +350,19 @@
             "event": {"name": "", "url": ""},
             "startdate": "September 2014",
             "enddate": "August 2015",
-            "description": "<ul><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement of the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
+            "description": "<ul><li>Create and manage the club website.</li><li>Assist on the planning and elaboration of events and advertisement for the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
             "images": ["rhino-workshop.jpg", "nx-workshop.jpg", "ace-tour.jpg", "toyota-tour.jpg"]
         }
     ],
     "volunteerwork": [
         {
-            "role": "Logistics Voluteer",
+            "role": "Logistics Volunteer",
             "organization": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
             "event": {"name": "Mother Language Festival", "url": "https://news.uoit.ca/archives/2014/03/uoit-to-celebrate-international-mother-language-day-festival-on-march-19.php"},
             "startdate": "March 2018",
             "enddate": "",
-            "description": "The Mother Language Festival is a joint event run annually by UOIT Student Life and Durham College International. The Festival is a celebration of linguistic and cultural diversity on our shared campus and features student-led exhibitions and presentations of language and culture.<br><br>I helped with different areas of the event, set up for the booths, scanning and signing in guests, overseeing the music, among other miscelaneous tasks.",
+            "description": "The Mother Language Festival is a joint event run annually by UOIT Student Life and Durham College International. The Festival is a celebration of linguistic and cultural diversity on our shared campus and features student-led exhibitions and presentations of language and culture.<br><br>I helped with different areas of the event, set up for the booths, scanning and signing in guests, overseeing the music, among other miscellaneous tasks.",
             "images": []
         },
         {
@@ -372,7 +372,7 @@
             "event": {"name": "Open House", "url": "https://sites.uoit.ca/openhouse"},
             "startdate": "March 2018",
             "enddate": "",
-            "description": "Potential UOIT applicants, as well as their families, visit our campus to meet current students, faculty and staff; but also attend faculty information sessinos, visit labs, and experience why more students are making this university their first choice.<br><br>Throughout the day, I had the opportunity to show and demo some of the projects I developed during my undergraduate studies at UOIT.",
+            "description": "Potential UOIT applicants, as well as their families, visit our campus to meet current students, faculty and staff; but also attend faculty information sessions, visit labs, and experience why more students are making this university their first choice.<br><br>Throughout the day, I had the opportunity to show and demo some of the projects I developed during my undergraduate studies at UOIT.",
             "images": []
         },
         {
@@ -386,7 +386,7 @@
             "images": []
         },
         {
-            "role": "Logistics Voluteer",
+            "role": "Logistics Volunteer",
             "organization": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
             "event": {"name": "Science Rendezvous", "url": "https://dc-uoit.ca/rendezvous/index.php"},
@@ -396,7 +396,7 @@
             "images": []
         },
         {
-            "role": "Logistics Voluteer",
+            "role": "Logistics Volunteer",
             "organization": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
             "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
