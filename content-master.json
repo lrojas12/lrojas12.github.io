@@ -44,6 +44,16 @@
                 { "name": "Programming Languages", "code": "CSCI 3055U" },
                 { "name": "Software Systems Development and Integration", "code": "CSCI 2020U" }
             ]
+        },
+        {
+            "school": "Colegio Santa Francisca Romana",
+            "url": "http://csfr.edu.co",
+            "degree": "Elementary School, Middle School, High School",
+            "field": "",
+            "startdate": "August 1999",
+            "enddate": "June 2013",
+            "description": "",
+            "courses": []
         }
     ],
     "honoursawards": [
@@ -216,12 +226,28 @@
             "images": ["graphizzer.png"]
         },
         {
+            "name": "Simulated Banking System",
+            "url": "https://github.com/lrojas12/extreme-programming",
+            "startdate": "January 2016",
+            "enddate": "April 2016",
+            "description": "Designed and implemented a Banking System in the form of a console application, following various software quality control aspects in the context of the Extreme Programming Process Model. The project uses a C++ automated teller machine terminal for simple banking transactions, while a Java batch processor maintains and updates the master account file in the back end.",
+            "images": ["extreme-programming1.png", "extreme-programming2.png"]
+        },
+        {
             "name": "A-Priori and PCY Implementations",
             "url": "https://github.com/lrojas12/apriori-pcy",
             "startdate": "April 2016",
             "enddate": "",
             "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
             "images": ["apriori.png", "pcy.png"]
+        },
+        {
+            "name": "CPU Capacity Comparison",
+            "url": "https://github.com/lrojas12/estimated-value-of-pi",
+            "startdate": "April 2015",
+            "enddate": "",
+            "description": "Determined the optimal amount of threads for specific mathematical calculations in relation to the number of iterations, magnitude of estimation error and CPU capacity.",
+            "images": ["estimated-val-pi.png"]
         }
     ],
     "postersexhibits": [
@@ -369,6 +395,16 @@
             "startdate": "May 2014",
             "enddate": "",
             "description": "<ul><li>Assisted in setting up the equipment based on the floor plans provided.</li><li>In charge of signing in all participants and providing them with the corresponding welcome package.</li><li>Interacted with children and parents throughout the event.</li></ul>",
+            "images": []
+        },
+        {
+            "role": "Logistics Volunteer",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://uoit.ca",
+            "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
+            "startdate": "May 2014",
+            "enddate": "",
+            "description": "Helped plan and carry out various activities for the orientation event, which aims to support all new students at the institution.",
             "images": []
         }
     ],

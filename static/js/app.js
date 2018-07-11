@@ -132,18 +132,17 @@ function generateEducation(elements, i) {
     let finalHtml = "";
     localElements.forEach(function (element, i) {
 
-        let html = "<div>";
+        let html = "";
 
-        html += "<div class=\"chevron";
-
-        if ((element.courses.length > 0) || (element.description)) {
-            if (i === 0) { html += " down"; }
-            else { html += " right"; }
+        if (i === 0) {
+            html += "<div class=\"subsection-container first\">";
+        } else {
+            html += "<div class=\"subsection-container\">"
         }
 
+        html += "<div class=\"chevron";
+        if ((element.courses.length > 0) || (element.description)) { html += " down"; }
         html += "\">"
-
-        if ((element.courses.length > 0) || (element.description)) { html += "<img>"; }
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -160,7 +159,7 @@ function generateEducation(elements, i) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && ((element.courses.length > 0) || (element.description))) { html += "<div class=\"subsection-body with-border open\">"; }
+        if ((i === 0) && ((element.courses.length > 0) || (element.description))) { html += "<div class=\"subsection-body with-border \">"; }
         else if ((element.courses.length > 0) || (element.description)) { html += "<div class=\"subsection-body with-border\">"; }
         else { html += "<div>" }
 
@@ -189,9 +188,17 @@ function generateAwards(elements, i) {
     let finalHtml = "";
     localElements.forEach(function(element, i) {
 
-        let html = "<div>";
-        if (i === 0 ) { html += "<div class=\"chevron down\">"; }
-        else { html += "<div class=\"chevron right\">"; }
+        let html = "";
+
+        if (i === 0) {
+            html += "<div class=\"subsection-container first\">";
+        } else {
+            html += "<div class=\"subsection-container\">";
+        }
+
+        html += "<div class=\"chevron";
+        if (element.description) { html += " down"; }
+        html += "\">"
 
         // if (element.description) { html += "<img>"; }
 
@@ -208,7 +215,7 @@ function generateAwards(elements, i) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body with-border open\">"+ "<p>" + element.description + "</p>" + "</div>"; }
+        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body with-border \">"+ "<p>" + element.description + "</p>" + "</div>"; }
         else if (element.description) { html += "<div class=\"subsection-body with-border\">" + "<p>" + element.description + "</p>" + "</div>"; }
 
         html += "</div></div>";
@@ -264,11 +271,18 @@ function generateWork(elements) {
 
     let finalHtml = "";
     localElements.forEach(function(element, i) {
-        let html = "<div>";
-        if (i === 0 ) { html += "<div class=\"chevron down\">"; }
-        else { html += "<div class=\"chevron right\">"; }
 
-        // if (element.description) { html += "<img>"; }
+        let html = "";
+
+        if (i === 0) {
+            html += "<div class=\"subsection-container first\">";
+        } else {
+            html += "<div class=\"subsection-container\">";
+        }
+
+        html += "<div class=\"chevron";
+        if (element.description) { html += " down"; }
+        html += "\">"
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -283,7 +297,7 @@ function generateWork(elements) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body with-border open\">"+ "<p>" + element.description + "</p>" + "</div>"; }
+        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body with-border \">"+ "<p>" + element.description + "</p>" + "</div>"; }
         else if (element.description) { html += "<div class=\"subsection-body with-border\">" + "<p>" + element.description + "</p>" + "</div>"; }
 
         html += "</div></div>";
@@ -298,11 +312,18 @@ function generateProjects(elements) {
 
     let finalHtml = "";
     localElements.forEach(function(element, i) {
-        let html = "<div>";
-        if (i === 0 ) { html += "<div class=\"chevron down\">"; }
-        else { html += "<div class=\"chevron right\">"; }
 
-        // if (element.description || element.images.length > 0) { html += "<img>"; }
+        let html = "";
+
+        if (i === 0) {
+            html += "<div class=\"subsection-container first\">";
+        } else {
+            html += "<div class=\"subsection-container\">";
+        }
+
+        html += "<div class=\"chevron";
+        if ((element.description) || (element.images.length > 0)) { html += " down"; }
+        html += "\">"
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -319,7 +340,7 @@ function generateProjects(elements) {
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && ((element.description) || (element.images.length > 0))) {
 
-            html += "<div class=\"subsection-body with-border open\">";
+            html += "<div class=\"subsection-body with-border \">";
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
@@ -359,11 +380,16 @@ function generateExhibits(elements) {
 
     let finalHtml = "";
     localElements.forEach(function(element, i) {
-        let html = "<div>";
-        if (i === 0 ) { html += "<div class=\"chevron down\">"; }
-        else { html += "<div class=\"chevron right\">"; }
 
-        // if (element.description || element.event || element.location) { html += "<img>"; }
+        let html = "";
+
+        if (i === 0) {
+            html += "<div class=\"subsection-container first\">";
+        } else {
+            html += "<div class=\"subsection-container\">";
+        }
+
+        html += "<div class=\"chevron down \">";
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -371,7 +397,6 @@ function generateExhibits(elements) {
                 "<p class=\"subtitle\">" + element.title + "</p>"
 
         if (element.pdfpath) { html += "<div class=\"see-more-icon pdf\"><a target=\"_blank\" href=\"" + element.pdfpath + "\" title=\"See PDF file\"></a></div>"}
-        if (element.pdfpath) {console.log(element.pdfpath)}
 
         html += "<p class=\"date\">" + element.startdate + "</p>";
 
@@ -386,7 +411,7 @@ function generateExhibits(elements) {
 
         // add body
         if ((i === 0) && (element.description || element.event || element.location)) {
-            html += "<div class=\"subsection-body with-border open\">";
+            html += "<div class=\"subsection-body with-border \">";
             if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
             else { html += "<p><i>" + element.event + "</i></p>"}
             if (element.location) { html += "<br><p>" + element.location + "</p>"; }
@@ -413,11 +438,18 @@ function generateExtracurricularVolunteer(elements) {
 
     let finalHtml = "";
     localElements.forEach(function(element, i) {
-        let html = "<div>";
-        if (i === 0 ) { html += "<div class=\"chevron down\">"; }
-        else { html += "<div class=\"chevron right\">"; }
 
-        // if (element.description || element.images.length > 0) { html += "<img>"; }
+        let html = "";
+
+        if (i === 0) {
+            html += "<div class=\"subsection-container first\">";
+        } else {
+            html += "<div class=\"subsection-container\">";
+        }
+
+        html += "<div class=\"chevron";
+        if ((element.description) || (element.images.length > 0)) { html += " down"; }
+        html += "\">"
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
@@ -442,7 +474,7 @@ function generateExtracurricularVolunteer(elements) {
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && ((element.description) || (element.images.length > 0))) {
 
-            html += "<div class=\"subsection-body with-border open\">"
+            html += "<div class=\"subsection-body with-border \">"
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
@@ -507,10 +539,10 @@ function generateLanguages(elements) {
 $("div.section-content").on("click", "div.chevron", function() {
 
     let bodyElem = $(this).parent().find("div.subsection-body");
-    console.log(bodyElem);
 
     if (bodyElem.length) { // if exists
-        bodyElem.toggleClass("open");
+        // bodyElem.toggleClass("open");
+        bodyElem.slideToggle();
         $(this).toggleClass("right").toggleClass("down");
     }
 
@@ -565,12 +597,16 @@ function sortByDate(list) {
 
 // iterate through all subtitles. if the overall object contains a chevron, then change its subtitle cursor to a pointer.
 function addCursorsToSubtitles() {
-    $("p.subtitle").each(function(i, subtitle) {
 
-        let subsectionParent = $(subtitle).parent().parent().parent();
+    $("div.subsection-container").each(function(i, container) {
 
-        if (subsectionParent.find(".chevron.right").length || subsectionParent.find(".chevron.down").length) {
-            $(subtitle).css("cursor", "pointer");
+        if ($(container).find("div.subsection-body").length) {
+            $(container).find("p.subtitle").css("cursor", "pointer");
+        }
+
+        if (!($(container).hasClass("first"))) {
+            ($(container)).find(".chevron").click();
         }
     });
+
 }

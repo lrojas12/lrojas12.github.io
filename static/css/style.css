@@ -150,7 +150,9 @@ div.chevron {
 /* doesn't work on firefox */
 /* div.chevron img:hover { cursor: pointer; } */
 
-div.chevron:hover { cursor: pointer; }
+div.chevron.right:hover,
+div.chevron.down:hover
+{ cursor: pointer; }
 
 /* doesn't work on firefox */
 /* div.chevron.right > img {
@@ -176,12 +178,12 @@ div.chevron.down {
 div.subsection-header p.date { float: right; }
 
 div.subsection-body {
-    display: none !important;
+    /* display: none !important; */
     margin-top: 17px;
 }
 
 div.subsection-body.open {
-    display: block !important;
+    /* display: block !important; */
 }
 
 div.subsection-body.with-border {
