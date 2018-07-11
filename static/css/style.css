@@ -74,7 +74,7 @@ img.contact-icon {
 div.see-more-icon {
     width: 15px;
     height: 15px;
-    margin: 3px 0 0 10px;
+    margin: 3px 10px 0 10px;
     float: left;
     background-image: url("../img/github-icon-blue.png");
     background-size: cover;
