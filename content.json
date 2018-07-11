@@ -162,7 +162,7 @@
     ],
     "projects": [
         {
-            "name": "Automatic Bug Localization in Java Concurrent Programs",
+            "name": "Automated Bug Localization in Multithreaded Programs",
             "url": "",
             "startdate": "April 2018",
             "enddate": "Present",
@@ -258,8 +258,9 @@
             "event": "<a target=\"_blank\" href=\"https://www-01.ibm.com/ibm/cas/cascon\">CASCON</a> Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering",
             "url": "",
             "location": "Markham, ON, Canada",
-            "description": "<a href=\"./static/img/threaded-paws-poster.pdf\" target=\"_blank\">See poster</a>",
-            "images": []
+            "description": "",
+            "images": [],
+            "pdfpath": "./static/pdf/Threaded Paws.pdf"
         },
         {
             "title": "Threaded Paws: A Serious Game for Learning Concurrency",
@@ -269,7 +270,8 @@
             "url": "https://www.ecampusontario.ca/technology-enabled-seminar-showcase/",
             "location": "Toronto, ON, Canada",
             "description": "",
-            "images": []
+            "images": [],
+            "pdfpath": ""
         }
     ],
     "extracurricularactivities": [

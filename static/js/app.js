@@ -85,7 +85,7 @@ $(document).ready(function() {
         // ---------- populate posters and exhibits section ----------
         let exhibitsList = [];
         data.postersexhibits.forEach(function(elem, i) {
-            let exhibitElem = new Exhibit(elem.title, elem.authors, elem.event, elem.url, elem.location, elem.date, elem.description, elem.images);
+            let exhibitElem = new Exhibit(elem.title, elem.authors, elem.event, elem.url, elem.location, elem.date, elem.description, elem.images, elem.pdfpath);
             exhibitsList.push(exhibitElem);
         });
         let exhibitsHtml = generateExhibits(exhibitsList);
@@ -300,10 +300,10 @@ function generateProjects(elements) {
 
         html += "</div>" +
                 "<div class=\"subsection\">" +
-                "<div class=\"subsection-header\">";
+                "<div class=\"subsection-header\">" +
+                "<p class=\"subtitle\">" + element.name + "</p>";
 
-        if (element.url) { html += "<p class=\"subtitle\"><a target=\"_blank\" href=\"" + element.url + "\">" + element.name + "</a></p>"; }
-        else { html += "<p class=\"subtitle\">" + element.name + "</p>" }
+        if (element.url) { html += "<div class=\"see-more-icon github\"><a target=\"_blank\" href=\"" + element.url + "\" title=\"See project on GitHub\"></a></div>"; }
 
         if (element.enddate) { html += "<p class=\"date\">" + element.startdate + " - " + element.enddate + "</p>" + "<p>"; }
         else { html += "<p class=\"date\">" + element.startdate + "</p>" + "<p>"; }
@@ -362,8 +362,12 @@ function generateExhibits(elements) {
         html += "</div>" +
                 "<div class=\"subsection\">" +
                 "<div class=\"subsection-header\">" +
-                "<p class=\"subtitle\">" + element.title + "</p>" +
-                "<p class=\"date\">" + element.startdate + "</p>";
+                "<p class=\"subtitle\">" + element.title + "</p>"
+
+        if (element.pdfpath) { html += "<div class=\"see-more-icon pdf\"><a target=\"_blank\" href=\"" + element.pdfpath + "\" title=\"See PDF file\"></a></div>"}
+        if (element.pdfpath) {console.log(element.pdfpath)}
+
+        html += "<p class=\"date\">" + element.startdate + "</p>";
 
         if (element.authors.length) {
             html += "<br><p>"

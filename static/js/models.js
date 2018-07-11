@@ -55,7 +55,7 @@ class Project {
 };
 
 class Exhibit {
-    constructor(title, authors, eevent, url, location, date, description, images) {
+    constructor(title, authors, eevent, url, location, date, description, images, pdfpath) {
         this.title = title;
         this.authors = authors;
         this.event = eevent;
@@ -64,6 +64,7 @@ class Exhibit {
         this.startdate = date;
         this.description = description;
         this.images = images;
+        this.pdfpath = pdfpath;
     }
 };
 

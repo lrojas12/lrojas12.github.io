@@ -71,6 +71,38 @@ img.contact-icon {
     margin-right: 5px;
 }
 
+div.see-more-icon {
+    width: 15px;
+    height: 15px;
+    margin: 3px 0 0 10px;
+    float: left;
+    background-image: url("../img/github-icon-blue.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+div.see-more-icon.pdf {
+    background-image: url("../img/pdf-icon-blue.png");
+}
+
+div.see-more-icon.pdf:hover {
+    background-image: url("../img/pdf-icon-black.png");
+}
+
+div.see-more-icon.github {
+    background-image: url("../img/github-icon-blue.png");
+}
+
+div.see-more-icon.github:hover {
+    background-image: url("../img/github-icon.png");
+}
+
+div.see-more-icon a {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
 div.section p.title {
     text-transform: uppercase;
     /* color: #F18F01; */
@@ -109,7 +141,7 @@ div.section { margin: 0 0 10px 0; }
 
 div.chevron {
     height: 10px;
-    float:left;
+    float: left;
     margin: 5px 10px 10px 0;
     width: 10px;
 }
@@ -169,7 +201,7 @@ div.subsection {
     width: 95%;
 }
 
-div.subsection img {
+div.subsection-body img {
     max-width: 45%;
     /* min-width: 350px; */
     max-height: 300px;
