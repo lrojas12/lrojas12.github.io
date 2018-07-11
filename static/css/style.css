@@ -15,7 +15,7 @@ a:hover {
     color: black;
 }
 
-hr { border-top-color: lightgrey; }
+hr { border-top-color: gainsboro; }
 * { font-size: 1em; }
 
 p, ul {
@@ -177,7 +177,15 @@ div.chevron.down {
 }
 
 div.subsection-header p.date { float: right; }
-div.subsection-body { margin-top: 17px; }
+
+div.subsection-body {
+    margin-top: 17px;
+}
+
+div.subsection-body.with-border {
+    padding-left: 20px;
+    border-left: 1px dashed gainsboro;
+}
 
 p.course {
     background-color: #E3E7E8;

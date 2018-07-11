@@ -154,8 +154,8 @@ function generateEducation(elements, i) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && ((element.courses.length > 0) || (element.description))) { html += "<div class=\"subsection-body\">"; }
-        else if ((element.courses.length > 0) || (element.description)) { html += "<div class=\"subsection-body\" style=\"display:none;\">"; }
+        if ((i === 0) && ((element.courses.length > 0) || (element.description))) { html += "<div class=\"subsection-body with-border\">"; }
+        else if ((element.courses.length > 0) || (element.description)) { html += "<div class=\"subsection-body with-border\" style=\"display:none;\">"; }
         else { html += "<div>" }
 
         if (element.description) { html += "<p>" + element.description + "</p>"; }
@@ -202,8 +202,8 @@ function generateAwards(elements, i) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body\">"+ "<p>" + element.description + "</p>" + "</div>"; }
-        else if (element.description) { html += "<div class=\"subsection-body\" style=\"display:none;\">" + "<p>" + element.description + "</p>" + "</div>"; }
+        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body with-border\">"+ "<p>" + element.description + "</p>" + "</div>"; }
+        else if (element.description) { html += "<div class=\"subsection-body with-border\" style=\"display:none;\">" + "<p>" + element.description + "</p>" + "</div>"; }
 
         html += "</div></div>";
         finalHtml += html;
@@ -277,8 +277,8 @@ function generateWork(elements) {
         html += "</p>" + "</div>";
 
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
-        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body\">"+ "<p>" + element.description + "</p>" + "</div>"; }
-        else if (element.description) { html += "<div class=\"subsection-body\" style=\"display:none;\">" + "<p>" + element.description + "</p>" + "</div>"; }
+        if ((i === 0) && (element.description)) { html += "<div class=\"subsection-body with-border\">"+ "<p>" + element.description + "</p>" + "</div>"; }
+        else if (element.description) { html += "<div class=\"subsection-body with-border\" style=\"display:none;\">" + "<p>" + element.description + "</p>" + "</div>"; }
 
         html += "</div></div>";
         finalHtml += html;
@@ -313,7 +313,7 @@ function generateProjects(elements) {
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && ((element.description) || (element.images.length > 0))) {
 
-            html += "<div class=\"subsection-body\">";
+            html += "<div class=\"subsection-body with-border\">";
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
@@ -327,7 +327,7 @@ function generateProjects(elements) {
             html += "</div>";
 
         } else if (element.description || element.images.length > 0) {
-            html += "<div class=\"subsection-body\" style=\"display:none;\">";
+            html += "<div class=\"subsection-body with-border\" style=\"display:none;\">";
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
@@ -380,7 +380,7 @@ function generateExhibits(elements) {
 
         // add body
         if ((i === 0) && (element.description || element.event || element.location)) {
-            html += "<div class=\"subsection-body\">";
+            html += "<div class=\"subsection-body with-border\">";
             if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
             else { html += "<p><i>" + element.event + "</i></p>"}
             if (element.location) { html += "<br><p>" + element.location + "</p>"; }
@@ -388,7 +388,7 @@ function generateExhibits(elements) {
             html += "</div>";
         }
         else if (element.description || element.event || element.location) {
-            html += "<div class=\"subsection-body\" style=\"display:none;\">";
+            html += "<div class=\"subsection-body with-border\" style=\"display:none;\">";
             if (element.url) { html += "<p><i><a target=\"_blank\" href=\"" + element.url + "\">" + element.event + "</a></i></p>"; }
             else { html += "<p><i>" + element.event + "</i></p>"}
             if (element.location) { html += "<br><p>" + element.location + "</p>"; }
@@ -436,7 +436,7 @@ function generateExtracurricularVolunteer(elements) {
         // to avoid odd spaces after an empty subsection body. a body should contain a description, courses, or both
         if ((i === 0) && ((element.description) || (element.images.length > 0))) {
 
-            html += "<div class=\"subsection-body\">"
+            html += "<div class=\"subsection-body with-border\">"
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
@@ -451,7 +451,7 @@ function generateExtracurricularVolunteer(elements) {
 
         } else if (element.description) {
 
-            html += "<div class=\"subsection-body\" style=\"display:none;\">"
+            html += "<div class=\"subsection-body with-border\" style=\"display:none;\">"
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
             }
