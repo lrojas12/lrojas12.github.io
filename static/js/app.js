@@ -2,6 +2,11 @@ $(document).ready(function() {
     let resumeContent = "content.json";
     $.getJSON(resumeContent, function(data) {
 
+        // if (!data.name) {
+        //     throw "A name is required in the 'content' JSON file."
+        //     return;
+        // }
+
         // page/tag title
         $("title").html(data.name);
 
