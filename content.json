@@ -332,6 +332,16 @@
     ],
     "volunteerwork": [
         {
+            "role": "Directional Guide",
+            "organization": "University of Ontario Institute of Technology",
+            "url": "https://studentlife.uoit.ca/student-experience-centre/first-year-experience-/orientation/ask-me.php",
+            "event": {"name": "ASKMe@UOIT", "url": "https://studentlife.uoit.ca/student-experience-centre/first-year-experience-/orientation/ask-me.php"},
+            "startdate": "September 2018",
+            "enddate": "",
+            "description": "Provide directory to campus services, events, and landmarks for incoming and returning students, as well as assisting which general navigation of the services.",
+            "images": []
+        },
+        {
             "role": "Logistics Volunteer",
             "organization": "University of Ontario Institute of Technology",
             "url": "https://uoit.ca",
