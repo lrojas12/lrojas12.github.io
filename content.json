@@ -242,32 +242,32 @@
     ],
     "postersexhibits": [
         {
-            "title": "FLASH: Multithreaded Fault Localization",
+            "title": "C-FLASH: Concurrency Faults Localized Automatically using Search Heuristics",
             "date": "November 2018",
             "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury"],
-            "event": "CASCON Technology Expo. 28th Annual International Conference on Computer Science and Software Engineering",
+            "event": "<a target=\"_blank\" href=\"https://www-01.ibm.com/ibm/cas/cascon/\">CASCON Technology Expo. 28th Annual International Conference on Computer Science and Software Engineering</a>",
             "url": "",
             "location": "Markham, ON, Canada",
             "description": "",
             "images": [],
-            "pdfpath": ""
+            "pdfpath": "./static/pdf/C-FLASH.pdf"
         },
         {
-            "title": "FLASH: Multithreaded Fault Localization",
+            "title": "C-FLASH: Concurrency Faults Localized Automatically using Search Heuristics",
             "date": "November 2018",
             "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury"],
-            "event": "<a target=\"_blank\" href=\"http://www.cser.ca/2018f/\">CSER</a> 8th Biannual Consortiumfor Software Engineering Research",
+            "event": "<a target=\"_blank\" href=\"http://www.cser.ca/2018f/\">CSER 8th Biannual Consortium for Software Engineering Research</a>",
             "url": "",
             "location": "Markham, ON, Canada",
             "description": "",
             "images": [],
-            "pdfpath": ""
+            "pdfpath": "./static/pdf/C-FLASH.pdf"
         },
         {
             "title": "Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming",
             "date": "November 2017",
             "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
-            "event": "CASCON Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering",
+            "event": "<a target=\"_blank\" href=\"https://www-01.ibm.com/ibm/cas/cascon/\">CASCON Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering</a>",
             "url": "",
             "location": "Markham, ON, Canada",
             "description": "",
@@ -277,7 +277,7 @@
         {
             "title": "Threaded Paws: A Serious Game for Learning Concurrency",
             "date": "November 2017",
-            "authors": ["Luisa Rojas Garcia"],
+            "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
             "event": "eCampus Ontario Technology Enabled Seminar + Showcase (TESS)",
             "url": "https://www.ecampusontario.ca/technology-enabled-seminar-showcase/",
             "location": "Toronto, ON, Canada",
