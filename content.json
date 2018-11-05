@@ -177,7 +177,7 @@
         },
         {
             "name": "Mentor-Mentee Matching System",
-            "url": "",
+            "url": "https://github.com/lrogar/student-matching",
             "startdate": "February 2018",
             "enddate": "Present",
             "description": "UOIT has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year.<br><br>Previously, the student matching was done manually by faculty staff, which was reasonable given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
