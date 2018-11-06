@@ -27,7 +27,7 @@ p, ul {
 
 div#content {
     max-width: 75%;
-    margin: 0 auto 80px auto;
+    margin: 80px auto 80px auto;
 }
 
 /* --------------- CUSTOM IDS AND CLASSES --------------- */
@@ -36,12 +36,15 @@ div#header { text-align: center; }
 
 div#header p#name {
     /* color: #000000; */
-    font-size: 8em;
-    font-weight: 100;
-    margin-bottom: -40px;
-    margin-top: 0px;
-    color: #EF476F;
-    font-family: "Monday Bay";
+    font-size: 2.8em;
+    font-weight: 500;
+    /* margin-bottom: -40px; */
+    /* margin-top: 0px; */
+    /* color: #EF476F; */
+    color: #931551;
+    /* font-family: "Monday Bay"; */
+    font-family: "Helvetica Nue", sans-serif;
+    text-transform: uppercase;
 }
 
 div#header div#contact div {
@@ -107,7 +110,8 @@ div.section p.title {
     text-transform: uppercase;
     /* color: #F18F01; */
     /* color: #FF006B; */
-    color: #EF476F;
+    /* color: #EF476F; */
+    color: #931551;
     font-size: 0.85em;
     font-weight: 600;
     padding-right: 10px;

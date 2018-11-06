@@ -609,9 +609,13 @@ function addCursorsToSubtitles() {
             $(container).find("p.subtitle").css("cursor", "pointer");
         }
 
-        if (!($(container).hasClass("first"))) {
-            ($(container)).find(".chevron").click();
-        }
+        // close all but the first in each list
+        // if (!($(container).hasClass("first"))) {
+        //     ($(container)).find(".chevron").click();
+        // }
+
+        // close all
+        ($(container)).find(".chevron").click();
     });
 
 }
