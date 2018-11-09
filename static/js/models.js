@@ -22,11 +22,9 @@ class Award {
 };
 
 class Skill {
-    constructor(skill, level) {
+    constructor(skill, frameworks) {
         this.skill = skill;
-        if (level > 3) { this.level = 3; }
-        else if (level < 1) { this.level = 1 }
-        else { this.level = level; }
+        this.frameworks = frameworks;
     }
 };
 
@@ -44,12 +42,13 @@ class Work {
 };
 
 class Project {
-    constructor(name, url, startdate, enddate, description, images) {
+    constructor(name, url, startdate, enddate, description, technologies, images) {
         this.name = name;
         this.url = url;
         this.startdate = startdate;
         this.enddate = enddate;
         this.description = description;
+        this.technologies = technologies;
         this.images = images;
     }
 };
@@ -84,8 +83,10 @@ class ExtracurricularVolunteer {
 class Language {
     constructor(language, level) {
         this.language = language;
-        if (level > 3) { this.level = 3; }
+
+        // checking that the level entered is within range [1-4]
+        if (level > 4) { this.level = 4; }
         else if (level < 1) { this.level = 1 }
-        else { this.level = level; }
+        else { this.level = parseInt(level); }
     }
 };

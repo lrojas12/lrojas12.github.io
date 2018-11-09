@@ -1,17 +1,19 @@
 $(document).ready(function() {
     let resumeContent = "content.json";
-    $.getJSON(resumeContent, function(data) {
 
-        // if (!data.name) {
-        //     throw "A name is required in the 'content' JSON file."
-        //     return;
-        // }
+    $.getJSON(resumeContent, function(data) {
 
         // page/tag title
         $("title").html(data.name);
 
         // page header: full name
         $("#header p#name").append(data.name);
+
+        if (data.currentposition) { $("div#currentposition").append("<p>" + data.currentposition + "</p>"); }
+        else { $("div#currentposition").remove(); }
+
+        if (data.resumepdf) { $("div#download-pdf-button a").prop("href", data.resumepdf); }
+        else { $("div#download-pdf-button").remove(); }
 
         if (data.phone) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/phone-icon.png\"></div><div><p>" + data.phone + "</p></div>"); }
         if (data.email) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/email-icon.png\" style=\"margin-top:5px;\"></div><div><p><a href=\"mailto:" + data.email + "\"" + ">" + data.email + "</a></p></div>"); }
@@ -21,26 +23,6 @@ $(document).ready(function() {
         if (data.linkedin) { $("div#contact").append("<div><img class=\"contact-icon\" src=\"./static/img/linkedin-icon.png\"></div><div><p><a target=\"_blank\" href=\"https://linkedin.com/in/" + data.linkedin + "\"" + ">" + data.linkedin + "</a></p></div>"); }
 
         if (data.summary) { $("div#summary").html("<p>" + data.summary + "</p>"); }
-
-        // plug-in counts for each section
-        if (data.education.length) { $("#sections #education-section count").html(data.education.length); }
-        else { $("#sections #education-section").remove(); }
-        if (data.honoursawards.length) { $("#sections #honours-awards-section count").html(data.honoursawards.length); }
-        else { $("#sections #honours-awards-section").remove(); }
-        if (data.skills.length) { $("#sections #skills-section count").html(data.skills.length); }
-        else { $("#sections #skills-section").remove(); }
-        if (data.workexperience.length) { $("#sections #work-experience-section count").html(data.workexperience.length); }
-        else { $("#sections #work-experience-section").remove(); }
-        if (data.projects.length) { $("#sections #projects-section count").html(data.projects.length); }
-        else { $("#sections #projects-section").remove(); }
-        if (data.postersexhibits.length) { $("#sections #posters-exhibits-section count").html(data.postersexhibits.length); }
-        else { $("#sections #posters-exhibits-section").remove(); }
-        if (data.extracurricularactivities.length) { $("#sections #extracurricular-activities-section count").html(data.extracurricularactivities.length); }
-        else { $("#sections #extracurricular-activities-section").remove(); }
-        if (data.volunteerwork.length) { $("#sections #volunteer-work-section count").html(data.volunteerwork.length);  }
-        else { $("#sections #volunteer-work-section").remove(); }
-        if (data.languages.length) { $("#sections #languages-section count").html(data.languages.length); }
-        else { $("#sections #languages-section").remove(); }
 
         // ---------- populate education section ----------
         let educationList = [];
@@ -63,7 +45,7 @@ $(document).ready(function() {
         // ---------- populate skills section ----------
         let skillsList = [];
         data.skills.forEach(function(elem, i) {
-            let skillElem = new Skill(elem.skill, elem.level);
+            let skillElem = new Skill(elem.skill, elem.frameworks);
             skillsList.push(skillElem);
         });
         let skillsHtml = generateSkills(skillsList);
@@ -81,7 +63,7 @@ $(document).ready(function() {
         // ---------- populate projects section ----------
         let projectsList = [];
         data.projects.forEach(function(elem, i) {
-            let projectElem = new Project(elem.name, elem.url, elem.startdate, elem.enddate, elem.description, elem.images);
+            let projectElem = new Project(elem.name, elem.url, elem.startdate, elem.enddate, elem.description, elem.technologies, elem.images);
             projectsList.push(projectElem);
         });
         let projectsHtml = generateProjects(projectsList);
@@ -123,6 +105,9 @@ $(document).ready(function() {
         let languagesHtml = generateLanguages(languagesList);
         $("div#languages-section").find("div.section-content").html(languagesHtml);
 
+        // ---------- last-updated date ----------
+        $("p#last-update-date").append(data.lastupdatedate);
+
         addCursorsToSubtitles();
     });
 });
@@ -153,10 +138,10 @@ function generateEducation(elements, i) {
                 "<div class=\"subsection\">" +
                 "<div class=\"subsection-header\">";
 
-        if (element.field) { html += "<p class=\"subtitle\">" + element.degree + " in " + element.field + "</p>"; }
+        if (element.field) { html += "<p class=\"subtitle\">" + element.degree + " " + element.field + "</p>"; }
         else { html += "<p class=\"subtitle\">" + element.degree + "</p>"; }
 
-        html += "<p class=\"date\">" + element.startdate + " - " + element.enddate + "</p><br>" + "<p>";
+        html += "<p class=\"date\">" + element.startdate + " - " + element.enddate + "</p><br>" + "<p class=\"subsubtitle\">";
 
         if (element.url) { html += "<a target=\"_blank\" href=\"" + element.url + "\">" + element.school + "</a>"; }
         else { html += element.school }
@@ -172,7 +157,7 @@ function generateEducation(elements, i) {
 
         if (element.courses.length > 0) {
             html += "<div class=\"courses\">";
-            for (course of element.courses) { html += "<p class=\"course\">" + course.code + " - " + course.name + "</p>"; }
+            for (course of element.courses) { html += "<p class=\"course-or-tech\">" + course.code + " - " + course.name + "</p>"; }
             html += "</div></div>";
         }
 
@@ -212,7 +197,7 @@ function generateAwards(elements, i) {
                 "<div class=\"subsection-header\">" +
                 "<p class=\"subtitle\">" + element.title + "</p>" +
                 "<p class=\"date\">" + element.startdate + "</p><br>" +
-                "<p>";
+                "<p class=\"subsubtitle\">";
 
         if (element.url) { html += "<a target=\"_blank\" href=\"" + element.url + "\">" + element.issuer + "</a>"; }
         else { html += element.issuer }
@@ -229,44 +214,79 @@ function generateAwards(elements, i) {
     return finalHtml;
 }
 
+// Old function
+// function generateSkills(elements) {
+//
+//     let lvl1 = []; let lvl2 = []; let lvl3 = [];
+//
+//     elements.forEach(function(elem, i) {
+//         if (elem.level == 1) { lvl1.push(elem); }
+//         else if (elem.level == 2) { lvl2.push(elem); }
+//         else if (elem.level == 3) { lvl3.push(elem); }
+//     });
+//
+//     let finalHtml = "";
+//     if ((lvl1.length > 0) || (lvl2.length > 0) || (lvl3.length > 0)) {
+//
+//         // level 1 skills
+//         if (lvl1.length > 0) {
+//             finalHtml += "<div class=\"subsection\">" + "<p>Beginner</p>" + "<div class=\"level-bar\">" + "<div class=\"bar-fill b\"></div>" +
+//                                 "</div>" + "<div class=\"subsection-body\">"
+//             lvl1.forEach(function(elem, i) { finalHtml += "<p class=\"course-or-tech\">" + elem.skill + "</p>" });
+//             finalHtml += "</div></div>"
+//         }
+//
+//         // level 2 skills
+//         if (lvl2.length > 0) {
+//             finalHtml += "<div class=\"subsection\">" + "<p>Intermediate</p>" + "<div class=\"level-bar\">" + "<div class=\"bar-fill i\"></div>" +
+//                                 "</div>" + "<div class=\"subsection-body\">"
+//             lvl2.forEach(function(elem, i) { finalHtml += "<p class=\"course-or-tech\">" + elem.skill + "</p>" });
+//             finalHtml += "</div></div>"
+//         }
+//
+//         // level 3 skills
+//         if (lvl3.length > 0) {
+//             finalHtml += "<div class=\"subsection\">" + "<p>Advanced</p>" + "<div class=\"level-bar\">" + "<div class=\"bar-fill a\"></div>" +
+//                             "</div>" + "<div class=\"subsection-body\">"
+//             lvl3.forEach(function(elem, i) { finalHtml += "<p class=\"course-or-tech\">" + elem.skill + "</p>" });
+//             finalHtml += "</div></div>"
+//         }
+//         finalHtml += "</div>"
+//     }
+//     return finalHtml;
+// }
+
 function generateSkills(elements) {
 
-    let lvl1 = []; let lvl2 = []; let lvl3 = [];
-
-    elements.forEach(function(elem, i) {
-        if (elem.level == 1) { lvl1.push(elem); }
-        else if (elem.level == 2) { lvl2.push(elem); }
-        else if (elem.level == 3) { lvl3.push(elem); }
+    // sort alphabetically
+    elements.sort(function(a, b) {
+        if ((a.skill) > (b.skill)) { return 1; }
+        if ((a.skill) < (b.skill)) { return -1; }
+        return 0;
     });
 
-    let finalHtml = "";
-    if ((lvl1.length > 0) || (lvl2.length > 0) || (lvl3.length > 0)) {
+    console.log(elements);
 
-        // level 1 skills
-        if (lvl1.length > 0) {
-            finalHtml += "<div class=\"subsection\">" + "<p>Beginner</p>" + "<div class=\"level-bar\">" + "<div class=\"bar-fill b\"></div>" +
-                                "</div>" + "<div class=\"subsection-body\">"
-            lvl1.forEach(function(elem, i) { finalHtml += "<p class=\"course\">" + elem.skill + "</p>" });
-            finalHtml += "</div></div>"
-        }
+    let finalHtml = "<ul>";
+    for (element of elements) {
+        finalHtml += "<li>" + element.skill;
 
-        // level 2 skills
-        if (lvl2.length > 0) {
-            finalHtml += "<div class=\"subsection\">" + "<p>Intermediate</p>" + "<div class=\"level-bar\">" + "<div class=\"bar-fill i\"></div>" +
-                                "</div>" + "<div class=\"subsection-body\">"
-            lvl2.forEach(function(elem, i) { finalHtml += "<p class=\"course\">" + elem.skill + "</p>" });
-            finalHtml += "</div></div>"
-        }
+        if (element.frameworks.length > 0) {
+            finalHtml += " <p style=\"color: #AEAAAA;\">(";
 
-        // level 3 skills
-        if (lvl3.length > 0) {
-            finalHtml += "<div class=\"subsection\">" + "<p>Advanced</p>" + "<div class=\"level-bar\">" + "<div class=\"bar-fill a\"></div>" +
-                            "</div>" + "<div class=\"subsection-body\">"
-            lvl3.forEach(function(elem, i) { finalHtml += "<p class=\"course\">" + elem.skill + "</p>" });
-            finalHtml += "</div></div>"
+            element.frameworks.forEach(function(framework, index) {
+                finalHtml += framework
+                if (index !== (element.frameworks.length-1)) {
+                    finalHtml += ", "
+                }
+            });
+
+            finalHtml += ")</p>"
         }
-        finalHtml += "</div>"
+        finalHtml += "</li>"
     }
+    finalHtml += "</ul>";
+
     return finalHtml;
 }
 
@@ -294,7 +314,7 @@ function generateWork(elements) {
                 "<div class=\"subsection-header\">" +
                 "<p class=\"subtitle\">" + element.position + "</p>" +
                 "<p class=\"date\">" + element.startdate + " - " + element.enddate + "</p><br>" +
-                "<p>";
+                "<p class=\"subsubtitle\">";
 
         if (element.url) { html += "<a target=\"_blank\" href=\"" + element.url + "\">" + element.company + "</a>"; }
         else { html += element.company }
@@ -348,7 +368,23 @@ function generateProjects(elements) {
             html += "<div class=\"subsection-body with-border \">";
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
+
+                // only check for technologies if there is a description included
+                if (element.technologies.length > 0) {
+
+                    html += "<div class=\"technologies-wrapper\">"
+
+                    // sort them alphabetically
+                    element.technologies.sort();
+
+                    // add them to the DOM
+                    for (tech of element.technologies) {
+                        html += "<p class=\"course-or-tech\">" + tech + "</p>"
+                    }
+                    html += "</div>"
+                }
             }
+
             if (element.images.length > 0) {
                 html += "<center>"
                 for (imagefile of element.images) {
@@ -362,13 +398,28 @@ function generateProjects(elements) {
             html += "<div class=\"subsection-body with-border\">";
             if (element.description) {
                 html += "<p>" + element.description + "</p>"
+
+                // only include the technologies and languages used if there is also a description
+                if (element.technologies.length > 0) {
+
+                    html += "<div class=\"technologies-wrapper\">"
+
+                    // sort them alphabetically
+                    element.technologies.sort();
+
+                    for (tech of element.technologies) {
+                        html += "<p class=\"course-or-tech\">" + tech + "</p>"
+                    }
+                    html += "</div>"
+                }
             }
+
             if (element.images.length > 0) {
-                html += "<center>"
+                html += "<div class=\"project-images\"><center>"
                 for (imagefile of element.images) {
                     html += "<img src=\"static/img/" + imagefile + "\"></img>";
                 }
-                html += "</center>"
+                html += "</center></div>"
             }
             html += "</div>";
         }
@@ -465,11 +516,11 @@ function generateExtracurricularVolunteer(elements) {
         else { html += "<p class=\"date\">" + element.startdate + "</p><br>"; }
 
         if (element.event.name) {
-            if (element.event.url) { html +=  "<p><i><a target=\"_blank\" href=\"" + element.event.url + "\">" + element.event.name + "</a></i></p><br>"; }
-            else { html +=  "<i><p>" + element.event.name + "</p></i><br>"; }
+            if (element.event.url) { html +=  "<p><a target=\"_blank\" href=\"" + element.event.url + "\">" + element.event.name + "</a></p><br>"; }
+            else { html +=  "<p>" + element.event.name + "</p><br>"; }
         }
 
-        html += "<p>";
+        html += "<p class=\"subsubtitle\">";
 
         if (element.url) { html += "<a target=\"_blank\" href=\"" + element.url + "\">" + element.organization + "</a>"; }
         else { html += element.organization }
@@ -514,28 +565,71 @@ function generateExtracurricularVolunteer(elements) {
     return finalHtml;
 }
 
+// Old version
+// function generateLanguages(elements) {
+//
+//     // sort alphabetically
+//     elements.sort(function(a, b) {
+//         if ((a.language) > (b.language)) { return 1; }
+//         if ((a.language) < (b.language)) { return -1; }
+//         return 0;
+//     });
+//
+//     let finalHtml = "";
+//     for (element of elements) {
+//
+//         let html = "<div class=\"subsection\">" +
+//                     "<p><b>" + element.language + "</b></p>";
+//
+//         if (element.level == 1) { html += " <p>(<i>Basic</i>)</p><div class=\"level-bar\"><div class=\"bar-fill b\"></div></div>"; }
+//         else if (element.level == 2) { html += " <p>(<i>Intermediate</i>)</p><div class=\"level-bar\"><div class=\"bar-fill i\"></div></div>"; }
+//         else if (element.level == 3) { html += " <p>(<i>Fluent</i>)</p><div class=\"level-bar\"><div class=\"bar-fill a\"></div></div>"; }
+//
+//         html += "</div>"
+//         finalHtml += html;
+//     }
+//
+//     return finalHtml;
+// }
+
 function generateLanguages(elements) {
 
-    // sort alphabetically
+    let finalHtml = "<p>";
+
+    // sort by level
     elements.sort(function(a, b) {
-        if ((a.language) > (b.language)) { return 1; }
-        if ((a.language) < (b.language)) { return -1; }
+        if ((a.level) > (b.level)) { return -1; }
+        if ((a.level) < (b.level)) { return 1; }
         return 0;
     });
 
-    let finalHtml = "";
-    for (element of elements) {
+    elements.forEach(function(element, index) {
 
-        let html = "<div class=\"subsection\">" +
-                    "<p><b>" + element.language + "</b></p>";
+        let languageLevel = ""
 
-        if (element.level == 1) { html += " <p>(<i>Basic</i>)</p><div class=\"level-bar\"><div class=\"bar-fill b\"></div></div>"; }
-        else if (element.level == 2) { html += " <p>(<i>Intermediate</i>)</p><div class=\"level-bar\"><div class=\"bar-fill i\"></div></div>"; }
-        else if (element.level == 3) { html += " <p>(<i>Fluent</i>)</p><div class=\"level-bar\"><div class=\"bar-fill a\"></div></div>"; }
+        switch (element.level) {
+            case 1:
+                languageLevel = "Basic"
+                break;
+            case 2:
+                languageLevel = "Intermediate"
+                break;
+            case 3:
+                languageLevel = "Advanced"
+                break;
+            case 4:
+                languageLevel = "Mother language"
+                break;
+            default:
+                break;
+        }
 
-        html += "</div>"
-        finalHtml += html;
-    }
+        finalHtml += "<p class=\"language\">" + element.language + "</p> <p>(" + languageLevel + ")</p>";
+
+        if (index !== (elements.length - 1)) { finalHtml += ", "; }
+    });
+
+    finalHtml += "</p>";
 
     return finalHtml;
 }

@@ -1,6 +1,16 @@
 @font-face {
-    font-family: "Monday Bay";
-    src: url("../fonts/MondayBay.ttf");
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto/Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto/Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("../fonts/Roboto/Medium.ttf");
 }
 
 img {
@@ -19,7 +29,6 @@ hr { border-top-color: gainsboro; }
 * { font-size: 1em; }
 
 p, ul {
-    font-family: "Helvetica Nue", sans-serif;
     margin: 0;
     display: inline-block;
     font-weight: 100;
@@ -35,22 +44,36 @@ div#content {
 div#header { text-align: center; }
 
 div#header p#name {
-    /* color: #000000; */
     font-size: 2.8em;
-    font-weight: 500;
-    /* margin-bottom: -40px; */
-    /* margin-top: 0px; */
-    /* color: #EF476F; */
     color: #931551;
-    /* font-family: "Monday Bay"; */
-    font-family: "Helvetica Nue", sans-serif;
+    font-family: "Roboto Medium", sans-serif;
     text-transform: uppercase;
 }
+
+div#header div#currentposition p {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "Roboto Light", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: #AEAAAA;
+    margin-top: -5px;
+}
+
+div#download-pdf-button {
+    margin-top: 10px;
+}
+
+div#download-pdf-button a button {
+    padding: 3px 6px !important;
+    font-size: 12px;
+}
+
+div#header div#contact { margin-top: 40px; }
 
 div#header div#contact div {
     display: inline-block;
     vertical-align: middle;
-    /* margin: 0 10px 0 10px; */
 }
 
 div#header div#contact div img {
@@ -61,16 +84,17 @@ div#header div#contact div p {
     margin: 0 10px 0 0;
 }
 
-/* div#header div#contact p { display: inline; } */
-
 div#header div#summary {
-    margin-top: 25px;
+    margin-top: 50px;
     text-align: left !important;
+}
+
+div#sections {
+    margin-top: 25px !important;
 }
 
 img.contact-icon {
     max-width: 16px;
-    /* vertical-align: top; */
     margin-right: 5px;
 }
 
@@ -108,14 +132,10 @@ div.see-more-icon a {
 
 div.section p.title {
     text-transform: uppercase;
-    /* color: #F18F01; */
-    /* color: #FF006B; */
-    /* color: #EF476F; */
     color: #931551;
-    font-size: 0.85em;
-    font-weight: 600;
     padding-right: 10px;
     background-color: #FFFFFF;
+    font-family: "Roboto Medium", sans-serif;
 }
 
 div.level-bar {
@@ -129,11 +149,21 @@ div.level-bar div.bar-fill.b { width: 15%; background-color: #FF3B3F; }
 div.level-bar div.bar-fill.i { width: 50%; background-color: #FFCE00; }
 div.level-bar div.bar-fill.a { width: 90%; background-color: #3CC47C; }
 
-div#skills-section div.subsection, div#languages-section div.subsection {
+div#skills-section div.section-content ul li {
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+}
+
+/* div#skills-section div.subsection, div#languages-section div.subsection {
     display: inline-block;
     width: 32%;
     vertical-align: top;
     padding: 0 5px 0 5px;
+} */
+
+div#languages-section p.language {
+    font-family: "Roboto Regular", sans-serif;
 }
 
 div.section hr {
@@ -151,23 +181,9 @@ div.chevron {
     background-color: transparent;
 }
 
-/* doesn't work on firefox */
-/* div.chevron img:hover { cursor: pointer; } */
-
 div.chevron.right:hover,
 div.chevron.down:hover
 { cursor: pointer; }
-
-/* doesn't work on firefox */
-/* div.chevron.right > img {
-    content: url("../img/chevron-right.png");
-    height: inherit;
-}
-
-div.chevron.down > img {
-    content: url("../img/chevron-down.png");
-    height: inherit;
-} */
 
 div.chevron.right {
     background-image: url("../img/chevron-right.png");
@@ -182,12 +198,7 @@ div.chevron.down {
 div.subsection-header p.date { float: right; }
 
 div.subsection-body {
-    /* display: none !important; */
     margin-top: 17px;
-}
-
-div.subsection-body.open {
-    /* display: block !important; */
 }
 
 div.subsection-body.with-border {
@@ -195,20 +206,27 @@ div.subsection-body.with-border {
     border-left: 1px dashed gainsboro;
 }
 
-p.course {
-    background-color: #E3E7E8;
+div.technologies-wrapper {
+    margin-top: 10px;
+}
+
+p.course-or-tech {
+    background-color: #E7E6E6;
     margin: 3px 3px;
     padding: 3px 7px;
     font-size: 0.9em;
-    color: grey;
+    color: #767171;
 }
 
 div.courses { margin-top: 10px; }
 
 div.subsection-header p.subtitle {
-    font-weight:400 !important;
+    font-family: "Roboto Medium", sans-serif;
     float:left;
-    /* cursor: pointer; */
+}
+
+div.subsection-header p.subsubtitle {
+    font-family: "Roboto Regular", sans-serif;
 }
 
 div.subsection {
@@ -217,9 +235,12 @@ div.subsection {
     width: 95%;
 }
 
+div.project-images {
+    margin-top: 15px;
+}
+
 div.subsection-body img {
     max-width: 45%;
-    /* min-width: 350px; */
     max-height: 300px;
     margin: 10px 5px 0 5px;
 }
@@ -251,4 +272,10 @@ button.navbar-toggler {
     padding: 5px;
     margin-bottom: 10px;
     border-width: 0;
+}
+
+div#last-updated-wrapper {
+    margin-top: 30px;
+    text-align: right;
+    font-size: 0.8em;
 }

@@ -1,5 +1,7 @@
 {
-    "name": "Luisa Rojas García",
+    "name": "Luisa Rojas Garcia",
+    "currentposition": "Computer Scientist",
+    "resumepdf": "./static/pdf/Resume - Luisa Rojas Garcia.pdf",
     "logoimg": "",
     "phone": "",
     "email": "hello@luisarojas.com",
@@ -14,7 +16,7 @@
             "field": "Computer Science",
             "startdate": "September 2017",
             "enddate": "<i>August 2019 (expected)</i>",
-            "description": "",
+            "description": "Thesis research area: Automatic fault localization in multithreaded programs.",
             "courses": [
                 { "name": "Advanced Topics in Software Design", "code": "CSCI 6100G" },
                 { "name": "Machine Learning", "code": "MSCS 6230G" },
@@ -91,24 +93,17 @@
         }
     ],
     "skills": [
-        { "skill": "HTML", "level": "3" },
-        { "skill": "CSS", "level": "3" },
-        { "skill": "JavaScript", "level": "3" },
-        { "skill": "Postgres", "level": "3" },
-        { "skill": "MongoDB", "level": "3" },
-        { "skill": "C++", "level": "3" },
-        { "skill": "Java", "level": "3" },
-        { "skill": "Python", "level": "3" },
-        { "skill": "TXL", "level": "3" },
-        { "skill": "C", "level": "2" },
-        { "skill": "NodeJS", "level": "2" },
-        { "skill": "Neo4J", "level": "2" },
-        { "skill": "TensorFlow", "level": "2" },
-        { "skill": "Keras", "level": "2" },
-        { "skill": "Docker", "level": "1" },
-        { "skill": "Swift", "level": "1" },
-        { "skill": "Clojure", "level": "1" },
-        { "skill": "Scala", "level": "1" }
+        { "skill": "JavaScript", "frameworks": ["NodeJS"] },
+        { "skill": "NoSQL Databases", "frameworks": ["MongoDB"] },
+        { "skill": "Python", "frameworks": ["Flask backend"] },
+        { "skill": "Source Code Instrumentation", "frameworks": ["TXL"] },
+        { "skill": "Graph Databases", "frameworks": ["Neo4J"] },
+        { "skill": "Machine Learning", "frameworks": ["Keras, TensorFlow"] },
+        { "skill": "Relational Databases", "frameworks": ["PostgreSQL, MySQL"] },
+        { "skill": "HTML, CSS", "frameworks": [] },
+        { "skill": "C, C++", "frameworks": [] },
+        { "skill": "Java", "frameworks": [] },
+        { "skill": "Docker", "frameworks": [] }
     ],
     "workexperience": [
         {
@@ -173,6 +168,7 @@
             "startdate": "April 2018",
             "enddate": "Present",
             "description": "Automatic fault localization tool for multithreaded Java programs. It utilizes a combination of code injection and a heuristic search algorithm to identify high probability code blocks. This is done by using a noising approach and source code transformations using <a target=\"_blank\" href=\"http://txl.ca/\">TXL</a>.",
+            "technologies": ["Docker", "Java", "Python", "TXL"],
             "images": []
         },
         {
@@ -181,6 +177,7 @@
             "startdate": "February 2018",
             "enddate": "Present",
             "description": "UOIT has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year.<br><br>Previously, the student matching was done manually by faculty staff, which was reasonable given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
+            "technologies": ["CSS", "Docker", "HTML", "JavaScript", "Neo4J", "PostgreSQL", "Python"],
             "images": ["mentor-mentee-1.png", "mentor-mentee-2.png"]
         },
         {
@@ -189,6 +186,7 @@
             "startdate": "December 2017",
             "enddate": "",
             "description": "Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures. The dataset, provided by State Farm through Kaggle, consisted of a set of images, each taken in a car where the driver is doing some action (e.g. texting, talking on the phone, drinking from a cup). To achieve this, we used various data augmentation approaches, and a Convolutional Neural Network with transfer learning from the popular (pre-trained) VGG16 model.",
+            "technologies": ["Keras", "Jupyter Notebooks", "TensorFlow", "Python"],
             "images": ["driver-predict-jupyter.gif", "driver-predict-cl.gif"]
         },
         {
@@ -197,6 +195,7 @@
             "startdate": "December 2017",
             "enddate": "",
             "description": "Using Long Short-Term Memory Networks, and a literature novel to train it, I created a network that is able to the grammatical structure of the English language. As a result, and after enough training, this model, could produce a sequence of words resembling a coherent English sentence.",
+            "technologies": ["Python", "TensorFlow", "Keras"],
             "images": ["predict-lstm.gif"]
         },
         {
@@ -205,6 +204,7 @@
             "startdate": "October 2016",
             "enddate": "October 2017",
             "description": "Designed and developed a serious game that can assist students in learning and understanding different concurrency concepts that can be problematic and hard to grasp by using a different approach.<br><br>Threaded Paws is the first serious game targeting concurrency that we are aware of. There are very few game-based tools that focus on advanced programming concepts available. That being the case, Threaded Paws could set path and serve as guide for more games focused on complex topics in Computer Science to be developed in the future.",
+            "technologies": ["C#", "Unity Game Engine"],
             "images": ["threadedpaws.png"]
         },
         {
@@ -213,6 +213,7 @@
             "startdate": "April 2017",
             "enddate": "",
             "description": "Our proposal consists on implementing and parallelizing a genetic algorithm. We generate a final solution, which the program reaches based on different generated parameters and transformations. Some of these include a fitness criterion, as well as a mutation, a migration and a cross-over process.<br><br>The parent selection and crossover processes are modified to enable parallelization and optimize execution.<br><br>Since there are multiple unknowns in the scope of the project, it is approached by implementing a serial genetic algorithm program in Python first, and then mapping it over to a serial implementation in C or Java, and finally paralleling it using pthreads/java-concurrency.<br><br>After, run times between the sequential and parallelized program(s) are compared and analyzed. The comparison also involves times between varying number of threads for the parallel version of the program.",
+            "technologies": ["C", "Python", "Java"],
             "images": ["ga-1.png", "ga-2.png", "ga-3.png"]
         },
         {
@@ -221,6 +222,7 @@
             "startdate": "October 2016",
             "enddate": "December 2016",
             "description": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device that is connected by the user to the car's DLC (Data Link Connector). It also provides a live data feed showing the current speed and throttle of the car.",
+            "technologies": ["Java", "Android Studio"],
             "images": ["dynobd.gif"]
         },
         {
@@ -229,6 +231,7 @@
             "startdate": "December 2016",
             "enddate": "",
             "description": "Web-based application that, using the popular DOT notation, generates an accurate visualization by retrieving its image using the imgur API.",
+            "technologies": ["JavaScript", "HTML", "CSS - Bootstrap"],
             "images": ["graphizzer.png"]
         },
         {
@@ -237,6 +240,7 @@
             "startdate": "April 2016",
             "enddate": "",
             "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
+            "technologies": ["Python", "Bash"],
             "images": ["apriori.png", "pcy.png"]
         }
     ],
@@ -422,7 +426,8 @@
     ],
     "languages": [
         { "language": "English", "level": "3" },
-        { "language": "French", "level": "2" },
-        { "language": "Spanish", "level": "3" }
-    ]
+        { "language": "French", "level": "1" },
+        { "language": "Spanish", "level": "4" }
+    ],
+    "lastupdatedate": "November 8th, 2018"
 }
