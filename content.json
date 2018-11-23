@@ -1,5 +1,8 @@
 {
-    "name": "Luisa Rojas García",
+    "name": {
+        "first": "Luisa",
+        "last": "Rojas García"
+    },
     "currentposition": "Computer Scientist",
     "resumepdf": "./static/pdf/Resume - Luisa Rojas Garcia.pdf",
     "logoimg": "",
@@ -292,6 +295,16 @@
     ],
     "extracurricularactivities": [
         {
+            "role": "Director of Graduate Studies, Board of Directors",
+            "organization": "UOIT Student Union",
+            "url": "https://uoitsu.ca/",
+            "event": {"name": "", "url": ""},
+            "startdate": "November 2018",
+            "enddate": "Present",
+            "description": "UOIT Student Union (UOIT SU) is incorporated as a not-for-profit under the federal Canada Not-for-Profit Corporations Act. The Board of Directors is the highest governing body of the organization comprised of students from each faculty who act as one unified voice. UOIT Student Union Board of Directors is ultimately responsible for the stewardship of the organization.",
+            "images": []
+        },
+        {
             "role": "International Student Orientation Leader (ISOL)",
             "organization": "University of Ontario Institute of Technology, Student Life",
             "url": "https://studentlife.uoit.ca/index.php",
@@ -322,7 +335,7 @@
             "images": ["local-hack-day.jpg", "local-hack-day-workshops.jpeg"]
         },
         {
-            "role": "Program Representative - Computer Science",
+            "role": "Computer Science Program Representative",
             "organization": "UOIT Graduate Student Council",
             "url": "https://uoitgsc.ca/",
             "event": {"name": "", "url": ""},

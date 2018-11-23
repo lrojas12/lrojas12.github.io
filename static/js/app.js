@@ -7,7 +7,8 @@ $(document).ready(function() {
         $("title").html(data.name);
 
         // page header: full name
-        $("#header p#name").append(data.name);
+        $("#header p#first").append(data.name.first + "&nbsp;");
+        $("#header p#last").append(data.name.last);
 
         if (data.currentposition) { $("div#currentposition").append("<p>" + data.currentposition + "</p>"); }
         else { $("div#currentposition").remove(); }

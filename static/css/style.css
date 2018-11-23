@@ -43,11 +43,15 @@ div#content {
 
 div#header { text-align: center; }
 
-div#header p#name {
+div#header p#first,  div#header p#last {
     font-size: 2.8em;
     color: #931551;
-    font-family: "Roboto Medium", sans-serif;
     text-transform: uppercase;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+div#header p#first {
+    font-family: "Roboto Light", sans-serif !important;
 }
 
 div#header div#currentposition p {
