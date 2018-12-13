@@ -4,7 +4,7 @@ $(document).ready(function() {
     $.getJSON(resumeContent, function(data) {
 
         // page/tag title
-        $("title").html(data.name);
+        $("title").html(data.name.first + " " + data.name.last);
 
         // page header: full name
         $("#header p#first").append(data.name.first + "&nbsp;");
