@@ -266,8 +266,6 @@ function generateSkills(elements) {
         return 0;
     });
 
-    console.log(elements);
-
     let finalHtml = "<ul>";
     for (element of elements) {
         finalHtml += "<li>" + element.skill;

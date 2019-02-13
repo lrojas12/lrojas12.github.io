@@ -1,4 +1,5 @@
 {
+    "lastupdatedate": "February 12, 2019",
     "name": {
         "first": "Luisa",
         "last": "Rojas García"
@@ -387,6 +388,16 @@
     ],
     "volunteerwork": [
         {
+            "role": "Panelist and Logistics Volunteer",
+            "organization": "Ontario Network of Women In Engineering",
+            "url": "http://www.onwie.ca/",
+            "event": {"name": "Go Code Girl 2019 at UOIT", "url": "https://engineering.uoit.ca/outreach/girls-programming/go-code-girl-oshawa.php"},
+            "startdate": "February 2019",
+            "enddate": "",
+            "description": "Open to girls in grades 7-11, Go Code Girl programs are designed to introduce them to the wide range of career possibilities available in the rapidly-growing fields of technology, computing and engineering.<br><br>As a panelist at this event, I was available to address the students' and parents' questions and concerns regarding my personal experience as a women in a STEM program at a post-secondary institution.",
+            "images": []
+        },
+        {
             "role": "Directional Guide",
             "organization": "University of Ontario Institute of Technology, Student Life",
             "url": "https://studentlife.uoit.ca/index.php",
@@ -441,6 +452,5 @@
         { "language": "English", "level": "3" },
         { "language": "French", "level": "1" },
         { "language": "Spanish", "level": "4" }
-    ],
-    "lastupdatedate": "December 13th, 2018"
+    ]
 }
