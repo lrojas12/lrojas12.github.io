@@ -15,7 +15,7 @@
     "education": [
         {
             "school": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "degree": "Masters (MSc.)",
             "field": "Computer Science",
             "startdate": "September 2017",
@@ -31,7 +31,7 @@
         },
         {
             "school": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "degree": "Bachelor (BSc.)",
             "field": "Computer Science",
             "startdate": "September 2013",
@@ -56,42 +56,42 @@
         {
             "title": "Dean's Graduate Scholarship",
             "issuer": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "date": "September 2018",
             "description": "Awarded to high-achieving full-time students in a research-based master's or doctoral program who maintain an average of A- (3.70/4.30) or greater."
         },
         {
             "title": "Dean's Graduate Scholarship",
             "issuer": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "date": "September 2017",
             "description": "Awarded to high-achieving full-time students entering a research-based master's or doctoral program with an average of A- (3.70/4.30) or greater."
         },
         {
             "title": "Dean's Honours List",
             "issuer": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "date": "May 2017",
             "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts."
         },
         {
             "title": "President's Honours List",
             "issuer": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "date": "August 2016",
             "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts."
         },
         {
             "title": "President's Honours List",
             "issuer": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "date": "May 2016",
             "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts."
         },
         {
             "title": "Deans's Honours List",
             "issuer": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "date": "December 2015",
             "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts."
         }
@@ -153,7 +153,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "September 2014",
             "enddate": "December 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Administrator of international students' Health Insurance Plan (UHIP) coverage.</li><li>Event planning and execution.</li><li>Helped oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the UOIT website through a CMS platform.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software.</li></ul>"
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at Ontario Tech, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Administrator of international students' Health Insurance Plan (UHIP) coverage.</li><li>Event planning and execution.</li><li>Helped oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the Ontario Tech website through a CMS platform.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software.</li></ul>"
         },
         {
             "position": "Assistant System Administrator",
@@ -162,7 +162,7 @@
             "location": "Oshawa, ON, Canada",
             "startdate": "May 2014",
             "enddate": "August 2014",
-            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at UOIT, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Helped oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the UOIT website through a CMS platform.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software.</li></ul>"
+            "description": "The International Office, within the Office of the Vice-President, Research, Innovation and International, provides overall co-ordination of internationalization at Ontario Tech, including strategic planning, faculty engagement and policy development. Operationally, the International office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Helped oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the Ontario Tech website through a CMS platform.</li><li>Design of posters and flyers for advertisement purposes utilizing various graphics software.</li></ul>"
         }
     ],
     "projects": [
@@ -180,7 +180,7 @@
             "url": "https://github.com/lrogar/student-matching",
             "startdate": "February 2018",
             "enddate": "Present",
-            "description": "UOIT has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year.<br><br>Previously, the student matching was done manually by faculty staff, which was reasonable given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
+            "description": "Ontario Tech has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year.<br><br>Previously, the student matching was done manually by faculty staff, which was reasonable given the 125 participants that partook in the program in previous years; however, as of recently, the program has grown to roughly 1,250. At this point, a more automatic process must be put in place. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
             "technologies": ["CSS", "Docker", "HTML", "JavaScript", "Neo4J", "PostgreSQL", "Python"],
             "images": ["mentor-mentee-1.png", "mentor-mentee-2.png"]
         },
@@ -302,7 +302,7 @@
             "event": {"name": "", "url": ""},
             "startdate": "November 2018",
             "enddate": "Present",
-            "description": "UOIT Student Union (UOIT SU) is incorporated as a not-for-profit under the federal Canada Not-for-Profit Corporations Act. The Board of Directors is the highest governing body of the organization comprised of students from each faculty who act as one unified voice. UOIT Student Union Board of Directors is ultimately responsible for the stewardship of the organization.",
+            "description": "UOIT Student Union (UOIT SU) is incorporated as a not-for-profit under the federal Canada Not-for-Profit Corporations Act. The Board of Directors is the highest governing body of the organization comprised of students from each faculty who act as one unified voice. The Student Union Board of Directors is ultimately responsible for the stewardship of the organization.",
             "images": []
         },
         {
@@ -327,7 +327,7 @@
         },
         {
             "role": "Mentor and Judge",
-            "organization": "<a target=\"_blank\" href=\"https://mlh.io/\">Major Leage Hacking</a> & <a target=\"_blank\" href=\"https://uoit.ca\">University of Ontario Institute of Technology</a>",
+            "organization": "<a target=\"_blank\" href=\"https://mlh.io/\">Major Leage Hacking</a> & <a target=\"_blank\" href=\"https://ontariotechu.ca\">University of Ontario Institute of Technology</a>",
             "url": "",
             "event": {"name": "Local Hack Day", "url": "https://localhackday.mlh.io"},
             "startdate": "December 2017",
@@ -342,7 +342,7 @@
             "event": {"name": "", "url": ""},
             "startdate": "September 2017",
             "enddate": "Present",
-            "description": "The Graduate Student Council (GSC) is a platform where graduate students' concerns are heard by faculty representatives. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. The GSC is a division of the Student Association at UOIT and is represented by the president on the Board of Directors for the Student Association at UOIT.<br><br>Program Representatives attend mandatory meetings with the GSC, are responsible for delivering GSC-related news and material to their program colleagues, and communicate needs and concerns of graduate students within their programs to the GSC.",
+            "description": "The Graduate Student Council (GSC) is a platform where graduate students' concerns are heard by faculty representatives. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. The GSC is a division of the Student Union at the university and is represented by the student-elected presindent and executive members.<br><br>Program Representatives attend mandatory meetings with the GSC, are responsible for delivering GSC-related news and material to their program colleagues, and communicate needs and concerns of graduate students within their programs to the GSC.",
             "images": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
         },
         {
@@ -391,10 +391,10 @@
             "role": "Panelist and Logistics Volunteer",
             "organization": "Ontario Network of Women In Engineering",
             "url": "http://www.onwie.ca/",
-            "event": {"name": "Go Code Girl 2019 at UOIT", "url": "https://engineering.uoit.ca/outreach/girls-programming/go-code-girl-oshawa.php"},
+            "event": {"name": "Go Code Girl 2019", "url": "https://engineering.uoit.ca/outreach/girls-programming/go-code-girl-oshawa.php"},
             "startdate": "February 2019",
             "enddate": "",
-            "description": "Open to girls in grades 7-11, Go Code Girl programs are designed to introduce them to the wide range of career possibilities available in the rapidly-growing fields of technology, computing and engineering.<br><br>As a panelist at this event, I was available to address the students' and parents' questions and concerns regarding my personal experience as a women in a STEM program at a post-secondary institution.",
+            "description": "Open to girls in grades 7-11, Go Code Girl programs are designed to introduce them to the wide range of career possibilities available in the rapidly-growing fields of technology, computing and engineering.<br><br>As a panelist at this event at Ontario Tech University, I was available to address the students' and parents' questions and concerns regarding my personal experience as a women in a STEM program at a post-secondary institution.",
             "images": []
         },
         {
@@ -424,23 +424,23 @@
             "event": {"name": "Open House", "url": "https://sites.uoit.ca/openhouse"},
             "startdate": "March 2018",
             "enddate": "",
-            "description": "Potential UOIT applicants, as well as their families, visit our campus to meet current students, faculty and staff; but also attend faculty information sessions, visit labs, and experience why more students are making this university their first choice.<br><br>Throughout the day, I had the opportunity to show and demo some of the projects I developed during my undergraduate studies at UOIT.",
+            "description": "Potential UOIT applicants, as well as their families, visit our campus to meet current students, faculty and staff; but also attend faculty information sessions, visit labs, and experience why more students are making this university their first choice.<br><br>Throughout the day, I had the opportunity to show and demo some of the projects I developed during my undergraduate studies at Ontario Tech.",
             "images": []
         },
         {
             "role": "General Orientation Leader",
             "organization": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "event": {"name": "International Student Orientation", "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"},
             "startdate": "September 2014",
             "enddate": "",
-            "description": "In addition to being required to attend International Student Orientation (ISO) which is a full day event, International Student Orientation Leaders (ISOLs) also undergo two days of extensive training in preparation. <br><br>Training includes sessions on culture shock, mental health, intercultural communication, academic success, and navigation in the UOIT and Canadian landscape. Training also involves developing an understanding of the UOIT system and campus services for students. ISOLs learn how to facilitate small group activities to reinforce what participants learn during orientation sessions. In addition, they lead icebreakers and bonding exercises to help participants get to know one another.",
+            "description": "In addition to being required to attend International Student Orientation (ISO) which is a full day event, International Student Orientation Leaders (ISOLs) also undergo two days of extensive training in preparation. <br><br>Training includes sessions on culture shock, mental health, intercultural communication, academic success, and navigation in the university and Canadian landscape. Training also involves developing an understanding of the Ontario Tech system and campus services for students. ISOLs learn how to facilitate small group activities to reinforce what participants learn during orientation sessions. In addition, they lead icebreakers and bonding exercises to help participants get to know one another.",
             "images": []
         },
         {
             "role": "Logistics Volunteer",
             "organization": "University of Ontario Institute of Technology",
-            "url": "https://uoit.ca",
+            "url": "https://ontariotechu.ca",
             "event": {"name": "Science Rendezvous", "url": "https://dc-uoit.ca/rendezvous/index.php"},
             "startdate": "May 2014",
             "enddate": "",
