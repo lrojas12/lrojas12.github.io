@@ -125,6 +125,10 @@ div#header div#headerWrapper div#contact a {
     color: var(--link-blue);
 }
 
+div#header div#headerWrapper div#contact a:hover {
+    text-decoration: underline;
+}
+
 div#header div#headerWrapper div#contact > div {
     display: inline;
 }
