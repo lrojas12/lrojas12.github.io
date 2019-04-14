@@ -1,0 +1,577 @@
+{
+    "lastUpdate": "February 14, 2019",
+    "about": {
+        "name": {
+            "first": "Luisa",
+            "last": "Rojas Garcia"
+        },
+        "currentPosition": "MSc Computer Science student",
+        "contact": {
+            "email": "hello@luisarojas.com",
+            "github": "luisarojas",
+            "linkedin": "luisarojasg",
+            "summary": "Enthusiastic and relentless Computer Scientist in the lookout for opportunities and good problems to solve. At the moment, particularly interested in interdisciplinary development and industry collaborations for larger projects."
+        },
+        "resumePath": "./assets/pdf/Resume-LuisaRojasGarcia.pdf"
+    },
+    "sections": {
+        "education": [
+            {
+                "icon": "ontariotech.png",
+                "institution": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "url": "https://ontariotechu.ca"
+                },
+                "date": {
+                    "start": "September 2017",
+                    "end": "<i>August 2019 (expected)</i>"
+                },
+                "degree": "Masters (MSc)",
+                "major": "Computer Science",
+                "minor": "",
+                "cgpa": "",
+                "description": "Thesis research area: Automatic fault localization in multithreaded programs.",
+                "courses": [
+                            "Advanced Topics in Software Design",
+                            "Machine Learning",
+                            "Modern Database Systems",
+                            "Survey of Computer Science Research Topics and Methods",
+                            "Collaborative Design and Research"
+                        ]
+            },
+            {
+                "icon": "ontariotech.png",
+                "institution": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "url": "https://ontariotechu.ca"
+                },
+                "date": {
+                    "start": "September 2013",
+                    "end": "April 2017"
+                },
+                "degree": "Bachelor (BSc) Honours",
+                "major": "Computer Science",
+                "minor": "",
+                "cgpa": "",
+                "description": "",
+                "courses": [
+                            "Big Data Analytics",
+                            "Compilers",
+                            "Database Systems and Concepts",
+                            "Design and Analysis of Algorithms",
+                            "Mobile Devices",
+                            "Multicore and Manycore Programming",
+                            "Operating Systems",
+                            "Software Quality Assurance",
+                            "Web Application Development",
+                            "Programming Languages",
+                            "Software Systems Development and Integration"
+                        ]
+            }
+        ],
+        "skills": [
+            { "tool": "JavaScript", "frameworks": ["jQuery", "NodeJS"] },
+            { "tool": "NoSQL Databases", "frameworks": ["MongoDB"] },
+            { "tool": "Python", "frameworks": ["Flask"] },
+            { "tool": "Source Code Instrumentation", "frameworks": ["TXL"] },
+            { "tool": "Graph Databases", "frameworks": ["Neo4J"] },
+            { "tool": "Machine Learning", "frameworks": ["Keras", "TensorFlow"] },
+            { "tool": "Relational Databases", "frameworks": ["PostgreSQL", "MySQL"] },
+            { "tool": "HTML, CSS", "frameworks": ["Bootstrap"] },
+            { "tool": "C, C++", "frameworks": [] },
+            { "tool": "Java", "frameworks": [] },
+            { "tool": "Docker", "frameworks": [] }
+        ],
+        "projects": [
+            {
+                "title": "Automatic Concurrent Bug Localization",
+                "githubUrl": "",
+                "date": {
+                    "start": "April 2018",
+                    "end": "Present"
+                },
+                "description": "Automatic fault localization tool for multithreaded Java programs. It utilizes a combination of code injection and a search algorithm to identify high-risk code blocks.",
+                "tools": [ "Docker", "Java", "Python", "TXL" ],
+                "imagesPath": [],
+                "pdfPath": ""
+            },
+            {
+                "title": "Mentor-Mentee Matching System",
+                "githubUrl": "https://github.com/lrogar/student-matching",
+                "date": {
+                    "start": "February 2018",
+                    "end": "Present"
+                },
+                "description": "Ontario Tech has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
+                "tools": ["CSS", "Docker", "HTML", "JavaScript", "Neo4J", "PostgreSQL", "Python"],
+                "imagesPath": ["mentor-mentee-1.png", "mentor-mentee-2.png"],
+                "pdfPath": ""
+            },
+            {
+                "title": "Distracted Driver Detection",
+                "githubUrl": "https://github.com/luisarojas/distracted-driver-detection",
+                "date": {
+                    "start": "December 2017",
+                    "end": ""
+                },
+                "description": "Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures. The dataset, provided by State Farm through Kaggle, consisted of a set of images, each taken in a car where the driver is doing some action (e.g. texting, talking on the phone, drinking from a cup). To achieve this, we used various data augmentation approaches, and a Convolutional Neural Network with transfer learning from the popular (pre-trained) VGG16 model.",
+                "tools": ["Keras", "Jupyter Notebooks", "TensorFlow", "Python"],
+                "imagesPath": ["driver-predict-jupyter.gif", "driver-predict-cl.gif"],
+                "pdfPath": ""
+            },
+            {
+                "title": "Generating English Sentences",
+                "githubUrl": "https://github.com/luisarojas/lstm-sentence-generator",
+                "date": {
+                    "start": "December 2017",
+                    "end": ""
+                },
+                "description": "Using Long Short-Term Memory Networks and a literature novel to train it, I created a network that is able to the grammatical structure of the English language. The resulting model was able to produce a sequence of words resembling a coherent English sentence.",
+                "tools": ["Python", "TensorFlow", "Keras"],
+                "imagesPath": ["predict-lstm.gif"],
+                "pdfPath": ""
+            },
+            {
+                "title": "Threaded Paws",
+                "githubUrl": "https://github.com/luisarojas/threadedpaws",
+                "date": {
+                    "start": "October 2016",
+                    "end": "October 2017"
+                },
+                "description": "Threaded Paws is an educational game that can assist students in learning and understanding different concurrency concepts that could be difficult to grasp using traditional approaches. This is the first game targeting concurrency that we are aware of.",
+                "tools": ["C#", "Unity Game Engine"],
+                "imagesPath": ["threadedpaws.png"],
+                "pdfPath": ""
+            },
+            {
+                "title": "Parallel Genetic Algorithms",
+                "githubUrl": "https://github.com/luisarojas/genetic-alg",
+                "date": {
+                    "start": "April 2017",
+                    "end": ""
+                },
+                "description": "Implemented and parallelized a genetic algorithm, which consists of a fitness criterion, a mutation, a migration and a cross-over step. In this project, the parent selection and crossover processes are modified to allow for parallelization so that execution is optimized. The run times between the sequential and parallelized program(s) are compared and analyzed. The comparison also involves times between varying number of threads for the parallel version of the program.",
+                "tools": ["C", "Python", "Java"],
+                "imagesPath": ["ga-1.png", "ga-2.png", "ga-3.png"],
+                "pdfPath": ""
+            },
+            {
+                "title": "dynOBD",
+                "githubUrl": "",
+                "date": {
+                    "start": "October 2016",
+                    "end": "December 2016"
+                },
+                "description": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device, which is connected by the user to the car's DLC (Data Link Connector). The application also provides a live data feed showing the current speed and throttle of the car.",
+                "tools": ["Java", "Android Studio"],
+                "imagesPath": ["dynobd.gif"],
+                "pdfPath": ""
+            },
+            {
+                "title": "A-Priori and PCY Implementations",
+                "githubUrl": "https://github.com/luisarojas/apriori-pcy",
+                "date": {
+                    "start": "April 2016",
+                    "end": ""
+                },
+                "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
+                "tools": ["Python", "Bash"],
+                "imagesPath": ["apriori.png", "pcy.png"],
+                "pdfPath": ""
+            }
+        ],
+        "workExperience": [
+            {
+                "icon": "ontariotech.png",
+                "position": "Graduate/Undergraduate Teaching Assistant",
+                "company": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology), Faculty of Science",
+                    "url": "https://science.uoit.ca",
+                    "location": "Oshawa, ON, Canada"
+                },
+                "date": {
+                    "start": "January 2017",
+                    "end": "Present"
+                },
+                "description": "As a Teaching Assistant, my job often involves reviewing the course content with the students, support them in the completion of assignments, provide availability for question or concerns from students, as well as mark course laboratories, midterms and exams.<br>I have taken on this role for the following Computer Science courses:<br><ul><li>Web Application Development - CSCI 3230U (Winter 2019)</li><li>Software Quality Assurance - CSCI 3060U (Winter 2018)</li><li>Programming Workshop I - CSCI 1060U (Fall 2017, Fall 2018)</li><li>Programming Workshop II - CSCI 1060U (Winter 2017)</li></ul>",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "position": "System Administrator",
+                "company": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology), International Office",
+                    "url": "https://international.uoit.ca",
+                    "location": "Oshawa, ON, Canada"
+                },
+                "date": {
+                    "start": "September 2014",
+                    "end": "December 2014"
+                },
+                "description": "The International Office, provides strategic planning, faculty engagement and policy development for all internationalization projects at the university. The office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Administrate the International students' Health Insurance Plan (UHIP).</li><li>Aid in event planning and execution.</li><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the university website through a CMS platform.</li><li>Design of posters and flyers for marketing.</li></ul>",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "position": "Assistant System Administrator",
+                "company": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology), International Office",
+                    "url": "https://international.uoit.ca",
+                    "location": "Oshawa, ON, Canada"
+                },
+                "date": {
+                    "start": "May 2014",
+                    "end": "August 2014"
+                },"description": "The International Office, provides strategic planning, faculty engagement and policy development for all internationalization projects at the university. The office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students.</li><li>Development and management of the International web pages under the university website through a CMS platform.</li><li>Design of posters and flyers for marketing.</li></ul>",
+                "imagesPath": []
+            }
+        ],
+        "postersAndExhibits": [
+            {
+                "title": "CFLASH: Concurrency Faults Localized Automatically using Search Heuristics",
+                "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury"],
+                "event": {
+                    "name": "CASCON Technology Expo. 28th Annual International Conference on Computer Science and Software Engineering",
+                    "url": "https://www-01.ibm.com/ibm/cas/cascon/",
+                    "date": {
+                        "start": "Novermber 2018",
+                        "end": ""
+                    },
+                    "location": "Markham, ON, Canada"
+                },
+                "description": "",
+                "imagesPath": [],
+                "pdfPath": "CFLASH.pdf"
+            },
+            {
+                "title": "CFLASH: Concurrency Faults Localized Automatically using Search Heuristics",
+                "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury"],
+                "event": {
+                    "name": "CSER 8th Biannual Consortium for Software Engineering Research",
+                    "url": "http://www.cser.ca/2018f",
+                    "date": {
+                        "start": "Novermber 2018",
+                        "end": ""
+                    },
+                    "location": "Markham, ON, Canada"
+                },
+                "description": "",
+                "imagesPath": [],
+                "pdfPath": "CFLASH.pdf"
+            },
+            {
+                "title": "Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming",
+                "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
+                "event": {
+                    "name": "CASCON Technology Expo. 27th Annual International Conference on Computer Science and Software Engineering",
+                    "url": "https://www-01.ibm.com/ibm/cas/cascon",
+                    "date": {
+                        "start": "Novermber 2017",
+                        "end": ""
+                    },
+                    "location": "Markham, ON, Canada"
+                },
+                "description": "",
+                "imagesPath": [],
+                "pdfPath": "Threaded Paws.pdf"
+            },
+            {
+                "title": "Threaded Paws: A Serious Game for Learning Concurrency",
+                "authors": ["<u>Luisa Rojas Garcia</u>", "Jeremy S. Bradbury", "Michael A. Miljanovic"],
+                "event": {
+                    "name": "eCampus Ontario Technology Enabled Seminar + Showcase (TESS)",
+                    "url": "https://www.ecampusontario.ca/technology-enabled-seminar-showcase",
+                    "date": {
+                        "start": "Novermber 2017",
+                        "end": ""
+                    },
+                    "location": "Toronto, ON, Canada"
+                },
+                "description": "",
+                "imagesPath": [],
+                "pdfPath": ""
+            }
+        ],
+        "extracurricularActivities": [
+            {
+                "icon": "uoitsu.png",
+                "role": "Director of Graduate Studies",
+                "organization": {
+                    "name": "UOIT Student Union, Board of Directors",
+                    "url": "https://uoitsu.ca/"
+                },
+                "date": {
+                    "start": "Novermber 2018",
+                    "end": "Present"
+                },
+                "description": "As part of the Student Union, the Board of Directors is the highest governing body of the organization comprised of students from each faculty who act as one unified voice. It is ultimately responsible for the stewardship of the such system.",
+                "imagesPath": []
+            },
+            {
+                "icon": "acmw.png",
+                "role": "Vice-Chair and Senior Mentor",
+                "organization": {
+                    "name": "Ontario Tech ACM-W Student Chapter",
+                    "url": "https://uoit.acm.org"
+                },
+                "date": {
+                    "start": "May 2018",
+                    "end": "September 2018"
+                },
+                "description": "As the chapter's Founding Chair, my job was to mentor my peers in order to make it possible to continue with our mission on campus once I graduate. I oversaw and managed all of the chapter's administration, such as social and academic events, workshops, budget, marketing and potential sponsorships. As part of our plan to re-build the chapter's presence on campus, I also built a website for the chapter in order to facilitate communication with our members.",
+                "imagesPath": ["java-hour.png"]
+            },
+            {
+                "icon": "gsc.jpg",
+                "role": "Program Representative: Computer Science",
+                "organization": {
+                    "name": "Ontario Tech Graduate Student Council",
+                    "url": "https://uoitgsc.ca/"
+                },
+                "date": {
+                    "start": "September 2017",
+                    "end": "Present"
+                },
+                "description": "The Graduate Student Council (GSC) is a society on campus for graduate students. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. As a program director, I was closely involved in the the planning and execution of all events, marketing, meetings, and advocacy for all graduate students.",
+                "imagesPath": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
+            },
+            {
+                "icon": "science-council.png",
+                "role": "Vice-President of Marketing and Design",
+                "organization": {
+                    "name":"UOIT Science Council",
+                    "url": ""
+                },
+                "date": {
+                    "start": "September 2016",
+                    "end": "April 2017"
+                },
+                "description": "My responsibilities included managing all communication platforms to convey information to the council's members, as well as design all marketing materials for the events and meetings held throughout the school year.",
+                "imagesPath": ["postgrad-opportunities.png", "alumni-night.jpg", "lab-tour.jpg", "science-gala.jpg"]
+            },
+            {
+                "icon": "acmw.png",
+                "role": "Founding Chair",
+                "organization": {
+                    "name": "Ontario Tech ACM-W Student Chapter",
+                    "url": "https://uoit.acm.org/"
+                },
+                "date": {
+                    "start": "September 2016",
+                    "end": "December 2016"
+                },
+                "description": "As the principal officer of the chapter, I was responsible for leading the team and managing its activities in accordance with the mission of ACM-W, the policies and procedures of the ACM. The chair must also preside at all meetings of the Chapter and prepare the Chapter’s final report each year.",
+                "imagesPath": ["science-fair.png", "intro-to-kaggle.png", "tech-talks.png", "programming-workshop.png"]
+            },
+            {
+                "icon": "asme.png",
+                "role": "Secretary",
+                "organization": {
+                    "name": "UOIT ASME Student Chapter",
+                    "url": ""
+                },
+                "date": {
+                    "start": "September 2015",
+                    "end": "April 2016"
+                },
+                "description": "Responsible for managing all general and executive meetings logistics, attend and record minutes. Moreover, must maintain all club documents and records, incluing meeting minutes and finance ledgers. Finally, I administered the chapter's website, as well as assisted on the planning and execution of events.",
+                "imagesPath": ["matlab-workshop.jpg"]
+            },
+            {
+                "icon": "asme.png",
+                "role": "Webmaster and Social Media Director",
+                "organization": {
+                    "name": "UOIT ASME Student Chapter",
+                    "url": ""
+                },
+                "date": {
+                    "start": "September 2014",
+                    "end": "August 2015"
+                },
+                "description": "The webmaster is in charge of the creating and management of the first chapter's website. Moreover, the executive will assist on the planning and elaboration of events and advertisement for the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
+                "imagesPath": ["rhino-workshop.jpg", "nx-workshop.jpg", "ace-tour.jpg", "toyota-tour.jpg"]
+            }
+        ],
+        "volunteering": [
+            {
+                "icon": "gocodegirl.png",
+                "role": "Panelist and Logistics Volunteer",
+                "organization": {
+                    "name":  "Ontario Network of Women In Engineering",
+                    "url": "http://www.onwie.ca/"
+                },
+                "event": {
+                    "name": "Go Code Girl 2019",
+                    "url": "https://engineering.uoit.ca/outreach/girls-programming/go-code-girl-oshawa.php"
+                },
+                "date": {
+                    "start": "February 2019",
+                    "end": ""
+                },
+                "description": "Open to girls in grades 7-11, Go Code Girl programs are designed to introduce them to the wide range of career possibilities available in the rapidly-growing fields of technology, computing and engineering. As a panelist at this event, I was available to address the students' and parents' questions and concerns regarding my personal experience as a women in a STEM program at a post-secondary institution. The event was held on campus at Ontario Tech.",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "role": "Directional Guide",
+                "organization": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology), Student Life",
+                    "url": "https://studentlife.uoit.ca/index.php"
+                },
+                "event": {
+                    "name": "Ask Me",
+                    "url": "https://studentlife.uoit.ca/student-experience-centre/first-year-experience-/orientation/ask-me.php"
+                },
+                "date": {
+                    "start": "September 2018",
+                    "end": ""
+                },
+                "description": "Provide guidance and assistance regarding campus services, events, and landmarks for incoming and returning students, as well as assisting which general navigation of the services.",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "role": "Logistics Volunteer",
+                "organization": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology), International Office",
+                    "url": "https://international.uoit.ca"
+                },
+                "event": {
+                    "name": "Mother Language Festival",
+                    "url": "https://news.uoit.ca/archives/2014/03/uoit-to-celebrate-international-mother-language-day-festival-on-march-19.php"
+                },
+                "date": {
+                    "start": "March 2018",
+                    "end": ""
+                },
+                "description": "The Festival is a celebration of linguistic and cultural diversity on campus and features student-led exhibitions and presentations of language and culture. I helped with different areas of the event, including set up, registration, overseeing the music, among other miscellaneous tasks.",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "role": "Demo Presenter",
+                "organization": {
+                    "name":  "Ontario Tech (University of Ontario Institute of Technology), Faculty of Science",
+                    "url": "https://science.uoit.ca"
+                },
+                "event": {
+                    "name": "Open House",
+                    "url": "https://sites.uoit.ca/openhouse"
+                },
+                "date": {
+                    "start": "March 2018",
+                    "end": ""
+                },
+                "description": "During our Open House, potential applicants visit our campus to meet current students, faculty and staff. They can attend faculty information sessions, visit labs, and explore the reasons why more students are making this university their first choice. Throughout the day, I participated in the lab demo sessions by showcasing some of the projects I developed during my undergraduate studies at Ontario Tech.",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "role": "General Orientation Leader",
+                "organization": {
+                    "name":  "Ontario Tech (University of Ontario Institute of Technology)",
+                    "url": "https://ontariotechu.ca"
+                },
+                "event": {
+                    "name": "International Student Orientation",
+                    "url": "https://international.uoit.ca/before-you-arrive/international-students/international-orientation/index.php"
+                },
+                "date": {
+                    "start": "September 2014",
+                    "end": ""
+                },
+                "description": "ISOLs are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs.<br><a target=\"_blank\" href=\"https://studentlife.uoit.ca/student-experience-centre/leadership-and-involvement-/leadership/index.php\">Read More</a>",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "role": "Logistics Volunteer",
+                "organization": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "url": "https://ontariotechu.ca"
+                },
+                "event": {
+                    "name": "Science Rendezvous",
+                    "url": "https://www.sciencerendezvous.ca/"
+                },
+                "date": {
+                    "start": "May 2014",
+                    "end": ""
+                },
+                "description": "Science Rendezvous takes place at various institutions around Canada and seeks to present elementary and highschool students with festival-style activities featuring disciplines like science, technology, engineering, art and math (STEAM). During this event, I aided by registering attendees, setting up the equipment for different stations, and attended to the children and their parents throughout the day.",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "role": "International Student Orientation Leader (ISOL)",
+                "organization": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology), Student Life",
+                    "url": "https://studentlife.uoit.ca/index.php"
+                },
+                "event": {
+                    "name": "International Student Orientation",
+                    "url": ""
+                },
+                "date": {
+                    "start": "August 2018",
+                    "end": ""
+                },
+                "description": "ISOLs are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs.<br><a target=\"_blank\" href=\"https://studentlife.uoit.ca/student-experience-centre/leadership-and-involvement-/leadership/index.php\">Read More</a>",
+                "imagesPath": []
+            },
+            {
+                "icon": "mlh.jpg",
+                "role": "Mentor and Judge",
+                "organization": {
+                    "name": "Major Leage Hacking",
+                    "url": "https://mlh.io/"
+                },
+                "event": {
+                    "name": "Local Hack Day",
+                    "url": "https://localhackday.mlh.io/"
+                },
+                "date": {
+                    "start": "December 2017",
+                    "end": ""
+                },
+                "description": "MLH Local Hack Day is a 12 hour hack day on the school's campus that brings together the local hacker community to celebrate building technology. As a mentor, I had the opportunity to offer the hackers my support in terms of ideas, development workflow, and resources. Then, I joined the judge pannel to choose the top 3 hacks according to their creativity, applicability, and learning outcomes.",
+                "imagesPath": ["local-hack-day.jpg", "local-hack-day-workshops.jpeg"]
+            }
+        ],
+        "honoursAndAwards": [
+            {
+                "icon": "ontariotech.png",
+                "award": {
+                    "name": "Deans's Honours List",
+                    "url": ""
+                },
+                "issuer": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "url": "https://ontariotechu.ca"
+                },
+                "dates": ["December 2015", "May 2017", "September 2017", "September 2018"],
+                "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts.",
+                "imagesPath": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "award": {
+                    "name": "President's Honours List",
+                    "url": ""
+                },
+                "issuer": {
+                    "name": "University of Ontario Institute of Technology",
+                    "url": "https://ontariotechu.ca"
+                },
+                "dates": ["May 2016", "August 2016"],
+                "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts.",
+                "imagesPath": []
+            }
+        ],
+        "languages": [
+            { "language": "English", "level": "3" },
+            { "language": "French", "level": "1" },
+            { "language": "Spanish", "level": "4" }
+        ]
+    }
+}

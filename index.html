@@ -4,112 +4,121 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel=icon href=static/img/favicon.png>
+    <link rel=icon href=assets/img/icons/favicon.png?v=5>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="static/css/style.css">
+
+    <!-- Own CSS stylesheet -->
+    <link rel="stylesheet" href="styles/css/main.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134409811-1"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134409811-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-134409811-1');
-    </script>
+    </script> -->
 </head>
-<body>
+<body data-spy="scroll" data-target="#menu">
 
-    <div id="content">
-
-        <!-- RESUME HEADER (name, personal info) -->
-        <div id="header">
-            <p id="first"></p>
-            <p id="last"></p>
-            <div id="currentposition"></div>
-            <div id="contact"></div>
-
-            <div id="download-pdf-button">
-                <center>
-                <a target="_blank" href=""><button type="button" class="btn btn-light">Download PDF</button></a>
-            </center>
-            </div>
-
-            <div id=summary></div>
-        </div>
-
-        <!-- ALL RESUME SECTIONS -->
-        <div id="sections" style="margin-top:50px;">
-
-            <!-- EDUCATION -->
-            <div class="section" id="education-section" name="education-section">
-                <p class="title">Education</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- SKILLS -->
-            <div class="section" id="skills-section" name=id="skills-section">
-                <p class="title">Skills</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- PROJECTS -->
-            <div class="section" id="projects-section" name="projects-section">
-                <p class="title">Projects</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- WORK EXPERIENCE -->
-            <div class="section" id="work-experience-section" name="work-experience-section">
-                <p class="title">Experience</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- POSTERS AND EXHIBITS -->
-            <div class="section" id="posters-exhibits-section" name="posters-exhibits-section">
-                <p class="title">Posters and Exhibits</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- HONOURS AND AWARDS -->
-            <div class="section" id="honours-awards-section" name="honours-awards-section">
-                <p class="title">Honours and Awards</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- EXTRACURRICULAR ACITIVITIES -->
-            <div class="section" id="extracurricular-activities-section" name="extracurricular-activities-section">
-                <p class="title">Extracurricular Activities</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- VOLUNTEER WORK -->
-            <div class="section" id="volunteer-work-section" name="volunteer-work-section">
-                <p class="title">Volunteer Work</p><hr>
-                <div class="section-content"></div>
-            </div>
-
-            <!-- LANGUAGES -->
-            <div class="section" id="languages-section" name="languages-section">
-                <p class="title">Languages</p><hr>
-                <div class="section-content"></div>
-            </div>
-        </div>
-
-        <div id="last-updated-wrapper">
-            <p>Last updated: </p>
-            <p id="last-update-date"></p>
-        </div>
-
+    <div id="loading-icon">
+        <img src="assets/img/icons/loading.gif">
     </div>
 
-    <!-- scripts -->
+    <div id="header">
+    </div>
+
+    <div id="error">
+    </div>
+
+    <div id="wrapper">
+        <div id="menu">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto" id="menu-elements">
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div id="content">
+            <!-- <div class="section" id="section-1">
+                <div class="title">
+                    Section Title
+                </div>
+                <div class="subsection">
+                    <div class="chevron">
+                        <img src="assets/img/icons/chevron-right.png">
+                    </div>
+                    <div class="icon">
+                        <img src="assets/img/icons/placeholder.jpg" alt="logo">
+                    </div>
+                    <div class="subsection-content">
+                        <div class="subsection-head">
+                            <div class="title">This is the title.</div>
+                            <div class="date">And this is the date.</div>
+                        </div>
+
+                        <div class="subsection-body">
+                            <div class="description">Description starts in this line!</div>
+                            <div class="courses-tools">Some courses or tools. </div>
+                            <div id="demo" class="images carousel slide"> -->
+                                <!-- The slideshow -->
+                                <!-- <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="assets/img/icons/chevron-right.png" alt="First Image">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="assets/img/icons/chevron-down.png" alt="Second Image">
+                                  </div>
+                                </div> -->
+
+                                <!-- Left and right controls -->
+                                <!-- <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next" href="#demo" data-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- ============================================================= -->
+    <!--                            SCRIPTS                            -->
+    <!-- ============================================================= -->
+
+    <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+
+    <!-- Bootstrap and its dependencies -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Parse dates and times -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.1/moment.js" integrity="sha256-Z1d5nX6+IwGjjkkYg+fWe/jzvJae4NYejTz7PcIumxE=" crossorigin="anonymous"></script>
-    <script src="static/js/app.js"></script>
-    <script src="static/js/models.js"></script>
+
+    <!-- Plugins -->
+    <!-- <script src="js/lib/jquery.scrollstop.min.js"></script> -->
+
+    <!-- Own JS script -->
+    <script src="js/models/section.js"></script>
+    <script src="js/models/about.js"></script>
+    <!-- <script src="js/lib/readmore.min.js"></script> -->
+    <script src="js/utils.js"></script>
+    <script src="js/globals.js"></script>
+    <script src="js/listeners.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
