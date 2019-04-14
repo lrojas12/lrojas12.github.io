@@ -62,6 +62,7 @@ class About {
             $contactSection.append($email);
         }
 
+        // GitHub
         if ((contactInfo.github) && (contactInfo.github !== '')) {
 
             let $github = this.buildSingleContact('assets/img/icons/github.png', `https://github.com/${contactInfo.github}`, contactInfo.github)
@@ -69,15 +70,14 @@ class About {
             $contactSection.append($github);
         }
 
+        // GitHub
         if ((contactInfo.linkedin) && (contactInfo.linkedin !== '')) {
 
             let $linkedin = this.buildSingleContact('assets/img/icons/linkedin.png', `https://linkedin.com/in/${contactInfo.linkedin}`, contactInfo.linkedin)
                         .addClass('linkedin');
             $contactSection.append($linkedin);
         }
-
-
-
+        
         return $contactSection;
     }
 
