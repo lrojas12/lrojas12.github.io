@@ -143,14 +143,12 @@ class Subsection {
         return $chevron;
     }
 
-    static getIcon = (iconPath)  => {
-
-
+    static getIcon = (iconFileName)  => {
 
         let $icon = $('<div></div>');
 
-        if ((iconPath) && (iconPath !== '')) {
-            let $iconImg = $('<img>').attr('src', `assets/img/icons/${iconPath}`);
+        if ((iconFileName) && (iconFileName !== '')) {
+            let $iconImg = $('<img>').attr('src', `assets/img/icons/${iconFileName}`);
             $icon = $('<div></div>').addClass('icon')
                                     .append($iconImg);
         }
@@ -228,15 +226,21 @@ class Subsection {
         for (let skill of data) {
 
             let $tool = $('<p></p>').html(skill.tool);
-            let $frameworks = $('<div></div>').addClass('frameworks');
-            for (let i in skill.frameworks) {
-                let $framework = $('<p></p>').addClass('framework')
-                                            .html(skill.frameworks[i]);
-                $frameworks.append($framework);
+            let $frameworks = $('<p></p>').addClass('frameworks');
+
+            if (skill.frameworks.length > 0) {
+                $frameworks.append('(');
+                for (let framework of skill.frameworks) {
+                    $frameworks.append(framework)
+                    if (framework !== skill.frameworks[skill.frameworks.length-1]) {
+                        $frameworks.append(', ');
+                    }
+                }
+                $frameworks.append(')');
             }
 
-            let $li = $('<li></li>').append($tool).append($frameworks);
-            // console.log(skillset.tool)
+            let $li = $('<li></li>').append($tool)
+                                    .append($frameworks);
             $ul.append($li);
         }
 
@@ -439,10 +443,10 @@ class Subsection {
             $description.append(data.description);
         }
 
-        if ((data.pdfPath) && (data.pdfPath !== '')) {
+        if ((data.pdf) && (data.pdf !== '')) {
 
             let $link = $("<a></a>").addClass('pdfLink')
-                                    .attr('href', `assets/pdf/${data.pdfPath}`)
+                                    .attr('href', `assets/pdf/${data.pdf}`)
                                     .attr('target', '_blank')
                                     .html('View poster PDF');
 

@@ -12,7 +12,7 @@
             "linkedin": "luisarojasg",
             "summary": "Enthusiastic and relentless Computer Scientist in the lookout for opportunities and good problems to solve. At the moment, particularly interested in interdisciplinary development and industry collaborations for larger projects."
         },
-        "resumePath": "./assets/pdf/Resume-LuisaRojasGarcia.pdf"
+        "resume": "Resume - Luisa Rojas Garcia.pdf"
     },
     "sections": {
         "education": [
@@ -92,8 +92,8 @@
                 },
                 "description": "Automatic fault localization tool for multithreaded Java programs. It utilizes a combination of code injection and a search algorithm to identify high-risk code blocks.",
                 "tools": [ "Docker", "Java", "Python", "TXL" ],
-                "imagesPath": [],
-                "pdfPath": ""
+                "images": [],
+                "pdf": ""
             },
             {
                 "title": "Mentor-Mentee Matching System",
@@ -104,8 +104,8 @@
                 },
                 "description": "Ontario Tech has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
                 "tools": ["CSS", "Docker", "HTML", "JavaScript", "Neo4J", "PostgreSQL", "Python"],
-                "imagesPath": ["mentor-mentee-1.png", "mentor-mentee-2.png"],
-                "pdfPath": ""
+                "images": ["mentor-mentee-1.png", "mentor-mentee-2.png"],
+                "pdf": ""
             },
             {
                 "title": "Distracted Driver Detection",
@@ -116,8 +116,8 @@
                 },
                 "description": "Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures. The dataset, provided by State Farm through Kaggle, consisted of a set of images, each taken in a car where the driver is doing some action (e.g. texting, talking on the phone, drinking from a cup). To achieve this, we used various data augmentation approaches, and a Convolutional Neural Network with transfer learning from the popular (pre-trained) VGG16 model.",
                 "tools": ["Keras", "Jupyter Notebooks", "TensorFlow", "Python"],
-                "imagesPath": ["driver-predict-jupyter.gif", "driver-predict-cl.gif"],
-                "pdfPath": ""
+                "images": ["driver-predict-jupyter.gif", "driver-predict-cl.gif"],
+                "pdf": ""
             },
             {
                 "title": "Generating English Sentences",
@@ -128,8 +128,8 @@
                 },
                 "description": "Using Long Short-Term Memory Networks and a literature novel to train it, I created a network that is able to the grammatical structure of the English language. The resulting model was able to produce a sequence of words resembling a coherent English sentence.",
                 "tools": ["Python", "TensorFlow", "Keras"],
-                "imagesPath": ["predict-lstm.gif"],
-                "pdfPath": ""
+                "images": ["predict-lstm.gif"],
+                "pdf": ""
             },
             {
                 "title": "Threaded Paws",
@@ -140,8 +140,8 @@
                 },
                 "description": "Threaded Paws is an educational game that can assist students in learning and understanding different concurrency concepts that could be difficult to grasp using traditional approaches. This is the first game targeting concurrency that we are aware of.",
                 "tools": ["C#", "Unity Game Engine"],
-                "imagesPath": ["threadedpaws.png"],
-                "pdfPath": ""
+                "images": ["threadedpaws.png"],
+                "pdf": ""
             },
             {
                 "title": "Parallel Genetic Algorithms",
@@ -152,8 +152,8 @@
                 },
                 "description": "Implemented and parallelized a genetic algorithm, which consists of a fitness criterion, a mutation, a migration and a cross-over step. In this project, the parent selection and crossover processes are modified to allow for parallelization so that execution is optimized. The run times between the sequential and parallelized program(s) are compared and analyzed. The comparison also involves times between varying number of threads for the parallel version of the program.",
                 "tools": ["C", "Python", "Java"],
-                "imagesPath": ["ga-1.png", "ga-2.png", "ga-3.png"],
-                "pdfPath": ""
+                "images": ["ga-1.png", "ga-2.png", "ga-3.png"],
+                "pdf": ""
             },
             {
                 "title": "dynOBD",
@@ -164,8 +164,8 @@
                 },
                 "description": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device, which is connected by the user to the car's DLC (Data Link Connector). The application also provides a live data feed showing the current speed and throttle of the car.",
                 "tools": ["Java", "Android Studio"],
-                "imagesPath": ["dynobd.gif"],
-                "pdfPath": ""
+                "images": ["dynobd.gif"],
+                "pdf": ""
             },
             {
                 "title": "A-Priori and PCY Implementations",
@@ -176,8 +176,8 @@
                 },
                 "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
                 "tools": ["Python", "Bash"],
-                "imagesPath": ["apriori.png", "pcy.png"],
-                "pdfPath": ""
+                "images": ["apriori.png", "pcy.png"],
+                "pdf": ""
             }
         ],
         "workExperience": [
@@ -194,7 +194,7 @@
                     "end": "Present"
                 },
                 "description": "As a Teaching Assistant, my job often involves reviewing the course content with the students, support them in the completion of assignments, provide availability for question or concerns from students, as well as mark course laboratories, midterms and exams.<br>I have taken on this role for the following Computer Science courses:<br><ul><li>Web Application Development - CSCI 3230U (Winter 2019)</li><li>Software Quality Assurance - CSCI 3060U (Winter 2018)</li><li>Programming Workshop I - CSCI 1060U (Fall 2017, Fall 2018)</li><li>Programming Workshop II - CSCI 1060U (Winter 2017)</li></ul>",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -209,7 +209,7 @@
                     "end": "December 2014"
                 },
                 "description": "The International Office, provides strategic planning, faculty engagement and policy development for all internationalization projects at the university. The office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Administrate the International students' Health Insurance Plan (UHIP).</li><li>Aid in event planning and execution.</li><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the university website through a CMS platform.</li><li>Design of posters and flyers for marketing.</li></ul>",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -223,7 +223,7 @@
                     "start": "May 2014",
                     "end": "August 2014"
                 },"description": "The International Office, provides strategic planning, faculty engagement and policy development for all internationalization projects at the university. The office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students.</li><li>Development and management of the International web pages under the university website through a CMS platform.</li><li>Design of posters and flyers for marketing.</li></ul>",
-                "imagesPath": []
+                "images": []
             }
         ],
         "postersAndExhibits": [
@@ -240,8 +240,8 @@
                     "location": "Markham, ON, Canada"
                 },
                 "description": "",
-                "imagesPath": [],
-                "pdfPath": "CFLASH.pdf"
+                "images": [],
+                "pdf": "CFLASH.pdf"
             },
             {
                 "title": "CFLASH: Concurrency Faults Localized Automatically using Search Heuristics",
@@ -256,8 +256,8 @@
                     "location": "Markham, ON, Canada"
                 },
                 "description": "",
-                "imagesPath": [],
-                "pdfPath": "CFLASH.pdf"
+                "images": [],
+                "pdf": "CFLASH.pdf"
             },
             {
                 "title": "Threaded Paws: A Serious Game for Learning the Pitfalls of Concurrent Programming",
@@ -272,8 +272,8 @@
                     "location": "Markham, ON, Canada"
                 },
                 "description": "",
-                "imagesPath": [],
-                "pdfPath": "Threaded Paws.pdf"
+                "images": [],
+                "pdf": "Threaded Paws.pdf"
             },
             {
                 "title": "Threaded Paws: A Serious Game for Learning Concurrency",
@@ -288,8 +288,8 @@
                     "location": "Toronto, ON, Canada"
                 },
                 "description": "",
-                "imagesPath": [],
-                "pdfPath": ""
+                "images": [],
+                "pdf": ""
             }
         ],
         "extracurricularActivities": [
@@ -305,7 +305,7 @@
                     "end": "Present"
                 },
                 "description": "As part of the Student Union, the Board of Directors is the highest governing body of the organization comprised of students from each faculty who act as one unified voice. It is ultimately responsible for the stewardship of the such system.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "acmw.png",
@@ -319,7 +319,7 @@
                     "end": "September 2018"
                 },
                 "description": "As the chapter's Founding Chair, my job was to mentor my peers in order to make it possible to continue with our mission on campus once I graduate. I oversaw and managed all of the chapter's administration, such as social and academic events, workshops, budget, marketing and potential sponsorships. As part of our plan to re-build the chapter's presence on campus, I also built a website for the chapter in order to facilitate communication with our members.",
-                "imagesPath": ["java-hour.png"]
+                "images": ["java-hour.png"]
             },
             {
                 "icon": "gsc.jpg",
@@ -333,7 +333,7 @@
                     "end": "Present"
                 },
                 "description": "The Graduate Student Council (GSC) is a society on campus for graduate students. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. As a program director, I was closely involved in the the planning and execution of all events, marketing, meetings, and advocacy for all graduate students.",
-                "imagesPath": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
+                "images": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
             },
             {
                 "icon": "science-council.png",
@@ -347,7 +347,7 @@
                     "end": "April 2017"
                 },
                 "description": "My responsibilities included managing all communication platforms to convey information to the council's members, as well as design all marketing materials for the events and meetings held throughout the school year.",
-                "imagesPath": ["postgrad-opportunities.png", "alumni-night.jpg", "lab-tour.jpg", "science-gala.jpg"]
+                "images": ["postgrad-opportunities.png", "alumni-night.jpg", "lab-tour.jpg", "science-gala.jpg"]
             },
             {
                 "icon": "acmw.png",
@@ -361,7 +361,7 @@
                     "end": "December 2016"
                 },
                 "description": "As the principal officer of the chapter, I was responsible for leading the team and managing its activities in accordance with the mission of ACM-W, the policies and procedures of the ACM. The chair must also preside at all meetings of the Chapter and prepare the Chapter’s final report each year.",
-                "imagesPath": ["science-fair.png", "intro-to-kaggle.png", "tech-talks.png", "programming-workshop.png"]
+                "images": ["science-fair.png", "intro-to-kaggle.png", "tech-talks.png", "programming-workshop.png"]
             },
             {
                 "icon": "asme.png",
@@ -375,7 +375,7 @@
                     "end": "April 2016"
                 },
                 "description": "Responsible for managing all general and executive meetings logistics, attend and record minutes. Moreover, must maintain all club documents and records, incluing meeting minutes and finance ledgers. Finally, I administered the chapter's website, as well as assisted on the planning and execution of events.",
-                "imagesPath": ["matlab-workshop.jpg"]
+                "images": ["matlab-workshop.jpg"]
             },
             {
                 "icon": "asme.png",
@@ -389,7 +389,7 @@
                     "end": "August 2015"
                 },
                 "description": "The webmaster is in charge of the creating and management of the first chapter's website. Moreover, the executive will assist on the planning and elaboration of events and advertisement for the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
-                "imagesPath": ["rhino-workshop.jpg", "nx-workshop.jpg", "ace-tour.jpg", "toyota-tour.jpg"]
+                "images": ["rhino-workshop.jpg", "nx-workshop.jpg", "ace-tour.jpg", "toyota-tour.jpg"]
             }
         ],
         "volunteering": [
@@ -409,7 +409,7 @@
                     "end": ""
                 },
                 "description": "Open to girls in grades 7-11, Go Code Girl programs are designed to introduce them to the wide range of career possibilities available in the rapidly-growing fields of technology, computing and engineering. As a panelist at this event, I was available to address the students' and parents' questions and concerns regarding my personal experience as a women in a STEM program at a post-secondary institution. The event was held on campus at Ontario Tech.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -427,7 +427,7 @@
                     "end": ""
                 },
                 "description": "Provide guidance and assistance regarding campus services, events, and landmarks for incoming and returning students, as well as assisting which general navigation of the services.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -445,7 +445,7 @@
                     "end": ""
                 },
                 "description": "The Festival is a celebration of linguistic and cultural diversity on campus and features student-led exhibitions and presentations of language and culture. I helped with different areas of the event, including set up, registration, overseeing the music, among other miscellaneous tasks.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -463,7 +463,7 @@
                     "end": ""
                 },
                 "description": "During our Open House, potential applicants visit our campus to meet current students, faculty and staff. They can attend faculty information sessions, visit labs, and explore the reasons why more students are making this university their first choice. Throughout the day, I participated in the lab demo sessions by showcasing some of the projects I developed during my undergraduate studies at Ontario Tech.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -481,7 +481,7 @@
                     "end": ""
                 },
                 "description": "ISOLs are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs.<br><a target=\"_blank\" href=\"https://studentlife.uoit.ca/student-experience-centre/leadership-and-involvement-/leadership/index.php\">Read More</a>",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -499,7 +499,7 @@
                     "end": ""
                 },
                 "description": "Science Rendezvous takes place at various institutions around Canada and seeks to present elementary and highschool students with festival-style activities featuring disciplines like science, technology, engineering, art and math (STEAM). During this event, I aided by registering attendees, setting up the equipment for different stations, and attended to the children and their parents throughout the day.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -517,7 +517,7 @@
                     "end": ""
                 },
                 "description": "ISOLs are specially trained Orientation Leaders focused on supporting incoming International and Exchange students through their new arrival and transitional needs.<br><a target=\"_blank\" href=\"https://studentlife.uoit.ca/student-experience-centre/leadership-and-involvement-/leadership/index.php\">Read More</a>",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "mlh.jpg",
@@ -535,7 +535,7 @@
                     "end": ""
                 },
                 "description": "MLH Local Hack Day is a 12 hour hack day on the school's campus that brings together the local hacker community to celebrate building technology. As a mentor, I had the opportunity to offer the hackers my support in terms of ideas, development workflow, and resources. Then, I joined the judge pannel to choose the top 3 hacks according to their creativity, applicability, and learning outcomes.",
-                "imagesPath": ["local-hack-day.jpg", "local-hack-day-workshops.jpeg"]
+                "images": ["local-hack-day.jpg", "local-hack-day-workshops.jpeg"]
             }
         ],
         "honoursAndAwards": [
@@ -551,7 +551,7 @@
                 },
                 "dates": ["December 2015", "May 2017", "September 2017", "September 2018"],
                 "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts.",
-                "imagesPath": []
+                "images": []
             },
             {
                 "icon": "ontariotech.png",
@@ -565,7 +565,7 @@
                 },
                 "dates": ["May 2016", "August 2016"],
                 "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts.",
-                "imagesPath": []
+                "images": []
             }
         ],
         "languages": [

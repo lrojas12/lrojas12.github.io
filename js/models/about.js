@@ -2,6 +2,8 @@ class About {
 
     static build = (data) => {
 
+        console.log(data)
+
         let $name = this.createTitle(data.name);
         let $role = this.createRole(data.currentPosition);
 
@@ -10,7 +12,7 @@ class About {
                                     .append($role)
                                     .append($('<hr>'))
                                     .append(this.buildContact(data.contact))
-                                    .append(this.buildDownload(data.resumePath));
+                                    .append(this.buildDownload(data.resume));
         return $about;
     }
 
@@ -77,14 +79,18 @@ class About {
                         .addClass('linkedin');
             $contactSection.append($linkedin);
         }
-        
+
         return $contactSection;
     }
 
-    static buildDownload = (resumePath) => {
+    static buildDownload = (resumeFileName) => {
 
-        let $downloadButton = $('<button></button>').addClass('btn btn-outline-primary btn-sm')
+        console.log(resumeFileName)
+
+        let $downloadButton = $('<a></a>').addClass('btn btn-outline-primary btn-sm')
                                                     .attr('id', 'downloadButton')
+                                                    .attr('href', `assets/pdf/${resumeFileName}`)
+                                                    .attr('target', '_blank')
                                                     .html('Download PDF');
 
         return $downloadButton;

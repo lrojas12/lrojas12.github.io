@@ -133,13 +133,13 @@ div#header div#headerWrapper div#contact > div {
     display: inline;
 }
 
-div#header div#headerWrapper button#downloadButton {
+div#header div#headerWrapper a#downloadButton {
     font-weight: 300;
     color: var(--link-blue);
     border-color: var(--link-blue);
 }
 
-div#header div#headerWrapper button#downloadButton:hover {
+div#header div#headerWrapper a#downloadButton:hover {
     background: var(--link-blue);
     color: white;
 }
@@ -307,6 +307,9 @@ div#content div#skills ul {
 div#content div#skills ul li {
     border-left: 2px solid var(--very-light-grey);
     padding-left: 15px;
+    -webkit-column-break-inside: avoid;
+    column-break-inside: avoid;
+    page-break-inside: avoid;
 }
 
 div#content div#skills ul li:hover {
@@ -318,8 +321,9 @@ div#content div#skills ul li > p {
     font-weight: 300;
 }
 
-div#content div#skills ul li div.frameworks {
+div#content div#skills ul li p.frameworks {
     margin-bottom: 15px;
+    color: var(--light-grey);
 }
 
 /* ------------------ SUBSECTION: PROJECTS ------------------ */
