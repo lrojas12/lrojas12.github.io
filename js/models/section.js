@@ -126,7 +126,7 @@ class Subsection {
     static getChevron = (hasBody)  => {
 
         // let rightChevronImgPath = 'assets/img/icons/chevron-right.png';
-        let emptyImgPath = 'assets/img/icons/empty-img.gif';
+        let emptyImgPath = `${ICONS_DIR_PATH}empty-img.gif`;
 
         let $chevron = $('<div></div>').addClass('chevron');
         let $chevronImg = $('<img>');
@@ -148,7 +148,7 @@ class Subsection {
         let $icon = $('<div></div>');
 
         if ((iconFileName) && (iconFileName !== '')) {
-            let $iconImg = $('<img>').attr('src', `assets/img/icons/${iconFileName}`);
+            let $iconImg = $('<img>').attr('src', `${ICONS_DIR_PATH}${iconFileName}`);
             $icon = $('<div></div>').addClass('icon')
                                     .append($iconImg);
         }
@@ -371,7 +371,7 @@ class Subsection {
         if ((data.githubUrl) && (data.githubUrl !== '')) {
 
             let $text = $('<p></p>').html('See on GitHub ');
-            let $githubImg = $('<img>').attr('src', 'assets/img/icons/github.png')
+            let $githubImg = $('<img>').attr('src', `${ICONS_DIR_PATH}github.png`)
                                         .attr('alt', 'GitHub');
             let $githubLink = $('<a></a>').addClass('githubLink')
                                             .attr('href', data.githubUrl)

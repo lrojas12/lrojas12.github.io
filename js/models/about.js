@@ -58,7 +58,7 @@ class About {
         // E-mail
         if ((contactInfo.email) && (contactInfo.email !== '')) {
 
-            let $email = this.buildSingleContact('assets/img/icons/email.png', `mailto:${contactInfo.email}`, contactInfo.email)
+            let $email = this.buildSingleContact(`${ICONS_DIR_PATH}email.png`, `mailto:${contactInfo.email}`, contactInfo.email)
                         .addClass('email');
             $email.find('a').attr('target', '');
             $contactSection.append($email);
@@ -67,7 +67,7 @@ class About {
         // GitHub
         if ((contactInfo.github) && (contactInfo.github !== '')) {
 
-            let $github = this.buildSingleContact('assets/img/icons/github.png', `https://github.com/${contactInfo.github}`, contactInfo.github)
+            let $github = this.buildSingleContact(`${ICONS_DIR_PATH}github.png`, `https://github.com/${contactInfo.github}`, contactInfo.github)
                         .addClass('github');
             $contactSection.append($github);
         }
@@ -75,7 +75,7 @@ class About {
         // GitHub
         if ((contactInfo.linkedin) && (contactInfo.linkedin !== '')) {
 
-            let $linkedin = this.buildSingleContact('assets/img/icons/linkedin.png', `https://linkedin.com/in/${contactInfo.linkedin}`, contactInfo.linkedin)
+            let $linkedin = this.buildSingleContact(`${ICONS_DIR_PATH}linkedin.png`, `https://linkedin.com/in/${contactInfo.linkedin}`, contactInfo.linkedin)
                         .addClass('linkedin');
             $contactSection.append($linkedin);
         }
@@ -89,7 +89,7 @@ class About {
 
         let $downloadButton = $('<a></a>').addClass('btn btn-outline-primary btn-sm')
                                                     .attr('id', 'downloadButton')
-                                                    .attr('href', `assets/pdf/${resumeFileName}`)
+                                                    .attr('href', `${PDFS_DIR_PATH}${resumeFileName}`)
                                                     .attr('target', '_blank')
                                                     .html('Download PDF');
 
