@@ -1,0 +1,51 @@
+@import "Roboto.css";
+@import "Roboto-Mono.css";
+
+/* ------------------ GLOBAL VARIABLES ------------------ */
+:root {
+
+    /* colours */
+  --pink: #E83E8C;
+  --very-light-grey: #F4F4F4;
+  --link-blue: #0070C9;
+  --light-grey: #AEAAAA;
+  --dark-pink: #D91B75;
+  --dark-grey: #767171;
+
+  /* measurements */
+  --menu-width: 150px;
+}
+
+/* ------------------ GENERAL BODY ------------------ */
+
+
+body {
+    padding: 50px;
+}
+
+h1, p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: black;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: var(--dark-pink);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+p {
+    margin: 5px;
+}
+
+a {
+    color: var(--link-blue);
+}
+
+img#venn {
+    height: 350px;
+    margin-bottom: 50px;
+}
