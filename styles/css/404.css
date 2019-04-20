@@ -19,10 +19,6 @@
 /* ------------------ GENERAL BODY ------------------ */
 
 
-body {
-    padding: 50px;
-}
-
 h1, p {
     font-family: 'Roboto';
     font-weight: 300;
@@ -31,7 +27,6 @@ h1, p {
 
 h1 {
     font-size: 40px;
-    font-weight: 300;
     color: var(--dark-pink);
     text-align: center;
     margin-bottom: 80px;

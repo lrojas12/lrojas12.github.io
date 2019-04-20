@@ -1,3 +1,5 @@
+**/*.xcf # GIMP files
+
 # Created by https://www.gitignore.io/api/macos
 
 ### macOS ###
