@@ -12,7 +12,8 @@
             "linkedin": "luisarojasg",
             "summary": "Enthusiastic and relentless Computer Scientist on the lookout for opportunities and good problems to solve. At the moment, particularly interested in interdisciplinary development and industry collaborations for larger projects."
         },
-        "resume": "Resume - Luisa Rojas Garcia.pdf"
+        "resume": "Resume - Luisa Rojas Garcia.pdf",
+        "profileImage": "profile-image.png"
     },
     "sections": {
         "education": [
@@ -80,7 +81,8 @@
             { "tool": "HTML, CSS", "frameworks": ["Bootstrap"] },
             { "tool": "C, C++", "frameworks": [] },
             { "tool": "Java", "frameworks": [] },
-            { "tool": "Docker", "frameworks": [] }
+            { "tool": "Docker", "frameworks": [] },
+            { "tool": "Git", "frameworks": ["GitHub"] }
         ],
         "projects": [
             {

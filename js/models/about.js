@@ -8,6 +8,7 @@ class About {
         let $role = this.createRole(data.currentPosition);
 
         let $about = $('<div></div>').attr('id', 'headerWrapper')
+                                    .append(this.buildImage(data.profileImage))
                                     .append($name)
                                     .append($role)
                                     .append($('<hr>'))
@@ -16,6 +17,15 @@ class About {
         return $about;
     }
 
+    static buildImage = (profileImage) => {
+
+        let $img = $('<img>').attr('id', 'profile-image')
+                            .attr('src', `${IMGS_DIR_PATH}${profileImage}`)
+                            .attr('alt', 'Profile image')
+                            .addClass('img-circle')
+        return $img;        
+    }
+    
     static createTitle = (name) => {
 
         let $firstName = $('<p></p>').attr('id', 'first')

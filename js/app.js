@@ -76,13 +76,13 @@ const populateMenu = (data) => {
     });
 
     // Set offset point for scrollspy to the middle of the current window height
-    // setScrollspyOffset(($(window).height())/6);
-    setScrollspyOffset(250);
+    setScrollspyOffset(($(window).height())/2);
+    // setScrollspyOffset(250);
 
     // Re-calculate offset point for scrollspy every time the window is resized.
     $(window).resize(function(event) {
-        // setScrollspyOffset(($(window).height())/6);
-        setScrollspyOffset(250);
+        setScrollspyOffset(($(window).height())/2);
+        // setScrollspyOffset(250);
     });
 }
 

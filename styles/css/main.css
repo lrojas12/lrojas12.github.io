@@ -68,6 +68,13 @@ div#loading-icon img {
 
 /* ------------------ HEADER (NAME) ------------------ */
 
+div#header div#headerWrapper img#profile-image {
+    height: 115px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    /* border: 1px solid var(--dark-pink); */
+}
+
 div#header div#headerWrapper a:link,
 div#header div#headerWrapper a:visited,
 div#header div#headerWrapper a:hover,
@@ -81,7 +88,7 @@ div#header div#name p {
     display: inline;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 div#header p#role {
@@ -102,6 +109,8 @@ div#header p#first {
 div#header {
     padding: 50px;
     text-align: center;
+    float: right;
+    width: calc(100% - var(--menu-width));
 }
 
 hr {
@@ -164,6 +173,7 @@ div#menu {
     display: none;
     width: 150px;
     float: left;
+    margin-top: 125px;
 }
 
 nav.navbar {
@@ -295,9 +305,9 @@ div#content div#projects div.subsection div.subsection-content div.tools p.tool 
 /* ------------------ SUBSECTION: SKILLS ------------------ */
 
 div#content div#skills ul {
-    columns: 3;
-    -webkit-columns: 3;
-    -moz-columns: 3;
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4;
     width: 100%;
     list-style-type: none;
     padding: 0;
