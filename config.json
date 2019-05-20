@@ -544,14 +544,28 @@
             {
                 "icon": "ontariotech.png",
                 "award": {
-                    "name": "Deans's Honours List",
+                    "name": "Dean's Graduate Scholarship",
                     "url": ""
                 },
                 "issuer": {
                     "name": "Ontario Tech (University of Ontario Institute of Technology)",
                     "url": "https://ontariotechu.ca"
                 },
-                "dates": ["December 2015", "May 2017", "September 2017", "September 2018"],
+                "dates": ["September 2017", "September 2018"],
+                "description": "Awarded to high-achieving full-time students in a research-based master's or doctoral program who maintain an average of A- (3.70/4.30) or greater.",
+                "images": []
+            },
+            {
+                "icon": "ontariotech.png",
+                "award": {
+                    "name": "Dean's Honours List",
+                    "url": ""
+                },
+                "issuer": {
+                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "url": "https://ontariotechu.ca"
+                },
+                "dates": ["December 2015", "April 2017"],
                 "description": "Students in clear standing with a semester GPA of 3.5 to 3.79 on at least 80 per cent of a full course load at the end of a semester will receive the designation Dean’s Honours List on their transcripts.",
                 "images": []
             },
@@ -565,7 +579,7 @@
                     "name": "University of Ontario Institute of Technology",
                     "url": "https://ontariotechu.ca"
                 },
-                "dates": ["May 2016", "August 2016"],
+                "dates": ["August 2016", "December 2016"],
                 "description": "Students in clear standing with a semester GPA of 3.8 or higher on at least 80 per cent of a full course load will receive the designation President’s List on their transcripts.",
                 "images": []
             }
