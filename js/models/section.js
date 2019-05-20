@@ -281,7 +281,7 @@ class Subsection {
 
     static buildEducation = (data) => {
 
-        let title = `${data.degree} ${data.major}`;
+        let title = `${data.degree} in ${data.major}`;
         if ((data.minor) && (data.minor !== '')) {
             title += `, Minor in ${data.minor}`;
         }
