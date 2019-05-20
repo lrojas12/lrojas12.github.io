@@ -102,7 +102,7 @@
                 "githubUrl": "https://github.com/lrogar/student-matching",
                 "date": {
                     "start": "February 2018",
-                    "end": "Present"
+                    "end": "April 2018"
                 },
                 "description": "Ontario Tech has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
                 "tools": ["CSS", "Docker", "HTML", "JavaScript", "Neo4J", "PostgreSQL", "Python"],
@@ -332,7 +332,7 @@
                 },
                 "date": {
                     "start": "September 2017",
-                    "end": "Present"
+                    "end": "May 2019"
                 },
                 "description": "The Graduate Student Council (GSC) is a society on campus for graduate students. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. As a program director, I was closely involved in the the planning and execution of all events, marketing, meetings, and advocacy for all graduate students.",
                 "images": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
