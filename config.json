@@ -20,7 +20,7 @@
             {
                 "icon": "ontariotech.png",
                 "institution": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "name": "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "date": {
@@ -43,7 +43,7 @@
             {
                 "icon": "ontariotech.png",
                 "institution": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "name": "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "date": {
@@ -187,7 +187,7 @@
                 "icon": "ontariotech.png",
                 "position": "Graduate/Undergraduate Teaching Assistant",
                 "company": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology), Faculty of Science",
+                    "name": "Ontario Tech University, Faculty of Science",
                     "url": "https://science.uoit.ca",
                     "location": "Oshawa, ON, Canada"
                 },
@@ -202,7 +202,7 @@
                 "icon": "ontariotech.png",
                 "position": "System Administrator",
                 "company": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology), International Office",
+                    "name": "Ontario Tech University, International Office",
                     "url": "https://international.uoit.ca",
                     "location": "Oshawa, ON, Canada"
                 },
@@ -217,7 +217,7 @@
                 "icon": "ontariotech.png",
                 "position": "Assistant System Administrator",
                 "company": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology), International Office",
+                    "name": "Ontario Tech University, International Office",
                     "url": "https://international.uoit.ca",
                     "location": "Oshawa, ON, Canada"
                 },
@@ -417,7 +417,7 @@
                 "icon": "ontariotech.png",
                 "role": "Directional Guide",
                 "organization": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology), Student Life",
+                    "name": "Ontario Tech University, Student Life",
                     "url": "https://studentlife.uoit.ca/index.php"
                 },
                 "event": {
@@ -435,7 +435,7 @@
                 "icon": "ontariotech.png",
                 "role": "Logistics Volunteer",
                 "organization": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology), International Office",
+                    "name": "Ontario Tech University, International Office",
                     "url": "https://international.uoit.ca"
                 },
                 "event": {
@@ -453,7 +453,7 @@
                 "icon": "ontariotech.png",
                 "role": "Demo Presenter",
                 "organization": {
-                    "name":  "Ontario Tech (University of Ontario Institute of Technology), Faculty of Science",
+                    "name":  "Ontario Tech University, Faculty of Science",
                     "url": "https://science.uoit.ca"
                 },
                 "event": {
@@ -471,7 +471,7 @@
                 "icon": "ontariotech.png",
                 "role": "General Orientation Leader",
                 "organization": {
-                    "name":  "Ontario Tech (University of Ontario Institute of Technology)",
+                    "name":  "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "event": {
@@ -489,7 +489,7 @@
                 "icon": "ontariotech.png",
                 "role": "Logistics Volunteer",
                 "organization": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "name": "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "event": {
@@ -507,7 +507,7 @@
                 "icon": "ontariotech.png",
                 "role": "International Student Orientation Leader (ISOL)",
                 "organization": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology), Student Life",
+                    "name": "Ontario Tech University, Student Life",
                     "url": "https://studentlife.uoit.ca/index.php"
                 },
                 "event": {
@@ -548,7 +548,7 @@
                     "url": ""
                 },
                 "issuer": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "name": "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "dates": ["September 2017", "September 2018"],
@@ -562,7 +562,7 @@
                     "url": ""
                 },
                 "issuer": {
-                    "name": "Ontario Tech (University of Ontario Institute of Technology)",
+                    "name": "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "dates": ["December 2015", "April 2017"],
@@ -576,7 +576,7 @@
                     "url": ""
                 },
                 "issuer": {
-                    "name": "University of Ontario Institute of Technology",
+                    "name": "Ontario Tech University",
                     "url": "https://ontariotechu.ca"
                 },
                 "dates": ["August 2016", "December 2016"],
