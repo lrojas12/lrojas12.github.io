@@ -299,8 +299,8 @@
                 "icon": "uoitsu.png",
                 "role": "Director of Graduate Studies",
                 "organization": {
-                    "name": "UOIT Student Union, Board of Directors",
-                    "url": "https://uoitsu.ca/"
+                    "name": "Ontario Tech Student Union, Board of Directors",
+                    "url": "https://otsu.ca/"
                 },
                 "date": {
                     "start": "Novermber 2018",
@@ -341,7 +341,7 @@
                 "icon": "science-council.png",
                 "role": "Vice-President of Marketing and Design",
                 "organization": {
-                    "name":"UOIT Science Council",
+                    "name":"Ontario Tech Science Council",
                     "url": ""
                 },
                 "date": {
@@ -369,7 +369,7 @@
                 "icon": "asme.png",
                 "role": "Secretary",
                 "organization": {
-                    "name": "UOIT ASME Student Chapter",
+                    "name": "Ontario Tech ASME Student Chapter",
                     "url": ""
                 },
                 "date": {
@@ -383,14 +383,14 @@
                 "icon": "asme.png",
                 "role": "Webmaster and Social Media Director",
                 "organization": {
-                    "name": "UOIT ASME Student Chapter",
+                    "name": "Ontario Tech ASME Student Chapter",
                     "url": ""
                 },
                 "date": {
                     "start": "September 2014",
                     "end": "August 2015"
                 },
-                "description": "The webmaster is in charge of the creating and management of the first chapter's website. Moreover, the executive will assist on the planning and elaboration of events and advertisement for the club.</li><li>Contact club members and coordinate meetings.</ul></li>",
+                "description": "The webmaster is in charge of the creating and management of the first chapter's website. Moreover, the executive will assist on the planning and elaboration of events and advertisement for the club.
                 "images": ["rhino-workshop.jpg", "nx-workshop.jpg", "ace-tour.jpg", "toyota-tour.jpg"]
             }
         ],
