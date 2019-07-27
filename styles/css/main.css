@@ -381,6 +381,7 @@ div#error {
     padding: 0 50px;
     text-align: center;
     display: none; /* Will show when an error occurs */
+    float: left;
 }
 
 /* ------------------ DISPLAY WINDOW SIZE ------------------ */
