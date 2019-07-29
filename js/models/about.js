@@ -18,6 +18,8 @@ class About {
     }
 
     static buildImage = (profileImage) => {
+        
+        if (!profileImage) return ''
 
         let $img = $('<img>').attr('id', 'profile-image')
                             .attr('src', `${IMGS_DIR_PATH}${profileImage}`)
