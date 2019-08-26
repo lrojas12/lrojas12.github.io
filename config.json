@@ -1,5 +1,5 @@
 {
-    "lastUpdate": "May 27, 2019",
+    "lastUpdate": "August 26, 2019",
     "about": {
         "name": {
             "first": "Luisa",
@@ -92,7 +92,7 @@
                     "start": "April 2018",
                     "end": "Present"
                 },
-                "description": "Automatic fault localization tool for multithreaded Java programs. It utilizes a combination of code injection and a search algorithm to identify high-risk code blocks.",
+                "description": "This project is being developed as my master’s research thesis. To address challenges associated with multithreaded programming, I have created an automatic fault localization tool for concurrent Java programs. The tool utilizes a combination of noising strategies and a heuristic search algorithm to identify code blocks with a high probability of being buggy.",
                 "tools": [ "Docker", "Java", "Python", "TXL" ],
                 "images": [],
                 "pdf": ""
@@ -104,7 +104,7 @@
                     "start": "February 2018",
                     "end": "April 2018"
                 },
-                "description": "Ontario Tech has implemented a Peer Mentorship Program, which aims to provide support for first-year students from like-minded mentors throughout the academic year. In this work, we propose a fully equipped software system, tasked with managing matching participants and managing the program in the most automated way possible, whilst maintaining the quality of the participant experience.",
+                "description": "Designed and implemented a web-based platform for a matching system between mentors and mentees for the Peer Mentorship Program at Ontario Tech. Given a set of survey answers by potential mentors and first-year students, our system matches them by faculty according to their compatibility. It outputs the results in an Excel sheet for convenience and stores them internally for visualization and future use.",
                 "tools": ["CSS", "Docker", "HTML", "JavaScript", "Neo4J", "PostgreSQL", "Python"],
                 "images": ["mentor-mentee-1.png", "mentor-mentee-2.png"],
                 "pdf": ""
@@ -116,7 +116,7 @@
                     "start": "December 2017",
                     "end": ""
                 },
-                "description": "Given a dataset of images of drivers, the objective of this work was to successfully predict the likelihood of the driver's actions in each of the pictures. The dataset, provided by State Farm through Kaggle, consisted of a set of images, each taken in a car where the driver is doing some action (e.g. texting, talking on the phone, drinking from a cup). To achieve this, we used various data augmentation approaches, and a Convolutional Neural Network with transfer learning from the popular (pre-trained) VGG16 model.",
+                "description": "Trained a deep Convoluted Neural Network (CNN) to predict with 99.4% accuracy whether an individual is distracted-driving as well as what type of distraction is involved. The VGG16 CNN model, pre-trained on ImageNet, is coupled with a retrained fully-connected model and tested on previously unseen distracted driver images.",
                 "tools": ["Keras", "Jupyter Notebooks", "TensorFlow", "Python"],
                 "images": ["driver-predict-jupyter.gif", "driver-predict-cl.gif"],
                 "pdf": ""
@@ -140,7 +140,7 @@
                     "start": "October 2016",
                     "end": "October 2017"
                 },
-                "description": "Threaded Paws is an educational game that can assist students in learning and understanding different concurrency concepts that could be difficult to grasp using traditional approaches. This is the first game targeting concurrency that we are aware of.",
+                "description": "As part of my undergraduate thesis project, I designed and developed a serious game that can assist students in learning different concurrency concepts and pitfalls, such as thread interleavings, data races, starvation and deadlocks. Threaded Paws was designed for second to fourth-year Computer Science and Software Engineering university students at the undergraduate level; it will be used in the classroom for the first time in September 2019.",
                 "tools": ["C#", "Unity Game Engine"],
                 "images": ["threadedpaws.png"],
                 "pdf": ""
@@ -159,43 +159,31 @@
             },
             {
                 "title": "dynOBD",
-                "githubUrl": "",
+                "githubUrl": "https://github.com/luisarojas/dynOBD",
                 "date": {
                     "start": "October 2016",
                     "end": "December 2016"
                 },
-                "description": "Android application to keep track of statistics about any given car trip. It uses Bluetooth to connect to an OBDII (On-Board Diagnostics) device, which is connected by the user to the car's DLC (Data Link Connector). The application also provides a live data feed showing the current speed and throttle of the car.",
+                "description": "Android mobile application that records and keeps track of statistics about any given car trip. It uses a Bluetooth connection to the vehicle in order to provide trip information and other live data visualizations to the user, such as current speed and vehicle throttle. The data is collected using different APIs, like Google Maps and OBDII Java, and is subsequently stored in a local SQL database for later access.",
                 "tools": ["Java", "Android Studio"],
                 "images": ["dynobd.gif"],
-                "pdf": ""
-            },
-            {
-                "title": "A-Priori and PCY Implementations",
-                "githubUrl": "https://github.com/luisarojas/apriori-pcy",
-                "date": {
-                    "start": "April 2016",
-                    "end": ""
-                },
-                "description": "Conducted market-basket analysis by developing various efficient frequent itemsets algorithms on retail datasets. The algorithms were analysed and then compared in relation to their corresponding run times.",
-                "tools": ["Python", "Bash"],
-                "images": ["apriori.png", "pcy.png"],
                 "pdf": ""
             }
         ],
         "workExperience": [
             {
                 "icon": "ontariotech.png",
-                "position": "Graduate/Undergraduate Teaching Assistant",
+                "position": "Teaching Assistant",
                 "company": {
                     "name": "Ontario Tech University, Faculty of Science",
-                    "url": "https://science.uoit.ca",
+                    "url": "https://science.ontariotechu.ca",
                     "location": "Oshawa, ON, Canada"
                 },
                 "date": {
                     "start": "January 2017",
-                    "end": "April 2019"
+                    "end": "Present"
                 },
-                "description": "As a Teaching Assistant, my job often involves reviewing the course content with the students, support them in the completion of assignments, provide availability for question or concerns from students, as well as mark course laboratories, midterms and exams.<br>I have taken on this role for the following Computer Science courses:<br><ul><li>Web Application Development - CSCI 3230U (Winter 2019)</li><li>Software Quality Assurance - CSCI 3060U (Winter 2018)</li><li>Programming Workshop I - CSCI 1060U (Fall 2017, Fall 2018)</li><li>Programming Workshop II - CSCI 1060U (Winter 2017)</li></ul>",
+                "description": "<ul><li>Guided junior and senior Computer Science students through the course material in order to successfully complete their weekly (or bi-weekly) assignments.</li><li>Thoroughly explained topics that students found challenging.</li><li>Provided continuous feedback on design and implementation improvements to solutions proposed.</li></ul>I have taken on this role for the following courses:<ul><li>Data Structures (Java)</li><li>Programming Workshop I and II (C++)</li><li>Software Quality Assurance (C++, Java)</li><li>Web Development (JavaScript, MongoDB)</li></ul>",
                 "images": []
             },
             {
@@ -210,7 +198,7 @@
                     "start": "September 2014",
                     "end": "December 2014"
                 },
-                "description": "The International Office, provides strategic planning, faculty engagement and policy development for all internationalization projects at the university. The office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Administer the International students' Health Insurance Plan (UHIP).</li><li>Aid in event planning and execution.</li><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Development and management of the International web pages under the university website through a CMS platform.</li><li>Design of posters and flyers for marketing.</li></ul>",
+                "description": "The International Office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Oversaw the international students' University Health Plan (UHIP) program, which covers 25% of the student population at the institution.</li><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students at the university.</li><li>Maintained the International Student Office website through the university's internal CMS platform.</li><li>Aid in event logistics and general program execution.</li></ul>",
                 "images": []
             },
             {
@@ -224,7 +212,7 @@
                 "date": {
                     "start": "May 2014",
                     "end": "August 2014"
-                },"description": "The International Office, provides strategic planning, faculty engagement and policy development for all internationalization projects at the university. The office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development. My responsibilities included:<ul><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students.</li><li>Development and management of the International web pages under the university website through a CMS platform.</li><li>Design of posters and flyers for marketing.</li></ul>",
+                },"description": "The International Office provides support for student exchange, visiting scholars, faculty mobility, and international partnership and program development.<br><br><ul><li>Designed and maintained the International Student Office website through the university's internal CMS platform.</li><li>Help oversee programs for international visitors (scholars, delegations, partners) as well as international, exchange and Science Without Borders students.</li></ul>",
                 "images": []
             }
         ],
@@ -306,7 +294,7 @@
                     "start": "Novermber 2018",
                     "end": "Present"
                 },
-                "description": "As part of the Student Union, the Board of Directors is the highest governing body of the organization comprised of students from each faculty who act as one unified voice. It is ultimately responsible for the stewardship of the such system.",
+                "description": "Ontario Tech Student Union (OTSU) is incorporated as a not-for-profit under the federal Canada Not-for-Profit Corporations Act. As part of its Board of Directors, my responsibility is to act as the unified voice for the graduate students I represent, ensuring their best interests are always considered and kept in mind.",
                 "images": []
             },
             {
@@ -320,12 +308,12 @@
                     "start": "May 2018",
                     "end": "September 2018"
                 },
-                "description": "As the chapter's Founding Chair, my job was to mentor my peers in order to make it possible to continue with our mission on campus once I graduate. I oversaw and managed all of the chapter's administration, such as social and academic events, workshops, budget, marketing and potential sponsorships. As part of our plan to re-build the chapter's presence on campus, I also built a website for the chapter in order to facilitate communication with our members.",
+                "description": "Mentored my peers in order to make it possible to continue with our mission on campus once I graduated. I oversaw and managed all of the chapter's administration, such as social and academic events, workshops, budget, marketing and potential sponsorships. As part of our plan to re-build the chapter's presence on campus, I also built a website for us in order to facilitate communication with our members. We continued to: <ul><li>Provide academic and professional support to students in all STEM programs at the university.</li><li>Hold regular events and workshops as opportunities for networking, mentoring between new and senior students.</li><li>As a women's ACM chapter, actively advocate for minority groups in STEM fields.</li></ul>",
                 "images": ["java-hour.png"]
             },
             {
                 "icon": "gsc.jpg",
-                "role": "Program Representative: Computer Science",
+                "role": "Computer Science Program Representative",
                 "organization": {
                     "name": "Ontario Tech Graduate Student Council",
                     "url": "https://uoitgsc.ca/"
@@ -334,7 +322,7 @@
                     "start": "September 2017",
                     "end": "May 2019"
                 },
-                "description": "The Graduate Student Council (GSC) is a society on campus for graduate students. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. As a program director, I was closely involved in the the planning and execution of all events, marketing, meetings, and advocacy for all graduate students.",
+                "description": "The Graduate Student Council (GSC) is a society on campus for graduate students. The council ensures that the university is aware of the concerns of graduate students and advocates for resolutions and changes where applicable. As a program director, I was closely involved in the planning and execution of all events, marketing, meetings, and advocacy for all graduate students.",
                 "images": ["grad-coffee-hour.png", "back-to-school-again.jpg", "gsc-movie-night.png", "winter-formal.jpg", "gsc-conference.png"]
             },
             {
@@ -362,7 +350,7 @@
                     "start": "September 2016",
                     "end": "December 2016"
                 },
-                "description": "As the principal officer of the chapter, I was responsible for leading the team and managing its activities in accordance with the mission of ACM-W, the policies and procedures of the ACM. The chair must also preside at all meetings of the Chapter and prepare the Chapterâ€™s final report each year.",
+                "description": "As the principal officer of the chapter, I was responsible for leading the team and managing its activities in accordance with the mission of the <a target=\"_blank\" href=\"https://www.acm.org\">ACM (Association for Computing Machinery)</a>. As such, we:<ul><li>Provided academic and professional support to students in all STEM programs at the university.</li><li>Held regular events and workshops as opportunities for networking, mentoring between new and senior students.</li><li>As a women's ACM chapter, we actively advocated for minority groups in STEM fields.</li></ul>",
                 "images": ["science-fair.png", "intro-to-kaggle.png", "tech-talks.png", "programming-workshop.png"]
             },
             {

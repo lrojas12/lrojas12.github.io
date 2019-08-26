@@ -254,8 +254,8 @@ class Subsection {
 
         // Sort skills alphabetically by tool
         data.sort(function(a, b) {
-            if ((a.level) > (b.level)) { return 1; }
-            if ((a.level) < (b.level)) { return -1; }
+            if ((a.level) > (b.level)) { return -1; }
+            if ((a.level) < (b.level)) { return 1; }
             return 0;
         });
 
