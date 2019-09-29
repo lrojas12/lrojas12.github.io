@@ -92,7 +92,7 @@
                     "start": "April 2018",
                     "end": "Present"
                 },
-                "description": "This project is being developed as my master’s research thesis. To address challenges associated with multithreaded programming, I have created an automatic fault localization tool for concurrent Java programs. The tool utilizes a combination of noising strategies and a heuristic search algorithm to identify code blocks with a high probability of being buggy.",
+                "description": "This project is being developed as my master's research thesis. To address challenges associated with multithreaded programming, I have created an automatic fault localization tool for concurrent Java programs. The tool utilizes a combination of noising strategies and a heuristic search algorithm to identify code blocks with a high probability of being buggy.",
                 "tools": [ "Docker", "Java", "Python", "TXL" ],
                 "images": [],
                 "pdf": ""
