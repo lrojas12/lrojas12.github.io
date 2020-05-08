@@ -165,7 +165,7 @@ div#content div.section > div.title {
 }
 
 /* skills */
-div#content div.section#skills ul {
+div#content div.section#skills-section ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -176,7 +176,7 @@ div#content div.section#skills ul {
     width: 100%;
 } 
 
-div#content div.section#skills ul li {
+div#content div.section#skills-section ul li {
 
     border-left: solid #F4F4F4;
     padding-left: 15px;
@@ -187,12 +187,12 @@ div#content div.section#skills ul li {
     page-break-inside: avoid;
 }
 
-/* div#content div.section#skills ul li p, */
-div#content div.section#skills ul li > p.description {
+/* div#content div.section#skills-section ul li p, */
+div#content div.section#skills-section ul li > p.description {
     color: rgb(155, 154, 154);
 }
 
-div#content div.section#skills ul li:hover {
+div#content div.section#skills-section ul li:hover {
     border-left: solid var(--salmon);
     padding-left: 15px;
 }
@@ -274,13 +274,13 @@ a:hover {
 /* ------------------ SMALL MEDIA DISPLAY ------------------ */
 @media screen and (max-width: 991px) {
     
-    div#content div.section#skills ul {
+    div#content div.section#skills-section ul {
         columns: 2;
         -webkit-columns: 2;
         -moz-columns: 2;
     }
 
-    div#content div.section#skills ul li p.description {
+    div#content div.section#skills-section ul li p.description {
         display: none;
     }
 
