@@ -275,9 +275,9 @@ a:hover {
 @media screen and (max-width: 991px) {
     
     div#content div.section#skills ul {
-        columns: 1;
-        -webkit-columns: 1;
-        -moz-columns: 1;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
     }
 
     div#content div.section#skills ul li p.description {
@@ -301,5 +301,71 @@ a:hover {
         display: block;
         /* justify-content: space-between; */
         width: 100%;
+    }
+
+    div#wrapper {
+        margin: 5% 5% 5% 5%;
+    }
+
+    div#content div.section > div.title {
+        font-size: 50px;
+    }
+
+    body div#header intro {
+        font-size: 80px;
+    }
+
+    div#header div#summary {
+        font-size: 40px;
+    }
+
+    body {
+        font-size: 35px;
+    }
+
+    div#content div.section {
+        padding-top: 60px;
+    }
+
+    nav.navbar a.icon img {
+        /* display: inline-block; */
+        height: 80px;
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+
+    .btn-outline-primary {
+        font-size: 45px;
+        margin-top: 25px;
+        padding: 10px 20px;
+        border-radius: 15px;
+    }
+
+    nav.navbar div.navbar-collapse {
+        padding: 25px 40px 45px 40px;
+    }
+
+    button.navbar-toggler {
+        border-radius: 15px;
+    }
+    button.navbar-toggler > .navbar-toggler-icon {
+        height: 80px;
+        width: 80px;
+        margin: 15px;
+    }
+
+    nav.navbar li {
+        font-size: 45px;
+    }
+
+    html {
+        scroll-behavior: auto;
+    }
+
+    a.anchor {
+        display: block;    
+        position: relative;
+        top: -100px;
+        visibility: hidden;
     }
 }

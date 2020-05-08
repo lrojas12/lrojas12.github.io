@@ -13,5 +13,9 @@ $(function () {
     $("nav.navbar .nav-item a").on("click", function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
+
+    $("nav.navbar div.navbar-collapse li").on("click", function() {
+        $(this).parent().parent().removeClass("show");
+    });
     
 })
