@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap'); */
+@import "Proxima-Nova.css";
+
+/* ------------------ DEBUGGING ------------------ */
+
+/* div#content {
+    border-color: red;
+    border-style: solid;
+    border-width: 1px;
+} */
+
+/* .subsection-content-wrapper {
+    border-color: blue;   
+    border-style: solid;
+    border-width: 1px;
+}
+
+.subsection {
+    border-color: green;   
+    border-style: solid;
+    border-width: 1px;
+} */
+
+#wrapper {
+    /* border-color: blue;
+    border-style: solid;
+    border-width: 1px; */
+}
+
+body {
+    /* border-color: yellow;
+    border-style: solid;
+    border-width: 1px; */
+}
+
+body div.header {
+    /* border-color: red;
+    border-style: solid;
+    border-width: 1px; */
+}
+
+/* ----------------------------------------------- */
+
+:root {
+
+    /* colours */
+    --content-text: #525252;
+    --salmon: #f78888;
+    --light-salmon: #f59595;
+    --header-text: #333333;
+    --section-title-text: #2e2e2e;
+
+}
+
+/* ------------------ LOADING ICON ------------------ */
+div#loading-icon img { width: 3%; }
+div#loading-icon {
+    text-align: center;
+    margin-top: 25%;
+}
+
+/* ------------------ ERROR MESSAGE ------------------ */
+/* div #error {
+    margin-top: 5%;
+    text-align: center;
+    display: none;
+} */
+
+/* ------------------ GENERAL BODY ------------------ */
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: var(--content-text);
+    cursor: default;
+}
+
+div#wrapper { margin: 10% 20% 5% 20%; }
+
+html { scroll-behavior: smooth; }
+
+p { margin: 0; }
+
+div.chevron {
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+
+    height: 25px;
+    width: 25px;
+}
+
+hl {
+    background-color: #ffdfdf;
+    padding: 0 8px;
+}
+
+/* ------------------ MENU ------------------ */
+nav.navbar {
+    background-color: white;
+}
+ 
+nav.navbar a.icon img {
+    display: inline-block;
+    height: 25px;
+    margin-right: 10px;
+}
+
+nav.navbar div#social-media-icons {
+    margin-right: 10px;
+}
+
+.btn-outline-primary {
+    border-color: var(--salmon);
+    color: var(--salmon);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--salmon);
+    border-color: var(--salmon);
+    /* color: white; */
+}
+
+.btn-outline-primary:focus, .btn-outline-primary:active {
+    outline: none;
+    box-shadow: none;
+    background-color: var(--salmon);
+    border-color: var(--salmon);
+}
+
+/* ------------------ HEADER ------------------ */
+body div#header intro {
+    font-family: 'proxima-nova';
+    font-weight: 500;
+    font-size: 56px;
+    color: var(--header-text);
+}
+
+div#header name {
+    color: var(--salmon);
+}
+
+div#header div#summary {
+    font-size: 24px;
+}
+
+div#header div#summary b {
+    font-weight: 700;
+}
+
+
+/* ------------------ SECTIONS ------------------ */
+
+div#content div.section {
+    padding-top: 100px;
+}
+
+div#content div.section > div.title {
+    font-size: 25px;
+    /* margin-top: 5%; */
+    font-weight: 700;
+    color: var(--salmon);
+}
+
+/* skills */
+div#content div.section#skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    width: 100%;
+} 
+
+div#content div.section#skills ul li {
+
+    border-left: solid #F4F4F4;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    -webkit-column-break-inside: avoid;
+    column-break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* div#content div.section#skills ul li p, */
+div#content div.section#skills ul li > p.description {
+    color: rgb(155, 154, 154);
+}
+
+div#content div.section#skills ul li:hover {
+    border-left: solid var(--salmon);
+    padding-left: 15px;
+}
+
+/* ------------------ SUBSECTIONS ------------------ */
+
+div#content div.section div.overview div.date-and-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#content div.section div.overview div.date-and-title div.date {
+    text-align: right;
+}
+
+div#content div.section div.overview div.title {
+    font-weight: 700;
+    color: var(--header-text);
+    margin-right: 20px;
+}
+
+div#content div.section div.subsection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /* display: flex; */
+    /* display: inline-block; */
+    /* justify-content: space-between; */
+}
+
+div#content div.section div.subsection > div.description {
+    margin-top: 10px;
+}
+
+div#content div.section div.subsection div.overview div.description {
+    color: rgb(158, 157, 157);
+}
+
+div#content div.section div.subsection div.tags {
+    margin-top: 10px;
+}
+
+div#content div.section div.subsection div.tags div.tag {
+    margin: 2px 2px 5px 0px;
+    padding: 2px 8px;
+    display: inline-block;
+    color: rgb(155, 154, 154);
+    background-color: #F4F4F4;
+    font-size: 15px;
+}
+
+div#content div.section#languages div.description {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+/* ------------------ FOOTER ------------------ */
+div#copyright {
+    text-align: center;
+    margin-top: 200px;
+}
+
+a, a:focus {
+    /* color: rgba(0,0,0,.5); */
+    color: var(--light-salmon);
+    cursor: pointer !important;
+}
+
+a:hover {
+    color: rgb(158, 157, 157);
+    /* color: var(--content-text); */
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+
+/* ------------------ SMALL MEDIA DISPLAY ------------------ */
+@media screen and (max-width: 991px) {
+    
+    div#content div.section#skills ul {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+
+    div#content div.section#skills ul li p.description {
+        display: none;
+    }
+
+    div#content div.section div.overview div.date-and-title {
+        display: block !important;
+        /* justify-content: space-between; */
+    }
+
+    div#content div.section div.overview div.date-and-title div.date {
+        text-align: left;
+    }
+
+    div#content div.section div.subsection div.tags {
+        display: none;
+    }
+
+    div#content div.section#languages div.description {
+        display: block;
+        /* justify-content: space-between; */
+        width: 100%;
+    }
+}
