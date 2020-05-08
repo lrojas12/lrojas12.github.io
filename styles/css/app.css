@@ -337,6 +337,7 @@ a:hover {
     .btn-outline-primary {
         font-size: 45px;
         margin-top: 25px;
+        margin-bottom: 25px;
         padding: 10px 20px;
         border-radius: 15px;
     }
@@ -356,6 +357,7 @@ a:hover {
 
     nav.navbar li {
         font-size: 45px;
+        margin-bottom: 25px;
     }
 
     html {
