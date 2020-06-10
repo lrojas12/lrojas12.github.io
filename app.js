@@ -9,13 +9,27 @@ let ADMIN_EMAIL = 'hello@luisarojas.com';
 
 $(function () {
 
+    if (window.innerWidth <= 991) {
+        $('codersrank-widget').attr('layout', 'vertical');
+    } else {
+        $('codersrank-widget').attr('layout', 'horizontal');
+    }
+
     // Menu listener
-    $("nav.navbar .nav-item a").on("click", function() {
+    $('nav.navbar .nav-item a').on('click', function() {
         $(this).parent().addClass('active').siblings().removeClass('active');
     });
 
-    $("nav.navbar div.navbar-collapse li").on("click", function() {
-        $(this).parent().parent().removeClass("show");
+    $('nav.navbar div.navbar-collapse li').on('click', function() {
+        $(this).parent().parent().removeClass('show');
     });
-    
-})
+});
+
+$(window).resize(function() {
+
+    if (window.innerWidth <= 991) {
+        $('codersrank-widget').attr('layout', 'vertical');
+    } else {
+        $('codersrank-widget').attr('layout', 'horizontal');
+    }
+});
