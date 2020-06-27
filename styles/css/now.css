@@ -49,7 +49,7 @@ div#image {
     /* height: 300px; */
 }
 
-img {
+div#content > div#image > img {
     height: auto;
     width: 100%;
 }
@@ -101,6 +101,9 @@ a, a:focus {
     cursor: pointer !important;
 }
 
+nav.navbar {
+    background-color: transparent;
+}
 
 @media screen and (max-width: 991px) {
 
@@ -120,11 +123,7 @@ a, a:focus {
         font-size: 25px;
     }
 
-    div#caption {
-        display: none;
+    div#caption, nav {
+        display: none !important;
     }
-/* 
-    div#description {
-        font-size: 25px;
-    } */
 }
