@@ -1,0 +1,130 @@
+/* ----------------------------------------------- */
+
+:root {
+
+    /* colours */
+    --content-text: #525252;
+    --salmon: #f78888;
+    --light-salmon: #f59595;
+    --header-text: #333333;
+    --section-title-text: #2e2e2e;
+
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+
+    color: var(--content-text);
+    cursor: default;
+}
+
+div#page-title {
+    font-family: 'proxima-nova';
+    font-weight: 500;
+    font-size: 56px;
+    color: var(--salmon);
+}
+
+div#content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: auto;
+}
+
+div#what-is, div#what-is code, div#caption {
+    font-size: 15px;
+}
+
+div#caption {
+
+}
+
+div#image {
+    width: 50%;
+    float: left;
+
+    /* outline: red 1px solid; */
+    /* height: 300px; */
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+div#caption {
+    color:rgb(158, 157, 157);
+    margin-top: 5px;
+}
+
+div#description {
+    width: 45%;
+    float:right;
+
+    /* outline: blue 1px solid; */
+    /* height: 500px; */
+}
+
+div#wrapper {
+    overflow: no;
+
+    /* outline: green 1px solid; */
+}
+
+div#last-updated {
+    color: lightgray;
+    font-weight: 300;
+    float: right;
+}
+
+div#copyright {
+    margin-top: 180px;
+    margin-bottom: 100px;
+}
+
+div.hashtag {
+    color: var(--salmon);
+}
+
+a:hover{
+    /* color: rgba(0,0,0,.5); */
+    color: var(--light-salmon);
+    cursor: pointer !important;
+}
+
+a, a:focus {
+    color: rgb(158, 157, 157);
+    /* color: var(--content-text); */
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    div#image {
+        float: none;
+        width: 100%;
+
+    }
+
+    div#description {
+        float: none;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    div#what-is, div#what-is code, div#description, div#last-updated, div#copyright {
+        font-size: 25px;
+    }
+
+    div#caption {
+        display: none;
+    }
+/* 
+    div#description {
+        font-size: 25px;
+    } */
+}

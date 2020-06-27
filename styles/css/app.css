@@ -273,6 +273,7 @@ div#content div.section#languages div.description {
 div#copyright {
     text-align: center;
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 a, a:focus {
@@ -341,7 +342,7 @@ a:hover {
         font-size: 35px;
     }
 
-    code {
+    div#header div#summary code {
         font-size: 35px;
     }
 
