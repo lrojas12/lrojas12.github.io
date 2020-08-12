@@ -5,41 +5,6 @@
 
 /* ------------------ DEBUGGING ------------------ */
 
-/* div#content {
-    border-color: red;
-    border-style: solid;
-    border-width: 1px;
-} */
-
-/* .subsection-content-wrapper {
-    border-color: blue;   
-    border-style: solid;
-    border-width: 1px;
-}
-
-.subsection {
-    border-color: green;   
-    border-style: solid;
-    border-width: 1px;
-} */
-
-#wrapper {
-    /* border-color: blue;
-    border-style: solid;
-    border-width: 1px; */
-}
-
-body {
-    /* border-color: yellow;
-    border-style: solid;
-    border-width: 1px; */
-}
-
-body div.header {
-    /* border-color: red;
-    border-style: solid;
-    border-width: 1px; */
-}
 
 /* ----------------------------------------------- */
 
@@ -140,6 +105,24 @@ nav.navbar div#social-media-icons {
 }
 
 /* ------------------ HEADER ------------------ */
+
+div#header {
+    display: flex;
+}
+
+div#header div#header-profile-pic {
+    flex: .3;
+    padding-right: 5%;
+}
+
+div#header div#header-profile-pic img {
+    width: 100%;
+}
+
+div#header div#header-content {
+    flex: 1;
+}
+
 body div#header intro {
     font-family: 'proxima-nova';
     font-weight: 500;
@@ -152,7 +135,7 @@ div#header name {
 }
 
 div#header div#summary {
-    font-size: 24px;
+    font-size: 21px;
 }
 
 div#header div#summary b {
@@ -292,6 +275,10 @@ a:hover {
 
 /* ------------------ SMALL MEDIA DISPLAY ------------------ */
 @media screen and (max-width: 991px) {
+
+    div#header div#header-profile-pic {
+        display: none;
+    }
     
     div#content div.section#skills-section ul {
         columns: 2;
