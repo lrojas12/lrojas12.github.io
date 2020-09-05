@@ -29,7 +29,7 @@ div#page-title {
 
 div#content {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     overflow: auto;
 }
 
@@ -76,7 +76,7 @@ div#wrapper {
 div#last-updated {
     color: lightgray;
     font-weight: 300;
-    float: right;
+    /* float: right; */
 }
 
 div#copyright {
