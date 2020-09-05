@@ -119,8 +119,12 @@ nav.navbar {
         margin-top: 50px;
     }
 
-    div#what-is, div#what-is code, div#description, div#last-updated, div#copyright {
+    div#description, div#last-updated, div#copyright {
         font-size: 25px;
+    }
+
+    div#what-is {
+        display: none;
     }
 
     div#caption, nav {

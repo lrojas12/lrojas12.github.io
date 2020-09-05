@@ -105,11 +105,11 @@ nav.navbar div#social-media-icons {
 
 /* ------------------ HEADER ------------------ */
 
-div#header {
+div.main-component > div#header {
     display: flex;
 }
 
-div#header div#header-profile-pic {
+div.main-component > div#header div#header-profile-pic {
     flex: .3;
     padding-right: 5%;
 }
@@ -118,7 +118,7 @@ div#header div#header-profile-pic img {
     width: 100%;
 }
 
-div#header div#header-content {
+div.main-component >div#header div#header-content {
     flex: 1;
 }
 
