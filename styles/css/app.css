@@ -48,15 +48,6 @@ html { scroll-behavior: smooth; }
 
 p { margin: 0; }
 
-div.chevron {
-    border-color: red;
-    border-width: 1px;
-    border-style: solid;
-
-    height: 25px;
-    width: 25px;
-}
-
 hl {
     background-color: #ffdfdf;
     padding: 0 8px;
