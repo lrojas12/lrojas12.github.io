@@ -22,7 +22,13 @@ $(function () {
 
     $('nav.navbar div.navbar-collapse li').on('click', function() {
         $(this).parent().parent().removeClass('show');
-    });
+	});
+	
+	// Update copyright year
+	let todaysDate = new Date();
+	let currentYear = todaysDate.getFullYear();
+	$('div#copyright div#year').html(currentYear);
+
 });
 
 $(window).resize(function() {
