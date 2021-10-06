@@ -241,13 +241,13 @@ div#content div.section#languages div.description {
     width: 50%;
 }
 
-div.description.contains-image p {
+div.description.contains-image > div {
     width: 60%;
     display: inline-block;
     margin-right: 4%;
 }
 
-div.description.contains-image img {
+div.description.contains-image > img {
     display: inline-block;
     vertical-align: top;
     width: 35%;
@@ -277,13 +277,13 @@ a:hover {
 /* ------------------ SMALL MEDIA DISPLAY ------------------ */
 @media screen and (max-width: 991px) {
 
-    div.description.contains-image p {
+    div.description.contains-image > div {
         width: 100% !important;
         display: block !important;
         margin-right: 0 !important;
     }
 
-    div.description.contains-image img {
+    div.description.contains-image > img {
         display: none !important;
     }
 
@@ -324,7 +324,7 @@ a:hover {
         margin: 5% 5% 5% 5%;
     }
 
-    div#content div.section > div.title {
+    /* div#content div.section > div.title {
         font-size: 50px;
     }
 
@@ -342,7 +342,7 @@ a:hover {
 
     div#header div#summary code {
         font-size: 35px;
-    }
+    } */
 
     div#content div.section {
         padding-top: 60px;
@@ -356,7 +356,7 @@ a:hover {
     }
 
     .btn-outline-primary {
-        font-size: 45px;
+        /* font-size: 45px; */
         margin-top: 25px;
         margin-bottom: 25px;
         padding: 10px 20px;
@@ -372,13 +372,13 @@ a:hover {
     }
 
     button.navbar-toggler > .navbar-toggler-icon {
-        height: 80px;
-        width: 80px;
+        height: 40px;
+        width: 40px;
         margin: 15px;
     }
 
     nav.navbar li {
-        font-size: 45px;
+        /* font-size: 45px; */
         margin-bottom: 25px;
     }
 
